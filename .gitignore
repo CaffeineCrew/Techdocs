@@ -1,0 +1,16 @@
+# PyCharm files
+.idea
+
+# VScode files
+.vscode
+
+# env files
+.env
+
+# cache files
+__pycache__
+.vercel
+tempCodeRunnerFile.py
+
+# models
+docguptea/static/models/codellama*

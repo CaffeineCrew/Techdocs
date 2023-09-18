@@ -1,0 +1,17 @@
+You are an AI Coding Assitant and your task is to generate an elaborate, high quality docstring for the query function given by the user. Below is the user's query . 
+Query: {query}
+        
+You just return the helpful docstring.
+Helpful Answer:
+def add(a,b):
+    return a+b
+
+The generated docstring should be:
+This function adds two numbers
+
+Args:
+    a: int. First number to add
+    b: int. Second number to add
+
+Returns:
+    Sum of a and b
