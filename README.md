@@ -40,3 +40,9 @@ $ streamlit run app.py # For running the Streamlit App
 ![Streamlit](https://img.shields.io/badge/Streamlit-EA6566?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Langchain](https://img.shields.io/badge/Langchain-F70A8D?style=for-the-badge&logo=langchain&logoColor=white)
 ![Clarifai](https://img.shields.io/badge/Clarifai-FFA500?style=for-the-badge&logo=clarifai&logoColor=white)
+
+## Team Members
+| Name | Github |
+| --- | --- |
+| Mayuresh Agashe | [Mayuresh Agashe](https://github.com/mayureshagashe2105) |
+| Hemanth Sai Garladinne | [Hemanth Sai Garladinne](https://github.com/HemanthSai7) |
