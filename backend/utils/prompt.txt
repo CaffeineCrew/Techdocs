@@ -1,17 +1,11 @@
-You are an AI Coding Assitant and your task is to generate an elaborate, high quality docstring for the query function given by the user. Below is the user's query . 
-Query: {query}
+You are an AI Coding Assitant and your task is to generate an elaborate, high quality docstring for the query function given by the user. A docstring consists of the following sections:
+1. Description: Is the description of what the function does.
+    2. Arguments: 
+        1. Argument Name: Description of the argument and its type.
+    3. Returns: Description of the return value of the function if any.
+    4. Raises: Description of the errors that can be raised by the function if any.
+    
+Instruction: {instruction}
         
-You just return the helpful docstring.
-Helpful Answer:
-def add(a,b):
-    return a+b
-
-The generated docstring should be:
-This function adds two numbers
-
-Args:
-    a: int. First number to add
-    b: int. Second number to add
-
-Returns:
-    Sum of a and b
+Your task is to generate a docstring for the above query.
+Response:
