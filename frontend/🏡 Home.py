@@ -1,6 +1,7 @@
 import streamlit as st
 from Login import auth_page
 from PIL import Image 
+import textwrap
 
 import base64
 
@@ -18,11 +19,7 @@ def get_base64_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-
-# image = Image.open('assets/poster.jpg')
-# st.image(image, caption='ELIGILOAN')
-
-st.markdown("# :DocGup-tea: AI based Documentation Generator 📃")
+st.markdown("# DocGup-tea: AI based Documentation Generator 📃")
 
 def logout():
     del st.session_state["access_token"]

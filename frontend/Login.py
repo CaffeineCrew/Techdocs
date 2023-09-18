@@ -11,29 +11,9 @@ def auth_page():
 
     headers={"accept":"application/json"}
 
-    tab1, tab2 = st.tabs(["Signup", "Login"])
+    tab1, tab2 = st.tabs(["Login", "Signup"])
 
     with tab1:
-        with st.form(key="myform1"):
-            username = st.text_input(label="Username", label_visibility="collapsed", placeholder="Username")
-            password = st.text_input(label="Password", label_visibility="collapsed", placeholder="Password", type="password")
-            email = st.text_input(label="Email", label_visibility="collapsed", placeholder="Email")
-            signup_button = st.form_submit_button(label="Signup")
-
-        with st.spinner("Signing up..."):
-            if signup_button:
-                try:
-                    credentials = {"username":username, "password":password, "email":email}
-                    response = requests.post(url=base_url + "/auth/signup", headers=headers, data=json.dumps(credentials))
-                    if (response.status_code!=200):
-                        raise Exception("Signup Failed")
-                
-                    st.success("Signed up successfully")
-                except:
-                    st.error("Signup Failed")       
-            
-
-    with tab2:
         with st.form(key="myform2"):
             username = st.text_input(label="Username", label_visibility="collapsed", placeholder="Username")
             password = st.text_input(label="Password", label_visibility="collapsed", placeholder="Password", type="password")
@@ -55,5 +35,26 @@ def auth_page():
 
                 except Exception as e:
                     st.error(e)
+
+    with tab2:
+        with st.form(key="myform1"):
+            username = st.text_input(label="Username", label_visibility="collapsed", placeholder="Username")
+            password = st.text_input(label="Password", label_visibility="collapsed", placeholder="Password", type="password")
+            email = st.text_input(label="Email", label_visibility="collapsed", placeholder="Email")
+            signup_button = st.form_submit_button(label="Signup")
+
+        with st.spinner("Signing up..."):
+            if signup_button:
+                try:
+                    credentials = {"username":username, "password":password, "email":email}
+                    response = requests.post(url=base_url + "/auth/signup", headers=headers, data=json.dumps(credentials))
+                    if (response.status_code!=200):
+                        raise Exception("Signup Failed")
+                
+                    st.success("Signed up successfully")
+                except:
+                    st.error("Signup Failed")       
+            
+
 
 

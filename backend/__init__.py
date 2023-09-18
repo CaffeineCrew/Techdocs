@@ -7,15 +7,18 @@ from fastapi.exceptions import HTTPException
 from backend.utils import DBConnection
 from backend.core.ConfigEnv import config
 
-from langchain.llms import CTransformers, Clarifai
+from langchain.llms import Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
+
+import sys
 
 app = FastAPI(title="Techdocs",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
               )
 
+print(sys.getsizeof(app))
 from backend import router
 
 try:
@@ -36,12 +39,18 @@ try:
         model_version_id=config.MODEL_VERSION_ID,
     )
 
+    print(sys.getsizeof(llm))
+
     llmchain = LLMChain(
         prompt=prompt,
         llm=llm
     )
 
+    print(sys.getsizeof(llmchain))
+
     app.state.llmchain = llmchain
+
+    print(sys.getsizeof(app))
 
 except mysql.connector.Error as err:
     raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(err))    
