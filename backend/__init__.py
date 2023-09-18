@@ -4,19 +4,19 @@ from mysql.connector import errorcode
 from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
 
-from docguptea.utils import DBConnection
-from docguptea.core.ConfigEnv import config
+from backend.utils import DBConnection
+from backend.core.ConfigEnv import config
 
 from langchain.llms import CTransformers, Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
 
-app = FastAPI(title="DocGup-Tea",
+app = FastAPI(title="Techdocs",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
               )
 
-from docguptea import router
+from backend import router
 
 try:
     dbconnection = DBConnection()
