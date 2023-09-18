@@ -11,9 +11,9 @@ from pydantic import ValidationError
 
 from fastapi.exceptions import HTTPException
 
-from docguptea.core.ConfigEnv import config
-from docguptea.core.Exceptions import *
-from docguptea.models import TokenPayload, TokenSchema
+from backend.core.ConfigEnv import config
+from backend.core.Exceptions import *
+from backend.models import TokenPayload, TokenSchema
 
 
 
