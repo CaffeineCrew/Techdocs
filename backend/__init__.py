@@ -4,8 +4,8 @@ from mysql.connector import errorcode
 from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
 
-from docguptea.utils import DBConnection
-from docguptea.core.ConfigEnv import config
+from backend.utils import DBConnection
+from backend.core.ConfigEnv import config
 
 from langchain.llms import CTransformers, Clarifai
 from langchain.chains import LLMChain
@@ -16,14 +16,14 @@ app = FastAPI(title="DocGup-Tea",
               description="API for automatic code documentation generation!"
               )
 
-from docguptea import router
+from backend import router
 
 try:
     dbconnection = DBConnection()
     test_conn = DBConnection.get_client().get_server_info()
 
     # send prompt wizardcoderLM-70b-instruct-GGUF model
-    with open("docguptea/utils/prompt.txt",'r') as f:
+    with open("backend/utils/prompt.txt",'r') as f:
         prompt = f.read()
 
     prompt = PromptTemplate(template=prompt, input_variables=['instruction'])

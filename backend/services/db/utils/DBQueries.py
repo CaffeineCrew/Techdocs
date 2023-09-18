@@ -5,8 +5,8 @@ pydantic.json.ENCODERS_BY_TYPE[ObjectId]=str
 
 from typing import Union, Tuple, List
 
-from docguptea.utils import DBConnection
-from docguptea.core.Exceptions import *
+from backend.utils import DBConnection
+from backend.core.Exceptions import *
 
 
 class DBQueries:
