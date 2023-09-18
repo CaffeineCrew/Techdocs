@@ -1,10 +1,10 @@
 from fastapi import Request, Depends, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
-from docguptea import app
-from docguptea.utils import DBConnection
-from docguptea.models import *
-from docguptea.services.auth import *
+from backend import app
+from backend.utils import DBConnection
+from backend.models import *
+from backend.services.auth import *
 
 
 app.add_middleware(
