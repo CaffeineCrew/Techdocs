@@ -23,8 +23,20 @@ try:
     test_conn = DBConnection.get_client().get_server_info()
 
     # send prompt wizardcoderLM-70b-instruct-GGUF model
-    with open("backend/utils/prompt.txt",'r') as f:
-        prompt = f.read()
+    # with open("backend/utils/prompt.txt",'r') as f:
+    #     prompt = f.read()
+    prompt = """You are an AI Coding Assitant and your task is to generate an elaborate, high quality docstring for the query function given by the user. A docstring consists of the following sections:
+                1. Description: Is the description of what the function does.
+                2. Arguments: 
+                    1. Argument Name: Description of the argument and its type.
+                3. Returns: Description of the return value of the function if any.
+                4. Raises: Description of the errors that can be raised by the function if any.
+    
+                Instruction: {instruction}
+                        
+                Your task is to generate a docstring for the above query.
+                Response:
+            """
 
     prompt = PromptTemplate(template=prompt, input_variables=['instruction'])
 
