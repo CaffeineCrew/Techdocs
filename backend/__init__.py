@@ -11,7 +11,7 @@ from langchain.llms import CTransformers, Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
 
-app = FastAPI(title="DocGup-Tea",
+app = FastAPI(title="Techdocs",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
               )
