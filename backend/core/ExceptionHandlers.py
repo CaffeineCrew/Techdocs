@@ -1,4 +1,4 @@
-from docguptea import app
+from backend import app
 from .Exceptions import *
 
 from fastapi.responses import JSONResponse

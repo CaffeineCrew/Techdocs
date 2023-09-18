@@ -1,10 +1,10 @@
 from .utils.auth_funcs import *
 from .utils.JWTBearer import *
-from docguptea.services import parser
-from docguptea.models import *
-from docguptea.services.db.utils.DBQueries import DBQueries
-from docguptea.core.Exceptions import *
-from docguptea import app
+from backend.services import parser
+from backend.models import *
+from backend.services.db.utils.DBQueries import DBQueries
+from backend.core.Exceptions import *
+from backend import app
 
 # import openai
 # from transformers import RobertaTokenizer, T5ForConditionalGeneration
