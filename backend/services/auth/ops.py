@@ -1,6 +1,5 @@
 from .utils.auth_funcs import *
 from .utils.JWTBearer import *
-from backend.services import parser
 from backend.models import *
 from backend.services.db.utils.DBQueries import DBQueries
 from backend.core.Exceptions import *
