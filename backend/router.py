@@ -1,10 +1,10 @@
 from fastapi import Request, Depends, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend import app
-from backend.utils import DBConnection
-from backend.models import *
-from backend.services.auth import *
+from docguptea import app
+from docguptea.utils import DBConnection
+from docguptea.models import *
+from docguptea.services.auth import *
 
 
 app.add_middleware(
@@ -56,10 +56,10 @@ async def regenerate_api_key(access_token: str = Depends(JWTBearer())):
 
     return ops_regenerate_api_key(user_sub)
 
-# @app.post("/api/inference", summary="Inference", response_model=Inference, tags=["Resource Server"], dependencies=[Depends(JWTBearer())])
-# async def inference(code_block:str, api_key: str,access_token:str=Depends(JWTBearer())):
-#     user_sub=Auth.get_user_credentials(access_token)
+@app.post("/api/inference", summary="Inference", response_model=Inference, tags=["Resource Server"], dependencies=[Depends(JWTBearer())])
+async def inference(code_block:str, api_key: str,access_token:str=Depends(JWTBearer())):
+    user_sub=Auth.get_user_credentials(access_token)
 
-#     print("after res")
+    print("after res")
     
-#     return ops_inference(code_block,api_key,user_sub)
+    return ops_inference(code_block,api_key,user_sub)
