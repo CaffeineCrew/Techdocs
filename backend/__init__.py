@@ -22,7 +22,7 @@ try:
     dbconnection = DBConnection()
     test_conn = DBConnection.get_client().get_server_info()
 
-    # send prompt codellama-13b-instruct-GGUF model
+    # send prompt wizardcoderLM-70b-instruct-GGUF model
     with open("docguptea/utils/prompt.txt",'r') as f:
         prompt = f.read()
 

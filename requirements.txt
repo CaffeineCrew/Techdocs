@@ -1,2 +1,16 @@
-streamlit
 fastapi
+Jinja2
+pytest
+requests
+pytest-cov
+pytest-mock
+pytruth
+hypothesis
+python-jose[cryptography]
+passlib[bcrypt]
+mysql-connector-python
+bson
+uvicorn
+pydantic[email]
+langchain
+clarifai-grpc
