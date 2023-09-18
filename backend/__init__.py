@@ -23,7 +23,7 @@ try:
     test_conn = DBConnection.get_client().get_server_info()
 
     # send prompt wizardcoderLM-70b-instruct-GGUF model
-    with open("docguptea/utils/prompt.txt",'r') as f:
+    with open("backend/utils/prompt.txt",'r') as f:
         prompt = f.read()
 
     prompt = PromptTemplate(template=prompt, input_variables=['instruction'])

@@ -7,8 +7,8 @@ users based on the following factors:
 This utility class validates generated JWTs and grants scoped access to users
 according to their roles.
 """
-from docguptea.core.ConfigEnv import config
-from docguptea.models import TokenPayload
+from backend.core.ConfigEnv import config
+from backend.models import TokenPayload
 
 from datetime import datetime
 
