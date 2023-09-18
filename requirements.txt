@@ -13,3 +13,4 @@ bson
 uvicorn
 pydantic[email]
 langchain
+clarifai
