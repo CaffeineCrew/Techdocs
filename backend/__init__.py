@@ -4,18 +4,19 @@ from mysql.connector import errorcode
 from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
 
-from backend.utils import DBConnection
+from docguptea.utils import DBConnection
+from docguptea.core.ConfigEnv import config
 
-from langchain.llms import CTransformers
+from langchain.llms import CTransformers, Clarifai
 from langchain.chains import LLMChain
-from langchain import PromptTemplate 
+from langchain.prompts import PromptTemplate 
 
 app = FastAPI(title="DocGup-Tea",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
               )
 
-from backend import router
+from docguptea import router
 
 try:
     dbconnection = DBConnection()
@@ -24,19 +25,15 @@ try:
     # send prompt codellama-13b-instruct-GGUF model
     with open("docguptea/utils/prompt.txt",'r') as f:
         prompt = f.read()
-        print(prompt)
 
-    prompt = PromptTemplate(template=prompt,
-                            input_variables=['query'])
-    
-    llm = CTransformers(
-        model = "docguptea/static/models/codellama-13b-instruct.Q4_K_M.gguf",
-        model_type="llama",
-        max_new_tokens = 1096,
-        temperature = 0.25,
-        repetition_penalty = 1.13,
-        stream=True,
-        gpu_layers = 10,
+    prompt = PromptTemplate(template=prompt, input_variables=['instruction'])
+
+    llm = Clarifai(
+        pat = config.CLARIFAI_PAT,
+        user_id = config.USER_ID,
+        app_id = config.APP_ID, 
+        model_id = config.MODEL_ID,
+        model_version_id=config.MODEL_VERSION_ID,
     )
 
     llmchain = LLMChain(
