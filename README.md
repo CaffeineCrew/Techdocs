@@ -20,6 +20,7 @@ $ pip install -r requirements.txt
 $ -- Run backend
 $ uvicorn app:app --reload # For running the FastAPI server
 $ -- Run frontend
+$ cd frontend
 $ streamlit run app.py # For running the Streamlit App
 ```
 
@@ -29,6 +30,17 @@ $ streamlit run app.py # For running the Streamlit App
 - Copy the API KEY and paste it in the `API KEY` field in the [Code](techdocs.streamlit.app/Code)
 - Now, you can paste your code in the `Code` field and click on the `Generate Documentation` button.
 - The generated documentation will be displayed in the `Documentation` field.
+
+
+## Demo and Screenshots
+##### Demo Screenshot 1
+![Result 3](assets/results3.jpg)
+
+##### Demo Screenshot 2
+![Result 2](assets/results2.jpg)
+
+##### Demo Screenshot 3
+![Result 1](assets/results1.jpg)
 
 ## Tech Stack Used
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
