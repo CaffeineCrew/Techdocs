@@ -19,7 +19,7 @@ def get_base64_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-st.markdown("# DocGup-tea: AI based Documentation Generator 📃")
+st.markdown("# Welcome to Techdocs: Where Code Meets Clarity! 🚀")
 
 def logout():
     del st.session_state["access_token"]
@@ -53,29 +53,33 @@ def home_page():
         '''
         st.markdown(page_bg_img, unsafe_allow_html=True)
 
-    set_page_background("../assets/bg.jpg") 
+    # set_page_background("../assets/bg.jpg") 
 
     st.markdown(
         """
 
-        ## A step-by-step guide 
+    ##### Unleash the documentation dynamo that is **Techdocs**! Say goodbye to the documentation drudgery that haunts coders' dreams and embrace the effortless power of AI-driven documentation. With **Techdocs**, harness the genius of OpenAI's GPT-3, the magic of WizardCoderLM, the versatility of Huggingface Transformers, and the precision of Langchain and Clarifai.
 
-        The process is quite straightforward. BOB offers loans to eligible applicants with strong financial profiles. 
-        Individuals need to provide their basic personal, employment, income and property details to know if you are fit to apply for a loan.
+    ## How Does Techdocs Work Its Magic? 🔮
 
-        ### 1 . Login 
+    ##### Just feed your code into **Techdocs**, and like a seasoned wizard, it'll conjure up beautifully detailed documentation in an instant. Your code will transform into a masterpiece of clarity, complete with insightful comments, vivid descriptions, crystal-clear parameters, return values, and real-world examples.
 
-        Step one is the login part, you just have to work your way through the following simple steps.
-        - Enter your mobile number
-        - Enter the OTP recieved 
-        - accept consent in the Safe portal
+    ## What Can Techdocs Do for You? 🌟
 
-        ### 2. Loan page
+    - ##### Boost your code quality effortlessly.
+    - ##### Share your brilliance with the world in a snap.
+    - ##### Effortlessly generate documentation for your code.
+    - ##### Include comments, descriptions, parameters, return values, and real-life examples.
+    - ##### Elevate your code's readability, maintainability, and quality.
 
-        Once you login, you will be redirected to the loan page.
-        - Offer all relevant details such as loan amount, loan history, income, etc.
-        - Click on the submit option once you have filled in all the details.
-        - Our algorithm will assess your eligibility based on the details provided by you and you will be awarded with a `yes` or a `no`.
+    ##### **Techdocs** is your code's trusty companion, helping you document with ease so you can focus on what you do best: coding!. **Techdocs** is your secret weapon for leveling up your code game. Whether you're a seasoned developer or just starting your coding journey, Techdocs has got your back. Get ready to unlock the future of code documentation today! 🌟
+
+
+
+
+
+
+
     """
     )
 
