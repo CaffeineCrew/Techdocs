@@ -1,5 +1,7 @@
-fastapi
+fastapi==0.99.1
+uvicorn
 requests
+pydantic==1.10.12
 python-jose[cryptography]
 passlib[bcrypt]
 mysql-connector-python
