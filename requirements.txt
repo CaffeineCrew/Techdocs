@@ -1,4 +1,4 @@
-fastapi
+fastapi==0.99.1
 uvicorn
 requests
 python-jose[cryptography]
