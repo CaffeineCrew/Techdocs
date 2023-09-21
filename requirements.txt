@@ -4,6 +4,8 @@ requests
 langchain
 clarifai
 Pillow
+protobuf==4.21.12
+rich==13.4.2
 pydantic==1.10.12
 python-jose[cryptography]
 passlib[bcrypt]
