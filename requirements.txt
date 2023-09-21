@@ -1,10 +1,11 @@
 fastapi==0.99.1
 uvicorn
 requests
+langchain
+clarifai
+Pillow
 pydantic==1.10.12
 python-jose[cryptography]
 passlib[bcrypt]
 mysql-connector-python
 pydantic[email]
-langchain==0.0.295
-clarifai
