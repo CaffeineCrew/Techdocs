@@ -2,11 +2,11 @@ fastapi==0.99.1
 uvicorn
 requests
 langchain
-clarifai
 rich==13.4.2
+clarifai
 Pillow
-mysql-connector-python
 protobuf==4.21.12
+mysql-connector-python
 pydantic==1.10.12
 python-jose[cryptography]
 passlib[bcrypt]
