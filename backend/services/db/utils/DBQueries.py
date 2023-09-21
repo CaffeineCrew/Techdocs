@@ -1,8 +1,3 @@
-# fix ObjectId & FastApi conflict
-import pydantic
-from bson.objectid import ObjectId
-pydantic.json.ENCODERS_BY_TYPE[ObjectId]=str
-
 from typing import Union, Tuple, List
 
 from backend.utils import DBConnection
