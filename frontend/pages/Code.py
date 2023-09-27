@@ -28,7 +28,7 @@ with st.sidebar:
         if st.button("Generate API KEY"):
             with st.spinner("Generating API Key..."):
                 try:
-                    base_url = "https://hemanthsai7-techdocsapi.hf.space"
+                    base_url = "http://localhost:8000"
                     headers={"accept":"application/json", "Authorization": f"Bearer {st.session_state.access_token}"}
                     response = requests.put(url=base_url + "/auth/regenerate_api_key", headers=headers, data=json.dumps({"username":st.session_state.username}))
                     if (response.status_code!=200):
@@ -48,7 +48,7 @@ with st.sidebar:
 
 
 def code_page():
-    base_url = 'https://hemanthsai7-techdocsapi.hf.space'
+    base_url = 'http://localhost:8000'
 
     def query_post(url, headers, data=None, params=None):
         response = requests.post(url, data=data, headers=headers, params=params)
