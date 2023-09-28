@@ -1,6 +1,7 @@
 import ast
 import os
 import requests
+import threading
 
 from utils.functools import *
 
@@ -36,5 +37,6 @@ def extract_functions_from_directory(config):
                 parsed = ast.parse(content)
                 extract_outermost_function(parsed, config)
                 docstr_code = ast.unparse(parsed)
-                with open(file_path, "w",errors='ignore') as file:
-                    file.write(docstr_code)
+
+                write_thread = threading.Thread(target=update_file, args=(file_path, docstr_code))
+                write_thread.start()
