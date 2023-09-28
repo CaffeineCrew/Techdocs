@@ -7,7 +7,7 @@ from fastapi.exceptions import HTTPException
 from backend.utils import DBConnection
 from backend.core.ConfigEnv import config
 
-from langchain.llms import CTransformers, Clarifai
+from langchain.llms import Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
 
@@ -40,8 +40,8 @@ try:
         prompt=prompt,
         llm=llm
     )
-
     app.state.llmchain = llmchain
+
 
 except mysql.connector.Error as err:
     raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(err))    
