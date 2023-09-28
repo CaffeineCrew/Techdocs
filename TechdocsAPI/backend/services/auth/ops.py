@@ -102,6 +102,7 @@ def ops_inference(source_code:str,api_key:str,username:str):
         llm_response = app.state.llmchain.run({"instruction": source_code_message})
 
         docstring = Inference(docstr=llm_response)
+        print(docstring)
         
     
         return docstring
