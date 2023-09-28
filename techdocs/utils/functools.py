@@ -24,7 +24,7 @@ def get_access_token(data, return_refresh_token=False):
 def request_inference(config, code_block, max_retries=1):
 
     if max_retries == 0:
-        return ""
+        return None
 
     url = BASE_URL+"/api/inference"
     headers={"accept":"application/json", "Authorization": f"Bearer {config['access_token']}"}
@@ -40,7 +40,7 @@ def request_inference(config, code_block, max_retries=1):
         print("Encountered error retrying...")
         config.update({"access_token":get_access_token(data)})
         
-        return request_inference(config,config["access_token"], code_block, max_retries=max_retries-1)
+        return request_inference(config, code_block, max_retries=max_retries-1)
     
 
     
