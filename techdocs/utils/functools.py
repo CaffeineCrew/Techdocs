@@ -43,6 +43,8 @@ def request_inference(config, code_block, max_retries=1):
         return request_inference(config, code_block, max_retries=max_retries-1)
     
 
-    
+def update_file(file_path, docstr_code):
+    with open(file_path, "w",errors='ignore') as file:
+        file.write(docstr_code)
 
     
