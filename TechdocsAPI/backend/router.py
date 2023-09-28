@@ -50,7 +50,6 @@ async def signup(response: UserAuth):
 
 @app.post("/auth/login", summary="Logs in user", response_model=TokenSchema, tags=["Auth Server"])
 async def login(response:LoginCreds):
-    print("login")
     return ops_login(response)
 
 @app.put("/auth/regenerate_api_key",summary="Forget Password",response_model=APIKey,tags=["Auth Server"],dependencies=[Depends(JWTBearer())])

@@ -1,6 +1,5 @@
 import ast
 import os
-from tqdm import tqdm
 import requests
 
 from utils.functools import *
@@ -12,9 +11,14 @@ def extract_outermost_function(node, config):
     if isinstance(node, ast.FunctionDef):
         function_def = ast.unparse(node)
         response = request_inference(config=config, code_block=function_def)
-        docstr = response['docstr']
-        docstring = ast.Expr(value=ast.Str(s=docstr))
-        node.body.insert(0, docstring)
+        if response is not None:
+            try:
+                docstr = response.split('"""')
+                docstring = ast.Expr(value=ast.Str(s=docstr[1]))
+                print(f"Docstring generated for def {node.name}")
+                node.body.insert(0, docstring)
+            except IndexError:
+                pass    
         
 
     for child in ast.iter_child_nodes(node):
@@ -22,7 +26,7 @@ def extract_outermost_function(node, config):
 
 # Function to traverse directories recursively and extract functions from Python files
 def extract_functions_from_directory(config):
-    for root, _, files in os.walk(config["dir"]):
+    for root, dirnames, files in os.walk(config["dir"]):
         for file in files:
             if file.endswith(".py"):
                 file_path = os.path.join(root, file)
