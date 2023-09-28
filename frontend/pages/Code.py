@@ -4,8 +4,6 @@ from PIL import Image
 
 import streamlit as st
 from Login import auth_page
-# frontend.Login import auth_pageom from streamlit_extras import 
-
 
 st.set_page_config(
     page_title="Welcome",
@@ -14,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.write("# DocGup-tea: AI based Documentation Generator 💀")
+st.write("# Welcome to Techdocs: Where Code Meets Clarity! 🚀")
 
 def logout():
     del st.session_state["access_token"]
@@ -58,20 +56,18 @@ def code_page():
     
     headers={"accept":"application/json"}
 
-
+    st.subheader("Enter your API key to generate documentation.")
     API_KEY = st.text_input(label="Enter your API key", label_visibility="hidden",placeholder="Enter your API key", type="password")
-    st.title("Code Documentation Generator")
-    st.write("Enter your code and click 'Generate Comment' to get the corresponding comment.")
+    st.subheader("Enter your code and click 'Generate Documentation' to get the corresponding comment.")
 
-    code_input = st.text_area("Code Input", height=200)
+    code_input = st.text_area("Code Input", height=300)
     comment_placeholder = st.empty()
 
-    if st.button("Generate Comment"):
+    if st.button("Generate Documentation"):
         if code_input:
             headers['Authorization'] = f"Bearer {st.session_state.access_token}"
-            response = query_post(base_url + '/api/inference', headers=headers, params={'code_block':"def add(a,b):\n\treturn a+b", 'api_key':API_KEY})
+            response = query_post(base_url + '/api/inference', headers=headers, params={'code_block':code_input, 'api_key':API_KEY})
             docstr = response.json()["docstr"]
-            print(docstr)
             comment_placeholder.subheader("Generated Comment:")
             comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
             # Scroll to the comment section

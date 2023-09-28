@@ -1,3 +1,12 @@
+---
+title: TechdocsAPI
+emoji: 🐢
+colorFrom: green
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 # Techdocs: A code documentation generator
 
 ## Introduction
@@ -18,29 +27,8 @@ $ git clone https://github.com/HemanthSai7/Techdocs
 $ cd Techdocs
 $ pip install -r requirements.txt
 $ -- Run backend
-$ uvicorn app:app --reload # For running the FastAPI server
-$ -- Run frontend
-$ cd frontend
-$ streamlit run app.py # For running the Streamlit App
+$ uvicorn app:app --reload 
 ```
-
-## Streamlit App
-- Head over to the [Website](https://techdocs.streamlit.app) and `signup/login` to use the tool.
-- Once you are logged in, Head over to [Code](techdocs.streamlit.app/Code) page and generate your `API KEY` by clicking on the `Generate API KEY` button. Please note that the API KEY will be visible only once and you need to copy it and save it somewhere safe.
-- Copy the API KEY and paste it in the `API KEY` field in the [Code](techdocs.streamlit.app/Code)
-- Now, you can paste your code in the `Code` field and click on the `Generate Documentation` button.
-- The generated documentation will be displayed in the `Documentation` field.
-
-
-## Demo and Screenshots
-##### Demo Screenshot 1
-![Result 3](assets/results3.jpg)
-
-##### Demo Screenshot 2
-![Result 2](assets/results2.jpg)
-
-##### Demo Screenshot 3
-![Result 1](assets/results1.jpg)
 
 ## Tech Stack Used
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)

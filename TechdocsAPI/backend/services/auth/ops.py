@@ -1,6 +1,5 @@
 from .utils.auth_funcs import *
 from .utils.JWTBearer import *
-from backend.services import parser
 from backend.models import *
 from backend.services.db.utils.DBQueries import DBQueries
 from backend.core.Exceptions import *
@@ -103,6 +102,7 @@ def ops_inference(source_code:str,api_key:str,username:str):
         llm_response = app.state.llmchain.run({"instruction": source_code_message})
 
         docstring = Inference(docstr=llm_response)
+        print(docstring)
         
     
         return docstring

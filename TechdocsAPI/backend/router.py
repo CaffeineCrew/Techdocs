@@ -64,7 +64,5 @@ async def regenerate_api_key(access_token: str = Depends(JWTBearer())):
 async def inference(code_block:str, api_key: str,access_token:str=Depends(JWTBearer())):
     print("inference")
     user_sub=Auth.get_user_credentials(access_token)
-
-    print("after res")
     
     return ops_inference(code_block,api_key,user_sub)
