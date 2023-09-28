@@ -6,7 +6,7 @@ import streamlit as st
 
 def auth_page():
 
-    base_url = 'https://hemanthsai7-techdocsapi.hf.space'
+    base_url = 'http://localhost:8000'
 
 
     headers={"accept":"application/json"}
