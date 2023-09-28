@@ -7,7 +7,7 @@ import base64
 
 # image2=Image.open('assets/logo2.png')
 st.set_page_config(
-    page_title="DocGup-tea",
+    page_title="Techdocs",
     layout="wide",
     page_icon="🏡",
     initial_sidebar_state="expanded",
