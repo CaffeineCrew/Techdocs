@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "techdocs"
+version = "0.0.1"
+description = "Code documentation generation CLI App"
+readme = "README.md"
+authors = [{ name = "Techdocs", email = "test@test.com" }]
+
+[project.scripts]
+techdocs = "techdocs.cli:main"
