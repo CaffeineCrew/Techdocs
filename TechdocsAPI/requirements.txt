@@ -6,6 +6,6 @@ python-jose[cryptography]
 passlib[bcrypt]
 mysql-connector-python
 pydantic[email]
-langchain[llms]
+langchain
 clarifai
 Pillow
