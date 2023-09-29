@@ -1,9 +1,8 @@
 import ast
 import os
-import requests
 import threading
 
-from utils.functools import *
+from .functools import *
 
 
 # Function to extract and print the outermost nested function with line number

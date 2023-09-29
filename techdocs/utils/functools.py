@@ -1,7 +1,7 @@
 import json
 import requests
 
-BASE_URL = "https://hemanthsai7-techdocsapi.hf.space"
+BASE_URL = "https://caffeinecrew-techdocs.hf.space"
 
 
 
