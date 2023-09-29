@@ -1,4 +1,16 @@
+---
+title: TechdocsAPI
+emoji: 🚀
+colorFrom: green
+colorTo: green
+sdk: docker
+app_file: TechdocsAPI/app.py
+pinned: false
+---
+
 # Techdocs: A code documentation generator
+
+
 
 ## Introduction
 
