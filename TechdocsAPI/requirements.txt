@@ -6,5 +6,5 @@ python-jose[cryptography]
 passlib[bcrypt]
 mysql-connector-python
 pydantic[email]
-langchain==0.0.279
+langchain[llms]
 clarifai
