@@ -2,6 +2,8 @@ name: Sync to Hugging Face hub
 on:
   push:
     branches: [main]
+    paths:
+      - 'Techdocs/**'
 
   # to run this workflow manually from the Actions tab
   workflow_dispatch:
