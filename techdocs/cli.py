@@ -1,4 +1,4 @@
-from utils import parse,functools
+from .utils import parse,functools
 
 import argparse
 

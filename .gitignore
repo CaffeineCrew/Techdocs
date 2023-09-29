@@ -11,3 +11,7 @@
 __pycache__
 .vercel
 tempCodeRunnerFile.py
+
+#pypi files
+build
+dist
