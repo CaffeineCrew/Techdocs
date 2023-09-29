@@ -8,3 +8,4 @@ mysql-connector-python
 pydantic[email]
 langchain[llms]
 clarifai
+Pillow
