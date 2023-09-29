@@ -2,7 +2,7 @@ FROM python:3.11
 
 WORKDIR /TechdocsAPI/backend
 
-COPY /TechdocsAPI/requirements.txt ./requirements.txt
+COPY ./requirements.txt /TechdocsAPI/requirements.txt
 
 RUN pip install --no-cache-dir --upgrade -r /TechdocsAPI/requirements.txt
 
