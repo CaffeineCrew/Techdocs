@@ -8,6 +8,7 @@ on:               # or directly `on: [push]` to run the action on every push on 
 
 jobs:
   sync-to-hub:
+    if: github.repository == 'CaffeineCrew/Techdocs'
     runs-on: ubuntu-latest
     steps:
       - name: Check large files
