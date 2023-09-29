@@ -20,6 +20,7 @@ class DBQueries:
     Raises:
     TypeError: If the data is not a tuple or a list of tuples.
     """
+        '\n    This method is used to insert data into a specified table in the database.\n\n    Args:\n    table_name (str): The name of the table where the data will be inserted.\n    data (Union[Tuple, List[Tuple]]): The data to be inserted into the table. It can be either a tuple or a list of tuples.\n    cols (List[str], optional): A list of column names in the table. If not provided, the method will assume that all columns are required. Defaults to None.\n\n    Raises:\n    TypeError: If the data is not a tuple or a list of tuples.\n    '
         con = DBConnection.get_client()
         cursor = con.cursor()
         QUERY = f"INSERT INTO {{table_name}} ({','.join(cols)}) VALUES ".format(table_name=table_name)
@@ -50,6 +51,7 @@ class DBQueries:
     Raises:
     - None
     """
+        '\n    This method is a class method that fetches data from a specified table in the database based on the specified\n    column names and an optional WHERE clause.\n\n    Args:\n    - table_name (str): The name of the table from which to fetch data.\n    - cols_to_fetch (Union[str, List[str]]): The column(s) to fetch from the table. If a single string, it should\n      be a comma-separated list of column names.\n    - where_clause (str, optional): An optional WHERE clause to filter the fetched data. Defaults to None.\n\n    Returns:\n    - List[tuple]: A list of tuples, where each tuple represents a row of data fetched from the database.\n\n    Raises:\n    - None\n    '
         con = DBConnection.get_client()
         cursor = con.cursor()
         if isinstance(cols_to_fetch, str):

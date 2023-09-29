@@ -1,0 +1,16 @@
+AUTHORS
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+techdocs/__init__.py
+techdocs/cli.py
+techdocs.egg-info/PKG-INFO
+techdocs.egg-info/SOURCES.txt
+techdocs.egg-info/dependency_links.txt
+techdocs.egg-info/entry_points.txt
+techdocs.egg-info/requires.txt
+techdocs.egg-info/top_level.txt
+techdocs/utils/__init__.py
+techdocs/utils/functools.py
+techdocs/utils/parse.py
