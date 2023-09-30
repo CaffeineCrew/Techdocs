@@ -31,7 +31,7 @@ def auth_page():
                     st.session_state["access_token"] = response.json()['access_token']
                     st.session_state["refresh_token"] = response.json()['refresh_token']
                     st.success("Logged in successfully")
-                    st.experimental_rerun()
+                    st.rerun()
 
                 except Exception as e:
                     st.error(e)

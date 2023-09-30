@@ -10,41 +10,65 @@ st.set_page_config(
     page_icon="👋",
     layout="wide",
     initial_sidebar_state="expanded",
+    menu_items={"About": "Built by @HemanthSai7 and @MayureshAgashe2107 with Streamlit"},
 )
 
-st.write("# Welcome to Techdocs: Where Code Meets Clarity! 🚀")
+st.markdown("## :rainbow[Welcome to Techdocs: Where Code Meets Clarity!] 🚀")
+
+
 
 def logout():
     del st.session_state["access_token"]
     del st.session_state["refresh_token"]
     del st.session_state["username"]
 
+def instructions():
+    with st.expander("📝Instructions",expanded=True):
+        st.markdown(
+            """
+            ##### 1. Generate an `API Key` from the sidebar to get started.
+
+            ##### 2. Paste the  `API Key` in the field provided.
+
+            ##### 3. Paste your code function in the input code box.
+
+            ##### 4. Click on the `Generate Documentation` 🤖 button to generate the documentation.
+            
+            ##### 5. The generated documentation will be displayed in the section below.
+
+            """
+        ) 
+
+
 with st.sidebar:
     if 'username' not in st.session_state:
-        st.header("Login/Signup")
+        with st.expander("🧑Account Details",expanded=True):
+            st.header("Please Login or Signup to continue")
     else:
-        st.header(f"Welcome, {st.session_state.username}!")
-        st.warning("Generating a new API Key will invalidate the previous one from all your projects. Do you wish to continue?")
-        if st.button("Generate API KEY"):
-            with st.spinner("Generating API Key..."):
-                try:
-                    base_url = "http://localhost:8000"
-                    headers={"accept":"application/json", "Authorization": f"Bearer {st.session_state.access_token}"}
-                    response = requests.put(url=base_url + "/auth/regenerate_api_key", headers=headers, data=json.dumps({"username":st.session_state.username}))
-                    if (response.status_code!=200):
-                        raise Exception("API Key Generation Failed")
-                    st.info("Please save the API KEY as it will be shown only once.")
-                    st.code(response.json()["api_key"],"bash")
-                    st.success("API Key Generated Successfully")
-                except Exception as e:
-                    st.error(e)
+        
+        with st.expander("🔑 TECHDOCS-API-KEY",expanded=True):
+            st.warning("Generating a new API Key will invalidate the previous one from all your projects. Do you wish to continue?")
+            if st.button("Generate API KEY"):
+                with st.spinner("Generating API Key..."):
+                    try:
+                        base_url = "http://localhost:8000"
+                        headers={"accept":"application/json", "Authorization": f"Bearer {st.session_state.access_token}"}
+                        response = requests.put(url=base_url + "/auth/regenerate_api_key", headers=headers, data=json.dumps({"username":st.session_state.username}))
+                        if (response.status_code!=200):
+                            raise Exception("API Key Generation Failed")
+                        st.info("Please save the API KEY as it will be shown only once.")
+                        st.code(response.json()["api_key"],"bash")
+                        st.success("API Key Generated Successfully")
+                    except Exception as e:
+                        st.error(e)
         
 
 
-        with st.expander("More Options"):
-            if st.button("Logout"):
+        with st.expander("🧑Account Details",expanded=True):
+            st.info(f"Welcome, {st.session_state.username}! 😄")
+            if st.button("Logout 👋"):
                 logout()
-                st.experimental_rerun()
+                st.rerun()
 
 
 def code_page():
@@ -56,19 +80,20 @@ def code_page():
     
     headers={"accept":"application/json"}
 
-    st.subheader("Enter your API key to generate documentation.")
+    instructions()
+    st.warning("Hi there! Paste your TECHDOCS-API-KEY in the field below to get started!\n\n", icon="🚨")
     API_KEY = st.text_input(label="Enter your API key", label_visibility="hidden",placeholder="Enter your API key", type="password")
-    st.subheader("Enter your code and click 'Generate Documentation' to get the corresponding comment.")
+  
 
-    code_input = st.text_area("Code Input", height=300)
+    code_input = st.text_area("Code Input", height=300, help="Paste your code here")
     comment_placeholder = st.empty()
 
-    if st.button("Generate Documentation"):
+    if st.button("🤖 Generate Documentation"):
         if code_input:
             headers['Authorization'] = f"Bearer {st.session_state.access_token}"
             response = query_post(base_url + '/api/inference', headers=headers, params={'code_block':code_input, 'api_key':API_KEY})
             docstr = response.json()["docstr"]
-            comment_placeholder.subheader("Generated Comment:")
+            comment_placeholder.subheader("Generated Documentation:")
             comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
             # Scroll to the comment section
             comment_placeholder.empty()
