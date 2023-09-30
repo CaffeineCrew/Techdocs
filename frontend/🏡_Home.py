@@ -85,10 +85,9 @@ def home_page():
     )
 
     st.markdown("""
-                ## :rainbow[How to use Techdocs?]
-                ##### Head over to the **Usage** page to get started!😄
+                ## :rainbow[Ready to use Techdocs?]
+                ##### Head over to the `Usage page` to get started!😄
                 """)
-    st.link_button("Usage", "http://localhost:8501/Usage_📝?page=Usage")
 
     st.sidebar.divider()
     st.sidebar.info(
