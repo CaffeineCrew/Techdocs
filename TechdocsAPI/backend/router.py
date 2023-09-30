@@ -15,6 +15,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.get("/", tags=["Home"])
+def api_home():
+    return {'detail': 'Welcome to Techdocs API'}
+
 @app.get("/api/response_check", tags=["Resource Server"])
 def api_response_check():
     print("api_response_check")

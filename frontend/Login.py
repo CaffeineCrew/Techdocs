@@ -6,7 +6,7 @@ import streamlit as st
 
 def auth_page():
 
-    base_url = 'http://localhost:8000'
+    base_url = 'https://caffeinecrew-techdocs.hf.space'
 
 
     headers={"accept":"application/json"}
