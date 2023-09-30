@@ -30,14 +30,15 @@ def instructions():
 
             ##### 2. Paste the  `API Key` in the field provided.
 
-            ##### 3. Paste your code function in the input code box.
+            ##### 3. Paste your `code function` in the input code box.
 
             ##### 4. Click on the `Generate Documentation` 🤖 button to generate the documentation.
             
-            ##### 5. The generated documentation will be displayed in the section below.
+            ##### 5. The `generated documentation` will be displayed in the section below.
 
             """
-        ) 
+        )
+        st.info("Please note that the Streamlit app is just a preview to give the user an idea of the project. To witness the full power of Techdocs, please use the CLI. The instructions to use the CLI are listed in Usage page")     
 
 
 with st.sidebar:
