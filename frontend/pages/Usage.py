@@ -46,42 +46,19 @@ def usage():
         st.write(f'<p style="font-size:20px; color:#9c9d9f ">{intro_text}</p>', unsafe_allow_html=True)
         st.write(f'<p style="color:#9c9d9f; font-size:20px">{text}</p>', unsafe_allow_html=True)
 
-    st.markdown("### 📝 Using Techdocs via the CLI")    
+    st.markdown("### 📝 :rainbow[Using Techdocs via the CLI]")  
+    st.info("Please use the CLI to generate the documentation for your project. The Streamlit app is just a preview to give the user an idea of the project.")  
+    st.warning("The API Key can only be generated from the Techdocs Streamlit app. To start using the CLI, please generate an API Key from the Streamlit app.")
 
     with st.expander("⚙️ Installation and setup",expanded=True):
         st.text("1. Create a virtual environment. We recommend using conda but you can python's venv as well:"); st.code("conda create -n techdocs python=3.11","python")
         st.text("2. Install Techdocs via pip:"); st.code("pip install techdocs","python")
         st.text("3. CD into your project directory.")
         st.code("CD <YOUR-PROJECT-DIRECTORY>","bash")
-        st.text("""
-                4. Login into our Techdocs Streamlit app or signup if you don't have an account.
-
-                5. Generate an API Key from the Techdocs Streamlit app and paste it in the command below.
-                """)
-        st.code("techdocs -k <API_KEY> -u <USERNAME> -p <PASSWORD> -d <ROOT-DIRECTORY-OF-THE -PROJECT","bash")
-        st.text("6. Wait for the documentation to be generated. You can view the status of the documentation generation in the CLI.")
-
-    st.divider()
-    st.markdown("### 📝 Using Techdocs via the Streamlit")
-
-    with st.expander("📝Instructions",expanded=True):
-        st.markdown(
-            """
-            ##### 1. Head over to the Code Page.
-
-            ##### 2. Generate an `API Key` from the sidebar to get started.
-
-            ##### 3. Paste the `API Key` in the field provided.
-
-            ##### 4. Paste your code function in the input code box.
-
-            ##### 5. Click on the `Generate Documentation`🤖 button to generate the documentation.
-            
-            ##### 6. The generated documentation will be displayed in the section below.
-
-            """
-        )      
-
+        st.text("4. Login into our Techdocs Streamlit app or signup if you don't have an account.")
+        st.text("5. Generate an API Key from the Code page and paste it in the command below.")
+        st.code("techdocs -k <API_KEY> -u <USERNAME> -p <PASSWORD> -d <ROOT-DIRECTORY-OF-THE -PROJECT>","bash")
+        st.text("6. Wait for the documentation to be generated. You can view the status of the documentation generation in the CLI.")   
 
 
 if 'access_token' not in st.session_state:
