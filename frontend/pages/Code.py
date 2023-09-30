@@ -44,7 +44,7 @@ def instructions():
 with st.sidebar:
     if 'username' not in st.session_state:
         with st.expander("🧑Account Details",expanded=True):
-            st.header("Please Login or Signup to continue")
+            st.warning("Please Login or Signup to continue")
     else:
         
         with st.expander("🔑 TECHDOCS-API-KEY",expanded=True):
