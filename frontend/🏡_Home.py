@@ -94,7 +94,7 @@ def home_page():
         """
         Follow us on:
 
-        Github → [@MayureshAgashe2105](https://github.com/MayureshAgashe2105)\n
+        Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
         Github → [@HemanthSai7](https://github.com/HemanthSai7)
         """
     )
