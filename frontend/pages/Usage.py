@@ -31,7 +31,7 @@ def usage():
 
     with col1:
 
-        st.image("./assets/image.png",width=300,use_column_width=True)
+        st.image("/assets/image.png")
 
         st.caption("Boat sailing in the sea")
 
