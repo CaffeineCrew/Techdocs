@@ -19,21 +19,21 @@ def get_base64_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-st.markdown("# Welcome to Techdocs: Where Code Meets Clarity! 🚀")
+st.markdown("## :rainbow[Welcome to Techdocs: Where Code Meets Clarity!]🚀")
 
 def logout():
     del st.session_state["access_token"]
     del st.session_state["refresh_token"]
     del st.session_state["username"]
 
-with st.sidebar:
+with st.sidebar.expander("🧑Account Details",expanded=True):
     if 'username' not in st.session_state:
-        st.header("Login/Signup")
+        st.warning("Please Login or Signup to continue")
     else:
-        st.header(f"Welcome, {st.session_state.username}!")
-        if st.button("Logout"):
+        st.info(f"Welcome, {st.session_state.username}! 😄")
+        if st.button("Logout 👋"):
             logout()
-            st.experimental_rerun()
+            st.rerun()
 
 
 def home_page():
@@ -58,30 +58,48 @@ def home_page():
     st.markdown(
         """
 
-    ##### Unleash the documentation dynamo that is **Techdocs**! Say goodbye to the documentation drudgery that haunts coders' dreams and embrace the effortless power of AI-driven documentation. With **Techdocs**, harness the genius of OpenAI's GPT-3, the magic of WizardCoderLM, the versatility of Huggingface Transformers, and the precision of Langchain and Clarifai.
+    ##### Unleash the documentation dynamo that is **Techdocs**! Say goodbye to the documentation drudgery that haunts coders' dreams and embrace the effortless power of AI-driven documentation. With **Techdocs**, harness the genius of LLama2, the magic of WizardCoderLM, the versatility of Huggingface Transformers, and the precision of Langchain and Clarifai.
 
-    ## How Does Techdocs Work Its Magic? 🔮
+    ## :rainbow[How Does Techdocs Work Its Magic?] 🔮
 
     ##### Just feed your code into **Techdocs**, and like a seasoned wizard, it'll conjure up beautifully detailed documentation in an instant. Your code will transform into a masterpiece of clarity, complete with insightful comments, vivid descriptions, crystal-clear parameters, return values, and real-world examples.
 
-    ## What Can Techdocs Do for You? 🌟
-
-    - ##### Boost your code quality effortlessly.
-    - ##### Share your brilliance with the world in a snap.
-    - ##### Effortlessly generate documentation for your code.
-    - ##### Include comments, descriptions, parameters, return values, and real-life examples.
-    - ##### Elevate your code's readability, maintainability, and quality.
-
-    ##### **Techdocs** is your code's trusty companion, helping you document with ease so you can focus on what you do best: coding!. **Techdocs** is your secret weapon for leveling up your code game. Whether you're a seasoned developer or just starting your coding journey, Techdocs has got your back. Get ready to unlock the future of code documentation today! 🌟
-
-
-
-
-
-
-
     """
     )
+
+    with st.expander("What Can Techdocs Do for You? 🌟",expanded=True):
+        st.markdown(
+            """
+        - ##### Boost your code quality effortlessly 🚀.
+        - ##### Share your brilliance with the world in a snap 🌏.
+        - ##### Effortlessly generate documentation for your code 🤖.
+        - ##### Include comments, descriptions, parameters, return values, and real-life examples 📃.
+        - ##### Elevate your code's readability, maintainability, and quality 📃.
+        """
+        )
+
+    st.markdown(
+        """
+        ##### **Techdocs** is your code's trusty companion, helping you document with ease so you can focus on what you do best: coding!. **Techdocs** is your secret weapon for leveling up your code game. Whether you're a seasoned developer or just starting your coding journey, Techdocs has got your back. Get ready to unlock the future of code documentation today! 🌟
+        """
+    )
+
+    st.markdown("""
+                ## :rainbow[How to use Techdocs?]
+                ##### Head over to the **Usage** page to get started!😄
+                """)
+    st.link_button("Usage", "http://localhost:8501/Usage_📝?page=Usage")
+
+    st.sidebar.divider()
+    st.sidebar.info(
+        """
+        Follow us on:
+
+        Github → [@MayureshAgashe2105](https://github.com/MayureshAgashe2105)\n
+        Github → [@HemanthSai7](https://github.com/HemanthSai7)
+        """
+    )
+
 
 if 'access_token' not in st.session_state:
     st.session_state.runpage = auth_page
