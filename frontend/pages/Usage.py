@@ -50,17 +50,21 @@ def usage():
 
     st.markdown("### 📝 :rainbow[Using Techdocs via the CLI]")  
     st.info("Please use the CLI to generate the documentation for your project. The Streamlit app is just a preview to give the user an idea of the project.")  
-    st.warning("The API Key can only be generated from the Techdocs Streamlit app. To start using the CLI, please generate an API Key from the Streamlit app.")
+    st.warning("To start using the CLI, please generate an API Key from the Streamlit app. You can also generate the API Key from the CLI.")
 
     with st.expander("⚙️ Installation and setup",expanded=True):
-        st.text("1. Create a virtual environment. We recommend using conda but you can python's venv as well:"); st.code("conda create -n techdocs python=3.11","python")
-        st.text("2. Install Techdocs via pip:"); st.code("pip install techdocs","python")
-        st.text("3. CD into your project directory.")
+        st.write("1. Create a virtual environment. We recommend using conda but you can python's venv as well:"); st.code("conda create -n techdocs python=3.11","python")
+        st.write("2. Install Techdocs via pip:"); st.code("pip install techdocs","python")
+        st.write("3. CD into your project directory.")
         st.code("CD <YOUR-PROJECT-DIRECTORY>","bash")
-        st.text("4. Login into our Techdocs Streamlit app or signup if you don't have an account.")
-        st.text("5. Generate an API Key from the Code page and paste it in the command below.")
-        st.code("techdocs -k <API_KEY> -u <USERNAME> -p <PASSWORD> -d <ROOT-DIRECTORY-OF-THE -PROJECT>","bash")
-        st.text("6. Wait for the documentation to be generated. You can view the status of the documentation generation in the CLI.")   
+
+    with st.expander("🚀 CLI and Working", expanded=True):
+        st.write("1. Once the installation is complete, type **techdocs** in the terminal. You should be able to see info about our CLI.")
+        st.write("2. You can login into our Techdocs app using the CLI or create an account if you don't have one. To signup, type the following command in the terminal:")
+        st.code("techdocs signup -u <username> -p <password> -e <email>", "bash")
+        st.write("3. Generate an API Key from the Code page and paste it in the command below.")
+        st.code("techdocs generate -k <API_KEY> -u <USERNAME> -p <PASSWORD> -d <ROOT-DIRECTORY-OF-THE-PROJECT>","bash")
+        st.write("4. Wait for the documentation to be generated. You can view the status of the documentation generation in the CLI.")   
 
 st.sidebar.divider()
 st.sidebar.info(

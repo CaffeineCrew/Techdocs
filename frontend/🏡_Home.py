@@ -1,7 +1,5 @@
 import streamlit as st
 from Login import auth_page
-from PIL import Image 
-import textwrap
 
 import base64
 
@@ -9,7 +7,7 @@ st.set_page_config(
     page_title="Techdocs",
     layout="wide",
     page_icon="🏡",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="expanded"
 )
 
 @st.cache_data
