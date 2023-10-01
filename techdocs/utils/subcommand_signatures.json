@@ -1,0 +1,45 @@
+{
+    "pre-compiled signatures":
+    [
+        {
+            "name": "generate",
+            "help": "Generate Documentation from a given directory root",
+            "args_parse":
+            [
+                {"args": ["--api_key", "-k"], "kwargs": {"type": "str", "required": true, "help": "API key for techdocs"}},
+                {"args": ["--username", "-u"], "kwargs": {"type": "str", "required": true, "help": "Username for techdocs"}},
+                {"args": ["--password", "-p"], "kwargs": {"type": "str", "required": true, "help": "Password for techdocs"}},
+                {"args": ["--dir", "-d"], "kwargs": {"type": "str", "required": true, "help": "Root directory to be documented"}}
+            ]
+        },
+        {
+            "name": "apikey",
+            "help": "Issue a new API key for techdocs",
+            "args_parse":
+            [
+                {"args": ["-username", "-u"], "kwargs": {"type": "str", "required": true, "help": "Username for techdocs"}},
+                {"args": ["-password", "-p"], "kwargs": {"type": "str", "required": true, "help": "Password for techdocs"}}
+            ]
+        },
+        {
+            "name": "version",
+            "help": "Print the version of the techdocs CLI",
+            "args_parse": []
+        },
+        {
+            "name": "signup",
+            "help": "Sign up for a new techdocs account",
+            "args_parse":
+            [
+                {"args": ["-username", "-u"], "kwargs": {"type": "str", "required": true, "help": "Username for Techdocs"}},
+                {"args": ["-password", "-p"], "kwargs": {"type": "str", "required": true, "help": "Password for Techdocs"}},
+                {"args": ["-email", "-e"], "kwargs": {"type": "str", "required": true, "help": "Email for techdocs"}}
+            ]
+        }
+    ],
+    "dynamic signatures":
+    [
+
+    ]
+}
+    
