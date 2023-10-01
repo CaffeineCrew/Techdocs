@@ -6,8 +6,8 @@ import streamlit as st
 from Login import auth_page
 
 st.set_page_config(
-    page_title="Welcome",
-    page_icon="👋",
+    page_title="Code",
+    page_icon="👨‍💻",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={"About": "Built by @HemanthSai7 and @MayureshAgashe2107 with Streamlit"},
