@@ -32,7 +32,7 @@ def usage():
 
     with col1:
 
-        img = Image.open("images/image.png")
+        img = Image.open("frontend/images/image.png")
         st.image(img)
 
         st.caption("Boat sailing in the sea")
