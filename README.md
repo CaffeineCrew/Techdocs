@@ -46,13 +46,13 @@ $ streamlit run app.py # For running the Streamlit App
 
 ## Demo and Screenshots
 ##### Demo Screenshot 1
-![Result 3](assets/results3.jpg)
+![Result 1](assets/results1.png)
 
 ##### Demo Screenshot 2
-![Result 2](assets/results2.jpg)
+![Result 2](assets/results2.png)
 
 ##### Demo Screenshot 3
-![Result 1](assets/results1.jpg)
+![Result 3](assets/results3.png)
 
 ## Tech Stack Used
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
