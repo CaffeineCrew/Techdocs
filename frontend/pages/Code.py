@@ -92,7 +92,8 @@ def code_page():
     if st.button("🤖 Generate Documentation"):
         if code_input:
             headers['Authorization'] = f"Bearer {st.session_state.access_token}"
-            response = query_post(base_url + '/api/inference', headers=headers, params={'code_block':code_input, 'api_key':API_KEY})
+            response = query_post(base_url + '/api/inference', headers=headers, 
+                                  data=json.dumps({'code_block':code_input, 'api_key':API_KEY}))
             docstr = response.json()["docstr"]
             comment_placeholder.subheader("Generated Documentation:")
             comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)

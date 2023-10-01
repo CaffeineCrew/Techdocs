@@ -3,6 +3,7 @@ from .utils.JWTBearer import *
 from backend.models import *
 from backend.services.db.utils.DBQueries import DBQueries
 from backend.core.Exceptions import *
+from backend.core.ExceptionHandlers import *
 from backend import app
 
 # import openai
@@ -101,9 +102,7 @@ def ops_inference(source_code:str,api_key:str,username:str):
 
         llm_response = app.state.llmchain.run({"instruction": source_code_message})
 
-        docstring = Inference(docstr=llm_response)
-        print(docstring)
-        
+        docstring = Inference(docstr=llm_response)        
     
         return docstring
 

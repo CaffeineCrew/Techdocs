@@ -16,3 +16,5 @@ tempCodeRunnerFile.py
 build
 dist
 techdocs.egg-info
+
+test.py

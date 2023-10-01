@@ -22,7 +22,6 @@ def api_home():
 
 @app.get("/api/response_check", tags=["Resource Server"])
 def api_response_check():
-    print("api_response_check")
     response_result = GeneralResponse.get_instance(data={},
                                       status="not_allowed",
                                       message=["Not authenticated"]
@@ -38,13 +37,12 @@ def api_response_check():
         response_result.message.append(db_msg)
 
     except Exception as e:
-        print("Exception :", e)
+        pass
 
     return response_result
 
 @app.post("/auth/signup", summary="Creates new user account", response_model=GeneralResponse, tags=["Auth Server"])
 async def signup(response: UserAuth):
-    print("signup")
     response_result = GeneralResponse.get_instance(data={},
                                       status="not_allowed",
                                       message=["Not authenticated"]
@@ -59,14 +57,12 @@ async def login(response:LoginCreds):
 
 @app.put("/auth/regenerate_api_key",summary="Forget Password",response_model=APIKey,tags=["Auth Server"],dependencies=[Depends(JWTBearer())])
 async def regenerate_api_key(access_token: str = Depends(JWTBearer())):
-    print("regenerate_api_key")
     user_sub=Auth.get_user_credentials(access_token)
 
     return ops_regenerate_api_key(user_sub)
 
 @app.post("/api/inference", summary="Inference", response_model=Inference, tags=["Resource Server"], dependencies=[Depends(JWTBearer())])
-async def inference(code_block:str, api_key: str,access_token:str=Depends(JWTBearer())):
-    print("inference")
+async def inference(generate: Generate, access_token:str=Depends(JWTBearer())):
     user_sub=Auth.get_user_credentials(access_token)
     
-    return ops_inference(code_block,api_key,user_sub)
+    return ops_inference(generate.code_block,generate.api_key,user_sub)

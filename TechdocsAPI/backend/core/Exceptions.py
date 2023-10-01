@@ -13,7 +13,7 @@ class InvalidCredentialsException(Exception):
         self.token_result.status = 'login_failed'
 
     def __repr__(self):
-        return json.dumps(self.token_result)
+        return "exception.InvalidCredentialsException()"
 
 class ExistingUserException(Exception):
     def __init__(self, response_result: GeneralResponse):
@@ -27,7 +27,7 @@ class ExistingUserException(Exception):
         self.response_result.message[0] = 'authenticated'
 
     def __repr__(self):
-        return json.dumps(self.response_result)
+        return "exception.ExistingUserException()"
     
 class InfoNotFoundException(Exception):
     def __init__(self, response_result: GeneralResponse, message: str):
@@ -42,4 +42,4 @@ class InfoNotFoundException(Exception):
         self.response_result['message'].append(self.message)
 
     def __repr__(self):
-        return json.dumps(self.response_result)
+        return "exception.InfoNotFoundException()"
