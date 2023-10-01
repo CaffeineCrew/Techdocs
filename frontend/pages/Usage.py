@@ -27,24 +27,24 @@ with st.sidebar.expander("🧑Account Details",expanded=True):
 def usage():
     st.markdown("### :rainbow[How to use Techdocs?]")
 
-    col1,col2 = st.columns(2,gap="small")
+    # col1,col2 = st.columns(2,gap="small")
 
-    with col1:
+    # with col1:
 
-        st.image("frontend/assets/image.png")
+    #     st.image("frontend/assets/image.png")
 
-        st.caption("Boat sailing in the sea")
+    #     st.caption("Boat sailing in the sea")
 
-    with col2:
-        intro_text="""
-        Now that you've arrived at this digital crossroads, you're most likely eager to dive into the world of Techdocs. Great choice! In today's fast-paced tech landscape, having well-structured and easily accessible documentation is like having a treasure map to navigate the vast ocean of code. You are probably wondering how to use Techdocs.  
-        """
+    # with col2:
+    #     intro_text="""
+    #     Now that you've arrived at this digital crossroads, you're most likely eager to dive into the world of Techdocs. Great choice! In today's fast-paced tech landscape, having well-structured and easily accessible documentation is like having a treasure map to navigate the vast ocean of code. You are probably wondering how to use Techdocs.  
+    #     """
 
-        text="""
-        But you might be wondering: "How do I embark on this documentation journey with Techdocs?" Fear not, because we're about to chart a course through the fascinating world of Techdocs, where clarity, efficiency, and ease-of-use are the guiding stars.
-        """
-        st.write(f'<p style="font-size:20px; color:#9c9d9f ">{intro_text}</p>', unsafe_allow_html=True)
-        st.write(f'<p style="color:#9c9d9f; font-size:20px">{text}</p>', unsafe_allow_html=True)
+    #     text="""
+    #     But you might be wondering: "How do I embark on this documentation journey with Techdocs?" Fear not, because we're about to chart a course through the fascinating world of Techdocs, where clarity, efficiency, and ease-of-use are the guiding stars.
+    #     """
+    #     st.write(f'<p style="font-size:20px; color:#9c9d9f ">{intro_text}</p>', unsafe_allow_html=True)
+    #     st.write(f'<p style="color:#9c9d9f; font-size:20px">{text}</p>', unsafe_allow_html=True)
 
     st.markdown("### 📝 :rainbow[Using Techdocs via the CLI]")  
     st.info("Please use the CLI to generate the documentation for your project. The Streamlit app is just a preview to give the user an idea of the project.")  
