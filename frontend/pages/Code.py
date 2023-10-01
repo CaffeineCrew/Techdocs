@@ -103,6 +103,16 @@ def code_page():
         else:
             st.warning("Please enter some code.")
 
+st.sidebar.divider()
+st.sidebar.info(
+    """
+    Follow us on:
+
+    Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
+    Github → [@HemanthSai7](https://github.com/HemanthSai7)
+    """
+)
+
 
 if 'access_token' not in st.session_state:
     st.session_state.runpage = auth_page  
