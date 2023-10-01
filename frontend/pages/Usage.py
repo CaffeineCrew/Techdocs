@@ -62,6 +62,16 @@ def usage():
         st.code("techdocs -k <API_KEY> -u <USERNAME> -p <PASSWORD> -d <ROOT-DIRECTORY-OF-THE -PROJECT>","bash")
         st.text("6. Wait for the documentation to be generated. You can view the status of the documentation generation in the CLI.")   
 
+st.sidebar.divider()
+st.sidebar.info(
+    """
+    Follow us on:
+
+    Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
+    Github → [@HemanthSai7](https://github.com/HemanthSai7)
+    """
+)
+
 
 if 'access_token' not in st.session_state:
     st.session_state.runpage = auth_page
