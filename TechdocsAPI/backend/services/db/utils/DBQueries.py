@@ -13,7 +13,6 @@ class DBQueries:
                  f'({",".join(cols)}) '
                  'VALUES '
                  ).format(table_name=table_name)
-        print(data)
         if isinstance(data, list):
             QUERY+="("+",".join(["%s" for _ in range(len(data[0]))])+")"
             cursor.executemany(QUERY, data)
