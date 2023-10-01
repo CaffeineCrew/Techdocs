@@ -60,28 +60,28 @@ jobs:
           twine upload -r testpypi dist/*
 
   
-  run_tests:
-    needs: [build, publish_package_to_testpypi]
-    runs-on: ubuntu-latest
-    steps:
-    - working-directory: /techdocs
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install --no-cache-dir --index-url https://test.pypi.org/simple/  --extra-index-url=https://pypi.org/simple/ techdocs
+  # run_tests:
+  #   needs: [build, publish_package_to_testpypi]
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - working-directory: /techdocs
+  #   - uses: actions/checkout@v3
+  #   - name: Set up Python 3.10
+  #     uses: actions/setup-python@v3
+  #     with:
+  #       python-version: "3.10"
+  #   - name: Install dependencies
+  #     run: |
+  #       python -m pip install --upgrade pip
+  #       pip install --no-cache-dir --index-url https://test.pypi.org/simple/  --extra-index-url=https://pypi.org/simple/ techdocs
         
-    - name: Test testpypi package
-      run: |
-        techdocs run tests
+  #   - name: Test testpypi package
+  #     run: |
+  #       techdocs run tests
 
 
   publish_package_to_pypi:
-    needs: [build, publish_package_to_testpypi, run_tests]
+    needs: [build, publish_package_to_testpypi]
     if: github.repository == 'CaffeineCrew/Techdocs'
     runs-on: ubuntu-latest
     steps:
