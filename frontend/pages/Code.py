@@ -1,6 +1,5 @@
 import json
 import requests
-from PIL import Image
 
 import streamlit as st
 from Login import auth_page
@@ -10,7 +9,6 @@ st.set_page_config(
     page_icon="👨‍💻",
     layout="wide",
     initial_sidebar_state="expanded",
-    menu_items={"About": "Built by @HemanthSai7 and @MayureshAgashe2107 with Streamlit"},
 )
 
 st.markdown("## :rainbow[Welcome to Techdocs: Where Code Meets Clarity!] 🚀")
@@ -90,18 +88,19 @@ def code_page():
     comment_placeholder = st.empty()
 
     if st.button("🤖 Generate Documentation"):
-        if code_input:
-            headers['Authorization'] = f"Bearer {st.session_state.access_token}"
-            response = query_post(base_url + '/api/inference', headers=headers, 
-                                  data=json.dumps({'code_block':code_input, 'api_key':API_KEY}))
-            docstr = response.json()["docstr"]
-            comment_placeholder.subheader("Generated Documentation:")
-            comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
-            # Scroll to the comment section
-            comment_placeholder.empty()
-            comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
-        else:
-            st.warning("Please enter some code.")
+        with st.spinner("Generating Documentation..."):
+            if code_input:
+                headers['Authorization'] = f"Bearer {st.session_state.access_token}"
+                response = query_post(base_url + '/api/inference', headers=headers, 
+                                    data=json.dumps({'code_block':code_input, 'api_key':API_KEY}))
+                docstr = response.json()["docstr"]
+                comment_placeholder.subheader("Generated Documentation:")
+                comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
+                # Scroll to the comment section
+                comment_placeholder.empty()
+                comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
+            else:
+                st.warning("Please enter some code.")
 
 st.sidebar.divider()
 st.sidebar.info(
