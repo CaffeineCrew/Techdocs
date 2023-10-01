@@ -5,7 +5,6 @@ import textwrap
 
 import base64
 
-# image2=Image.open('assets/logo2.png')
 st.set_page_config(
     page_title="Techdocs",
     layout="wide",
@@ -89,15 +88,16 @@ def home_page():
                 ##### Head over to the `Usage page` to get started!😄
                 """)
 
-    st.sidebar.divider()
-    st.sidebar.info(
-        """
-        Follow us on:
 
-        Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
-        Github → [@HemanthSai7](https://github.com/HemanthSai7)
-        """
-    )
+st.sidebar.divider()
+st.sidebar.info(
+    """
+    Follow us on:
+
+    Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
+    Github → [@HemanthSai7](https://github.com/HemanthSai7)
+    """
+)
 
 
 if 'access_token' not in st.session_state:
