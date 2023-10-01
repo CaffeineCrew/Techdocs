@@ -1,8 +1,8 @@
 import json
 import requests
 
-# BASE_URL = "https://caffeinecrew-techdocs.hf.space"
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://caffeinecrew-techdocs.hf.space"
+# BASE_URL = "http://127.0.0.1:8000"
 
 
 
