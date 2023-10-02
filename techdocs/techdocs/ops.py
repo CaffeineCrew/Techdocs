@@ -1,6 +1,8 @@
 import argparse
 import json
 from typing import Dict, List, Optional, Any, Callable
+import importlib.resources
+
 
 import techdocs
 from .dtypes import data_types
@@ -67,7 +69,7 @@ class _SubCommand:
 
 class Ops:
     sub_commands: Dict[str, _SubCommand] = {}
-    with open('techdocs/utils/subcommand_signatures.json') as f:
+    with importlib.resources.open_text('techdocs.signatures', 'subcommand_signatures.json') as f:
         encoded_sub_commands = json.load(f)
 
 
