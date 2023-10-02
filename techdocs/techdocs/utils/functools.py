@@ -62,7 +62,7 @@ def issue_api_key(config):
                                 )
         if (response.status_code!=200):
             raise Exception("API Key Generation Failed")
-        print(f"$ API_KEY: {response.json()['api_key']}")
+        print(f"$ API_KEY:{response.json()['api_key']}")
     except Exception as e:
         print(f"$ {e}")
 
