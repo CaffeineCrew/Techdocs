@@ -4,7 +4,7 @@ import requests
 import streamlit as st
         
 
-def auth_page():
+def login():
 
     base_url = 'https://caffeinecrew-techdocs.hf.space'
 
@@ -53,18 +53,9 @@ def auth_page():
                 
                     st.success("Signed up successfully")
                 except:
-                    st.error("Signup Failed")   
+                    st.error("Signup Failed")
 
-
-st.sidebar.divider()
-st.sidebar.info(
-    """
-    Follow us on:
-
-    Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
-    Github → [@HemanthSai7](https://github.com/HemanthSai7)
-    """
-)
+                    
             
 
 
