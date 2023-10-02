@@ -1,0 +1,20 @@
+{
+  "home": {
+    "page_title": "Techdocs",
+    "layout": "wide",
+    "page_icon": "🏡",
+    "initial_sidebar_state": "expanded"
+  },
+  "demo": {
+    "page_title": "demo",
+    "layout": "wide",
+    "page_icon": "💻",
+    "initial_sidebar_state": "expanded"
+  },
+  "instructions": {
+    "page_title": "Instructions",
+    "layout": "wide",
+    "page_icon": "📝",
+    "initial_sidebar_state": "expanded"
+  }
+}

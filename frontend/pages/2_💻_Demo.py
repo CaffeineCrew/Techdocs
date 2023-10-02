@@ -2,55 +2,38 @@ import json
 import requests
 
 import streamlit as st
-from Login import auth_page
-
-st.set_page_config(
-    page_title="Code",
-    page_icon="👨‍💻",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-
-st.markdown("## :rainbow[Welcome to Techdocs: Where Code Meets Clarity!] 🚀")
+from layouts.mainlayout import mainlayout
 
 
+@mainlayout
+def demo():
 
-def logout():
-    del st.session_state["access_token"]
-    del st.session_state["refresh_token"]
-    del st.session_state["username"]
+    def instructions():
+        with st.expander("📝Instructions",expanded=True):
+            st.info("Please note that the Streamlit app is just a demo to give the user an idea of the project. To witness the full power of Techdocs, please use the CLI. The instructions to use the CLI are listed in Usage page")     
+            st.markdown(
+                """
+                ##### 1. Generate an `API Key` from the sidebar to get started.
 
-def instructions():
-    with st.expander("📝Instructions",expanded=True):
-        st.info("Please note that the Streamlit app is just a preview to give the user an idea of the project. To witness the full power of Techdocs, please use the CLI. The instructions to use the CLI are listed in Usage page")     
-        st.markdown(
-            """
-            ##### 1. Generate an `API Key` from the sidebar to get started.
+                ##### 2. Paste the  `API Key` in the field provided.
 
-            ##### 2. Paste the  `API Key` in the field provided.
+                ##### 3. Paste your `code function` in the input code box.
 
-            ##### 3. Paste your `code function` in the input code box.
+                ##### 4. Click on the `Generate Documentation` 🤖 button to generate the documentation.
+                
+                ##### 5. The `generated documentation` will be displayed in the section below.
 
-            ##### 4. Click on the `Generate Documentation` 🤖 button to generate the documentation.
-            
-            ##### 5. The `generated documentation` will be displayed in the section below.
+                """
+            )
 
-            """
-        )
+    base_url = 'https://caffeinecrew-techdocs.hf.space' 
 
-
-with st.sidebar:
-    if 'username' not in st.session_state:
-        with st.expander("🧑Account Details",expanded=True):
-            st.warning("Please Login or Signup to continue")
-    else:
-        
+    with st.sidebar:
         with st.expander("🔑 TECHDOCS-API-KEY",expanded=True):
             st.warning("Generating a new API Key will invalidate the previous one from all your projects. Do you wish to continue?")
             if st.button("Generate API KEY"):
                 with st.spinner("Generating API Key..."):
                     try:
-                        base_url = "https://caffeinecrew-techdocs.hf.space"
                         headers={"accept":"application/json", "Authorization": f"Bearer {st.session_state.access_token}"}
                         response = requests.put(url=base_url + "/auth/regenerate_api_key", headers=headers, data=json.dumps({"username":st.session_state.username}))
                         if (response.status_code!=200):
@@ -59,19 +42,8 @@ with st.sidebar:
                         st.code(response.json()["api_key"],"bash")
                         st.success("API Key Generated Successfully")
                     except Exception as e:
-                        st.error(e)
-        
+                        st.error(e) 
 
-
-        with st.expander("🧑Account Details",expanded=True):
-            st.info(f"Welcome, {st.session_state.username}! 😄")
-            if st.button("Logout 👋"):
-                logout()
-                st.rerun()
-
-
-def code_page():
-    base_url = 'https://caffeinecrew-techdocs.hf.space'
 
     def query_post(url, headers, data=None, params=None):
         response = requests.post(url, data=data, headers=headers, params=params)
@@ -101,20 +73,3 @@ def code_page():
                 comment_placeholder.markdown(f"<pre><code>{docstr}</code></pre>", unsafe_allow_html=True)
             else:
                 st.warning("Please enter some code.")
-
-st.sidebar.divider()
-st.sidebar.info(
-    """
-    Follow us on:
-
-    Github → [@mayureshagashe2105](https://github.com/MayureshAgashe2105)\n
-    Github → [@HemanthSai7](https://github.com/HemanthSai7)
-    """
-)
-
-
-if 'access_token' not in st.session_state:
-    st.session_state.runpage = auth_page  
-else:
-    st.session_state.runpage = code_page
-st.session_state.runpage()
