@@ -14,8 +14,7 @@ def instructions():
 
     st.markdown("### 📝 :rainbow[Using Techdocs via the CLI]")  
     st.info("Please use the CLI to generate the documentation for your project. The Streamlit app is just a demo to give the user an idea of the project.")  
-    st.warning("To start using the CLI, please generate an API Key from the Streamlit app. You can also generate the API Key from the CLI.")
-
+    
     with st.expander("⚙️ Installation and setup"):
         st.markdown(instructions)
 
