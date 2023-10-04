@@ -10,7 +10,7 @@ def home():
 
     tab1, tab2, tab3 = st.tabs(["About our CLI 🪄", "Mechanics 🛠️", "LLMs toolkit 🗃️"])
     with tab1:
-        st.markdown('### <div align="center">:green[Our CLI 🧑‍💻]</div>',unsafe_allow_html=True)
+        st.markdown('### <div align="center">:green[Our CLI Tool 🧑‍💻]</div>',unsafe_allow_html=True)
         st.markdown('##### <div align="center">:blue[Techdocs CLI] provides a simple and easy to use interface to generate documentation for your :blue[code].</div>',unsafe_allow_html=True)
         col1, col3, col2 = st.columns([4,0.1,2])
         with col1:
@@ -21,7 +21,7 @@ def home():
             st.checkbox("##### Generated documentation will be directly embedded into your functions\n ✅ No need to manually copy paste the documentation.",value=True,key="feature1_c",on_change=changestate,args=("feature1_c",))
 
     with tab2:
-        st.markdown('## <div align="center">:green[API behind the Scenes ⚙️]</div>',unsafe_allow_html=True)
+        st.markdown('### <div align="center">:green[API behind the Scenes ⚙️]</div>',unsafe_allow_html=True)
         st.markdown('#### <div align="center">:blue[CLI] uses the power of our API allowing you to access sophisticated :blue[LLM] tools effortlessly. This :blue[microservice] is deployed separately abstracting undelying complexities and providing lightweight web app and CLI </div>',unsafe_allow_html=True)
         col1, col3, col2 = st.columns([4,0.1,2])
         with col1:
