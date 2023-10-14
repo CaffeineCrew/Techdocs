@@ -55,6 +55,11 @@ def login():
                 except:
                     st.error("Signup Failed")
 
+    st.divider()                
+    st.subheader(":rainbow[Our Prototype in Action 🎬]")      
+    with st.expander("Demo video 🎬",expanded=True):
+        st.video("frontend/images/Showcase.mp4")                
+
                     
             
 
