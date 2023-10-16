@@ -9,7 +9,7 @@ def instructions():
     with open("frontend/content/installation.md", "r",encoding='utf-8') as f:
         instructions = f.read()
 
-    with open("content/working.md", "r",encoding='utf-8') as f:
+    with open("frontend/content/working.md", "r",encoding='utf-8') as f:
         working = f.read()
     
 
