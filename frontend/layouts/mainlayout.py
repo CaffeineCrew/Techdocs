@@ -3,7 +3,7 @@ import streamlit as st
 
 from typing import Callable
 
-from components import authors, user_greetings, login
+from components import authors, user_greetings, login, add_logo
 
 def mainlayout(func: Callable):
     with open("frontend/layouts/st_page_layouts.json", "r",encoding='utf-8') as f:
