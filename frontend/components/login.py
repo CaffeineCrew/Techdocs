@@ -2,7 +2,6 @@ import json
 import requests
 
 import streamlit as st
-        
 
 def login():
 
@@ -56,7 +55,7 @@ def login():
                     st.error("Signup Failed")
 
     st.divider()                
-    st.subheader(":rainbow[Our Prototype in Action 🎬]")      
+    st.subheader(":rainbow[Our Prototype in Action ]🎬")      
     with st.expander("Demo video 🎬",expanded=True):
         st.video("frontend/images/Showcase.mp4")                
 
