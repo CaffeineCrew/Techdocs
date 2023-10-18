@@ -90,7 +90,7 @@ This is the main interface with which users can interact with our product. The t
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Azure](https://img.shields.io/badge/azure_SQL-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Huggingface](https://img.shields.io/badge/huggingface-FFA500?style=for-the-badge&logo=huggingface&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-EA6566?style=for-the-badge&logo=streamlit&logoColor=white)
