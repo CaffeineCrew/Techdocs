@@ -22,17 +22,17 @@ class DBConnection:
         If the client instance is already created, then it does not create a 
         new client instance.
         """
-        if DBConnection.__client is not None:
-            raise Exception("This class is a singleton!")
-        else:    
-            creds={
-                'host':config.HOSTNAME,
-                'user':config.UID,
-                'password':config.PASSWORD,
-                'database':config.DATABASE
-            }
-            DBConnection.__client = mysql.connector.connect(**creds)
-            DBConnection._flag = True
+        # if DBConnection.__client is not None:
+        #     raise Exception("This class is a singleton!")
+        # else:    
+        creds={
+            'host':config.HOSTNAME,
+            'user':config.UID,
+            'password':config.PASSWORD,
+            'database':config.DATABASE
+        }
+        DBConnection.__client = mysql.connector.connect(**creds)
+        DBConnection._flag = True
 
     @staticmethod  # A static method is a method that is called without creating an instance of the class.
     def get_client():
