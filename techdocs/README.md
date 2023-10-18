@@ -85,3 +85,14 @@ This is the main interface with which users can interact with our product. The t
 2. As of now, our product suffers majorly in terms of privacy and integrity. As we have mentioned earlier, we are using a third-party `Clarifai` package for hosting our LLM. This creates a big question about user code integrity and privacy.
    - To cater to this issue, we are constantly exploring new quantized and light versions of possible LLMs that we can employ for this task. This will eliminate the need for third-party APIs.
    - We plan to integrate such lightweight models into our PyPI package itself so that none of the user's code will be sent anywhere, and all the documentation generation will take place on the user's device itself.
+
+## Techstack 🧑‍💻
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Azure](https://img.shields.io/badge/azure_SQL-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-EA6566?style=for-the-badge&logo=streamlit&logoColor=white)
+![Langchain](https://img.shields.io/badge/Langchain-F70A8D?style=for-the-badge&logo=langchain&logoColor=white)
+![Clarifai](https://img.shields.io/badge/Clarifai-FFA500?style=for-the-badge&logo=clarifai&logoColor=white)
