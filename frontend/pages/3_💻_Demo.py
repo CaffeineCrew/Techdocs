@@ -10,7 +10,7 @@ def demo():
 
     def instructions():
         with st.expander("📝Instructions",expanded=True):
-            st.info("Please note that the Streamlit app is just a demo to give the user an idea of the project. To witness the full power of Techdocs, please use the CLI. The instructions to use the CLI are listed in Usage page")     
+            st.info("Please note that the Streamlit app is just a demo to give the user an idea of the project. To witness the full power of Techdocs, please use the CLI. The instructions to use the CLI are listed in Instructions page")     
             st.markdown(
                 """
                 ##### 1. Generate an `API Key` from the sidebar to get started.
