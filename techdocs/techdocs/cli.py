@@ -10,7 +10,7 @@ def main(log_info: bool = False):
         👋 Hi there! Welcome to techdocs. Here are some cool things you can do:
 
 
-        💫 try out a demo with or new GUI 🚀 and explore how to use the CLI:
+        💫 try out a demo with our new GUI 🚀 and explore how to use the CLI:
 
         ➡️     https://techdocs.streamlit.app/
 
