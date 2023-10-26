@@ -13,6 +13,7 @@ from .utils.parse import *
 parser = argparse.ArgumentParser(
         description='Code documentation generation',
         epilog="Thanks for using Techdocs")
+parser.add_argument('--version', action='version', version=f'{techdocs.__version__}')
 subparsers = parser.add_subparsers(help='subcommands')
 
 
