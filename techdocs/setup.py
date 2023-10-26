@@ -4,7 +4,7 @@ import glob
 
 setup(
 	name='techdocs',
-	version='0.1.5',
+	version='0.2.0',
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
