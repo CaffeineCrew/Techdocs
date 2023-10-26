@@ -1,13 +1,14 @@
 [build-system]
 requires = [
     "setuptools >= 65",
-    "wheel >= 0.38"
+    "wheel >= 0.38",
+    "tqdm >= 4.66.1"
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "techdocs"
-version = "0.1.5"
+version = "0.2.0"
 description = "Code documentation generation CLI App"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -21,7 +22,7 @@ scripts = {techdocs = "techdocs.cli:main"}
 
 
 [tool.setuptools]
-packages = ["techdocs"]
+packages = ["techdocs", "techdocs.utils"]
 
 [tool.setuptools.package-data]
 "*" = ["*.json"]
