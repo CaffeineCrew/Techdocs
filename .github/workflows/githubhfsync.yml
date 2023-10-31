@@ -21,4 +21,4 @@ jobs:
         env:
           HF_SPACES: ${{ secrets.HF_SPACES }}
         run: |
-          git push https://mayureshagashe2105:$HF_SPACES@huggingface.co/spaces/CaffeineCrew/Techdocs main
+          git push https://mayureshagashe2105:$HF_SPACES@huggingface.co/spaces/CaffeineCrew/Techdocs main -f
