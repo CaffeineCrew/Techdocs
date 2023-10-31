@@ -13,6 +13,11 @@ async def handle_existing_user_found(request: Request, exec: ExistingUserExcepti
                         content=repr(exec)
                         )
 
+@app.exception_handler(EmailNotVerifiedException)
+async def email_not_verified(request: Request, exec: EmailNotVerifiedException):
+    return JSONResponse(status_code=status.HTTP_403_FORBIDDEN,
+                        content=repr(exec)
+                        )
 
 @app.exception_handler(InvalidCredentialsException)
 async def handle_login_failed(request: Request, exec: InvalidCredentialsException):
