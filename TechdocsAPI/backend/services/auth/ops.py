@@ -48,8 +48,8 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         subtype=MessageType.html
     )
 
-    bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
-    # await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
+    # bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
+    await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
     
     DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
                                  ['username', 'password', 'email', 'is_verified'])
