@@ -13,6 +13,9 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
 
 from fastapi_mail import ConnectionConfig, FastMail
+import yagmail
+from jinja2 import Environment, FileSystemLoader
+import os
 
 app = FastAPI(title="Techdocs",
               version="V0.0.1",
@@ -64,6 +67,14 @@ try:
 
     app.state.mail_client = FastMail(conf)
     app.state.templates = Jinja2Templates(directory="./backend/templates")
+
+    #testing yagmail
+    yag = yagmail.SMTP(config.MAIL_USERNAME, config.MAIL_PASSWORD)
+    app.state.yagmail = yag
+    env = Environment(
+    loader=FileSystemLoader('./backend/templates/'))
+    app.state.jinjaenv = env
+
 
 
 

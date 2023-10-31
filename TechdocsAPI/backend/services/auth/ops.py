@@ -47,8 +47,13 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         template_body=email_body_params,
         subtype=MessageType.html
     )
-
-    bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
+     # username=adghasjd, verify_link=asdasd
+    # template = app.state.jinjaenv.get_template("email_verification.html")
+    # output = template.render(data=email_body_params)
+    email = "Hi {username} 👋\n\nWelcome to Techdocs! Please click on the link below to verify your account.\n\n<a href='{verify_link}'>Click Here</a>\n\nThanks,\nTechdocs Team".format(**email_body_params)
+    # bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
+    bgtasks.add_task(app.state.yagmail.send, to=data.email, subject="Welcome to Techdocs:[Account Verification]",
+                     contents=email)
     # await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
     
     DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
@@ -143,6 +148,7 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token:s
         payload = jwt.decode(
             token, config.JWT_VERIFICATION_SECRET_KEY, algorithms=[config.ALGORITHM]
         )
+        
         token_data = TokenPayload(**payload)
         if datetime.fromtimestamp(token_data.exp)< datetime.now():
             return app.state.templates.TemplateResponse("verification_failure.html", context={"request": request})
@@ -155,7 +161,7 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token:s
         print(registered_email[0][0])
         if registered_email[0][0]:
             return app.state.templates.TemplateResponse("verification_failure.html", context={"request": request})
-        
+        print("after")
        
         DBQueries.update_data_in_database('auth','is_verified',f"username='{username}'", (True,))
         DBQueries.update_data_in_database('auth','email',f"username='{username}'", email)
