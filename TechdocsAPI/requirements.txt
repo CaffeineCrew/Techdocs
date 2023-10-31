@@ -9,3 +9,4 @@ pydantic[email]
 langchain
 clarifai
 Pillow
+fastapi_mail==1.3.1

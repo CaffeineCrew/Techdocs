@@ -13,12 +13,17 @@ class Settings(BaseSettings):
     ALGORITHM:str
     JWT_SECRET_KEY:str
     JWT_REFRESH_SECRET_KEY:str
+    JWT_VERIFICATION_SECRET_KEY:str
     # OPENAI_KEY:str
     APP_ID:str
     USER_ID:str
     MODEL_ID:str
     CLARIFAI_PAT:str
     MODEL_VERSION_ID:str
+
+    MAIL_USERNAME:str
+    MAIL_PASSWORD:str
+    MAIL_FROM:str
     
     class Config:
         env_file = ".env"

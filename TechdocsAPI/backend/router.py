@@ -1,4 +1,4 @@
-from fastapi import Request, Depends, UploadFile
+from fastapi import Request, Depends, UploadFile, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend import app
@@ -42,12 +42,12 @@ def api_response_check():
     return response_result
 
 @app.post("/auth/signup", summary="Creates new user account", response_model=GeneralResponse, tags=["Auth Server"])
-async def signup(response: UserAuth):
+async def signup(bgtasks : BackgroundTasks, response: UserAuth):
     response_result = GeneralResponse.get_instance(data={},
                                       status="not_allowed",
                                       message=["Not authenticated"]
                                       )
-    ops_signup(response_result, response)
+    await ops_signup(bgtasks, response_result, response)
 
     return response_result
 
@@ -66,3 +66,13 @@ async def inference(generate: Generate, access_token:str=Depends(JWTBearer())):
     user_sub=Auth.get_user_credentials(access_token)
     
     return ops_inference(generate.code_block,generate.api_key,user_sub)
+
+
+@app.get("/auth/verify/{token}", summary="Verify Email", response_model=GeneralResponse, tags=["Auth Server"])
+async def verify_email(request: Request, token:str):
+    response_result = GeneralResponse.get_instance(data={},
+                                      status="not_allowed",
+                                      message=["Not authenticated"]
+                                      )
+
+    return ops_verify_email(request, response_result,token)

@@ -16,9 +16,11 @@ from backend.core.Exceptions import *
 from backend.models import TokenPayload, TokenSchema
 
 
-
-ACCESS_TOKEN_EXPIRE_MINUTES = 30  # 30 minutes
-REFRESH_TOKEN_EXPIRE_MINUTES = 60 * 24 * 3 # 3 days
+token_expiry_info = {
+'ACCESS_TOKEN_EXPIRE_MINUTES': 30,  # 30 minutes
+'REFRESH_TOKEN_EXPIRE_MINUTES': 60 * 24 * 3, # 3 days
+'VERIFICATION_TOKEN_EXPIRE_MINUTES': 20, # 20 minutes
+}
 
 
 class Auth:
@@ -73,7 +75,7 @@ class Auth:
         return entered_username == db_username
 
     @staticmethod
-    def create_access_token(subject: Union[str, Any], expires_delta: int = None) -> str:
+    def create_access_token(subject: Union[str, Any], expires_delta: int = None, secret_name: str = None) -> str:
         """Creates JWT access token.
 
         Args:
@@ -83,33 +85,20 @@ class Auth:
         Returns:
             encoded_jwt: str. Encoded JWT token from the subject of interest.
         """
-        if expires_delta is not None:
-            expires_delta = datetime.utcnow() + expires_delta
-        else:
-            expires_delta = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-
-        to_encode = {"exp": expires_delta, "sub": str(subject)}
-        encoded_jwt = jwt.encode(to_encode, config.JWT_SECRET_KEY, config.ALGORITHM)
-        return encoded_jwt
-
-    @staticmethod    
-    def create_refresh_token(subject: Union[str, Any], expires_delta: int = None) -> str:
-        """Creates JWT refresh access token.
-
-        Args:
-            subject: Union[Any, str]. Hash_key to generate access token from.
-            expires_delta: int = None. Expiry time for the JWT.
-
-        Returns:
-            encoded_jwt: str. Encoded JWT token from the subject of interest.
-        """
-        if expires_delta is not None:
-            expires_delta = datetime.utcnow() + expires_delta
-        else:
-            expires_delta = datetime.utcnow() + timedelta(minutes=REFRESH_TOKEN_EXPIRE_MINUTES)
+        secret_key = config.JWT_SECRET_KEY
+        token_expiration = token_expiry_info['ACCESS_TOKEN_EXPIRE_MINUTES']
         
+        if secret_name is not None:
+            secret_key = config.dict()["JWT_" + secret_name.upper() + "_SECRET_KEY"]
+            token_expiration = token_expiry_info[secret_name.upper() + "_TOKEN_EXPIRE_MINUTES"]
+
+        if expires_delta is not None:
+            expires_delta = datetime.utcnow() + expires_delta
+        else:
+            expires_delta = datetime.utcnow() + timedelta(minutes=token_expiration)
+
         to_encode = {"exp": expires_delta, "sub": str(subject)}
-        encoded_jwt = jwt.encode(to_encode, config.JWT_REFRESH_SECRET_KEY, config.ALGORITHM)
+        encoded_jwt = jwt.encode(to_encode, secret_key, config.ALGORITHM)
         return encoded_jwt
 
     @staticmethod
@@ -141,9 +130,7 @@ class Auth:
         except (jwt.JWTError, ValidationError):
             raise InvalidCredentialsException(tokens)
         tokens['access_token'] = Auth.create_access_token(token_data.sub)
-        tokens['refresh_token'] = Auth.create_refresh_token(token_data.sub)
-        tokens['status'] = 'login successful'
-        tokens['role'] = token_data.sub.split("_")[1]
+        tokens['refresh_token'] = Auth.create_access_token(token_data.sub, secret_name='REFRESH')
         return tokens
 
     @classmethod
