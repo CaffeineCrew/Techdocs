@@ -67,6 +67,7 @@ async def inference(generate: Generate, access_token:str=Depends(JWTBearer())):
     
     return ops_inference(generate.code_block,generate.api_key,user_sub)
 
+
 @app.get("/auth/verify/{token}", summary="Verify Email", response_model=GeneralResponse, tags=["Auth Server"])
 async def verify_email(request: Request, token:str):
     response_result = GeneralResponse.get_instance(data={},
