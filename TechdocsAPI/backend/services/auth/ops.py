@@ -50,21 +50,21 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
 
     # template = app.state.jinjaenv.get_template("email_verification.html")
     # output = template.render(data=email_body_params)
-    email = "Hi {username} 👋\n\nWelcome to Techdocs! Please click on the link below to verify your account.\n\n<a href='{verify_link}'>Click Here</a>\n\nThanks,\nTechdocs Team".format(**email_body_params)
+    # email = "Hi {username} 👋\n\nWelcome to Techdocs! Please click on the link below to verify your account.\n\n<a href='{verify_link}'>Click Here</a>\n\nThanks,\nTechdocs Team".format(**email_body_params)
     # bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
-    bgtasks.add_task(app.state.yagmail.send, to=data.email, subject="Welcome to Techdocs:[Account Verification]",
-                     contents=email)
+    # bgtasks.add_task(app.state.yagmail.send, to=data.email, subject="Welcome to Techdocs:[Account Verification]",
+    #                  contents=email)
 
     # bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name="email_verification.html")
     # await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
     
-    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
+    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), data.email, 1), 
                                  ['username', 'password', 'email', 'is_verified'])
     
     
     
     response_result.status = 'success'
-    response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
+    # response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
 
 def ops_login(data:LoginCreds):
     """Wrapper method to handle login process.
@@ -93,8 +93,8 @@ def ops_login(data:LoginCreds):
         # password is incorrect
         raise InvalidCredentialsException(response_result)
     
-    if not user[2]:
-        raise EmailNotVerifiedException()
+    # if not user[2]:
+    #     raise EmailNotVerifiedException()
     
     # password is correct
     return TokenSchema(access_token=Auth.create_access_token(data.username), 
