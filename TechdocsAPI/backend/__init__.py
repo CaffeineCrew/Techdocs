@@ -50,7 +50,7 @@ try:
         MAIL_USERNAME=config.MAIL_USERNAME,
         MAIL_PASSWORD=config.MAIL_PASSWORD,
         MAIL_FROM=config.MAIL_FROM,
-        MAIL_PORT=443,
+        MAIL_PORT=80,
         MAIL_SERVER="smtp.gmail.com",
         MAIL_STARTTLS=True,
         MAIL_SSL_TLS=False,
