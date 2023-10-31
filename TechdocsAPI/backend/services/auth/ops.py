@@ -34,7 +34,7 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         # user with the entered credentials already exists
         raise ExistingUserException(response_result)
     verifiction_token = Auth.create_access_token(f"{data.username} {data.email}", secret_name='VERIFICATION')
-    verification_link = f"http://localhost:8000/auth/verify/{verifiction_token}"
+    verification_link = f"https://caffeinecrew-techdocs.hf.space/auth/verify/{verifiction_token}"
 
     email_body_params = {
         "username": data.username,
