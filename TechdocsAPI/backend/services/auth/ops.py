@@ -64,7 +64,7 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
     
     
     response_result.status = 'success'
-    # response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
+    response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
 
 def ops_login(data:LoginCreds):
     """Wrapper method to handle login process.
