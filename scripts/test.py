@@ -31,19 +31,20 @@ else:
     cursor.execute("DROP TABLE IF EXISTS auth")
     cursor.execute("CREATE TABLE IF NOT EXISTS auth(username VARCHAR(15) PRIMARY KEY, password TEXT, email VARCHAR(50))")
     cursor.execute("CREATE TABLE IF NOT EXISTS api_key(username VARCHAR(15),apikey TEXT, FOREIGN KEY (username) REFERENCES auth(username))")
+    cursor.execute("ALTER TABLE auth ADD is_verified BOOLEAN NOT NULL DEFAULT(false)")
 
-    QUERY = ('INSERT INTO {coll_name} '
-                    '(username, password, email) '
-                    'VALUES '
-                    '(%s, %s, %s)').format(coll_name="auth")
+    # QUERY = ('INSERT INTO {coll_name} '
+    #                 '(username, password, email) '
+    #                 'VALUES '
+    #                 '(%s, %s, %s)').format(coll_name="auth")
 
-    testlist=[("test2","test2","test2@test.com"),("test1","test1","test1@test1.com")]
-    cursor.executemany(QUERY, testlist)
+    # testlist=[("test2","test2","test2@test.com"),("test1","test1","test1@test1.com")]
+    # cursor.executemany(QUERY, testlist)
 
-    QUERY = ('SELECT {cols} FROM {table_name} WHERE email="test2@test.com"').format(cols="*", table_name="auth")
-    cursor.execute(QUERY)
-    for i in cursor.fetchall():
-        print(i)
+    # QUERY = ('SELECT {cols} FROM {table_name} WHERE email="test2@test.com"').format(cols="*", table_name="auth")
+    # cursor.execute(QUERY)
+    # for i in cursor.fetchall():
+    #     print(i)
 
 
 
