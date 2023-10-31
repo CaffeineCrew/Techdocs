@@ -43,7 +43,6 @@ class InfoNotFoundException(Exception):
 
     def __repr__(self):
         return "exception.InfoNotFoundException()"
-  
 
 class EmailNotVerifiedException(Exception):
     def __init__(self):
