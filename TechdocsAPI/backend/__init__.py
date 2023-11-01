@@ -1,7 +1,7 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-from fastapi import FastAPI, status, Jinja2Templates
+from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
 from fastapi.templating import Jinja2Templates
 
