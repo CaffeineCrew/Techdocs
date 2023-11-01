@@ -12,11 +12,6 @@ from langchain.llms import Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate 
 
-from fastapi_mail import ConnectionConfig, FastMail
-import yagmail
-from jinja2 import Environment, FileSystemLoader
-import os
-
 app = FastAPI(title="Techdocs",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
@@ -49,32 +44,7 @@ try:
     app.state.llmchain = llmchain
 
 
-    conf = ConnectionConfig(
-        MAIL_USERNAME=config.MAIL_USERNAME,
-        MAIL_PASSWORD=config.MAIL_PASSWORD,
-        MAIL_FROM=config.MAIL_FROM,
-        MAIL_PORT=8080,
-        MAIL_SERVER="smtp.gmail.com",
-        MAIL_STARTTLS=False,
-        MAIL_SSL_TLS=True,
-        TEMPLATE_FOLDER="backend/templates",
-        USE_CREDENTIALS = True,
-        VALIDATE_CERTS = True
-        
-        # MAIL_TLS=True,
-        # MAIL_SSL=False
-    )
-
-    app.state.mail_client = FastMail(conf)
     app.state.templates = Jinja2Templates(directory="./backend/templates")
-
-    #testing yagmail
-    yag = yagmail.SMTP(config.MAIL_USERNAME, config.MAIL_PASSWORD)
-    app.state.yagmail = yag
-    env = Environment(
-    loader=FileSystemLoader('./backend/templates/'))
-    app.state.jinjaenv = env
-
 
 
 
