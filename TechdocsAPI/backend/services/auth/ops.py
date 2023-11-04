@@ -61,13 +61,13 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
 
 
     
-    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
+    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), data.email, 1), 
                                  ['username', 'password', 'email', 'is_verified'])
     
     
     
     response_result.status = 'success'
-    response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
+    # response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
 
 def ops_login(data:LoginCreds):
     """Wrapper method to handle login process.
@@ -96,8 +96,8 @@ def ops_login(data:LoginCreds):
         # password is incorrect
         raise InvalidCredentialsException(response_result)
     
-    if not user[2]:
-        raise EmailNotVerifiedException()
+    # if not user[2]:
+    #     raise EmailNotVerifiedException()
     
     # password is correct
     return TokenSchema(access_token=Auth.create_access_token(data.username), 
