@@ -61,13 +61,13 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
 
 
     
-    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), data.email, 1), 
+    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
                                  ['username', 'password', 'email', 'is_verified'])
     
     
     
     response_result.status = 'success'
-    # response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
+    response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
 
 def ops_login(data:LoginCreds):
     """Wrapper method to handle login process.
@@ -96,8 +96,8 @@ def ops_login(data:LoginCreds):
         # password is incorrect
         raise InvalidCredentialsException(response_result)
     
-    # if not user[2]:
-    #     raise EmailNotVerifiedException()
+    if not user[2]:
+        raise EmailNotVerifiedException()
     
     # password is correct
     return TokenSchema(access_token=Auth.create_access_token(data.username), 
@@ -166,7 +166,6 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token:s
         print(registered_email[0][0])
         if registered_email[0][0]:
             return app.state.templates.TemplateResponse("verification_failure.html", context={"request": request})
-        print("after")
        
         DBQueries.update_data_in_database('auth','is_verified',f"username='{username}'", (True,))
         DBQueries.update_data_in_database('auth','email',f"username='{username}'", email)
