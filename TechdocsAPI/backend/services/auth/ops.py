@@ -39,18 +39,24 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         "verify_link": verification_link
     }
 
-    message = MessageSchema(
-            subject="Welcome to Techdocs:[Account Verification]",
-            recipients=[data.email],  # List of recipients, as many as you can pass
-            template_body=email_body_params,
-            subtype=MessageType.html
-        )
+    # message = MessageSchema(
+    #         subject="Welcome to Techdocs:[Account Verification]",
+    #         recipients=[data.email],  # List of recipients, as many as you can pass
+    #         template_body=email_body_params,
+    #         subtype=MessageType.html
+    #     )
+    details = {
+        "recipients": [data.email],
+        "subject": "Welcome to Techdocs:[Account Verification]",
+        "template_name": "email_verification.html",
+        "template_kwargs": email_body_params
+    }
     
-    await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
+    # await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
 
-    # status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
-    # if status != 200:
-    #     raise EmailNotSentException()
+    status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
+    if status != 200:
+        raise EmailNotSentException()
 
 
     
