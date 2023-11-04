@@ -23,6 +23,10 @@ class Settings(BaseSettings):
 
     MAIL_SERVER_URL:str
     
+    MAIL_USERNAME:str
+    MAIL_PASSWORD:str
+    MAIL_FROM:str
+    
     class Config:
         env_file = ".env"
 
