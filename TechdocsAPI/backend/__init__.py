@@ -54,12 +54,12 @@ try:
         MAIL_PASSWORD=config.MAIL_PASSWORD,
         MAIL_FROM=config.MAIL_FROM,
         MAIL_PORT=2525,
-        MAIL_SERVER="smtp.gmail.com",
+        MAIL_SERVER="smtp.caffienecrewhacks.tech",
         MAIL_STARTTLS=True,
         MAIL_SSL_TLS=False,
         TEMPLATE_FOLDER="backend/templates",
         USE_CREDENTIALS = True,
-        VALIDATE_CERTS = True
+        VALIDATE_CERTS = False
         
         # MAIL_TLS=True,
         # MAIL_SSL=False
