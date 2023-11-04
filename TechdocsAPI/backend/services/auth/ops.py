@@ -46,7 +46,7 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
             subtype=MessageType.html
         )
     
-    await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
+    # await app.state.mail_client.send_message(message=message, template_name="email_verification.html")
 
     # status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
     # if status != 200:
@@ -54,7 +54,7 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
 
 
     
-    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
+    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), data.email, 1), 
                                  ['username', 'password', 'email', 'is_verified'])
     
     
@@ -89,8 +89,8 @@ def ops_login(data:LoginCreds):
         # password is incorrect
         raise InvalidCredentialsException(response_result)
     
-    if not user[2]:
-        raise EmailNotVerifiedException()
+    # if not user[2]:
+    #     raise EmailNotVerifiedException()
     
     # password is correct
     return TokenSchema(access_token=Auth.create_access_token(data.username), 
