@@ -10,3 +10,4 @@ langchain
 clarifai
 Pillow
 jinja2
+fastapi-mail==1.3.1

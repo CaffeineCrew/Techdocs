@@ -12,6 +12,8 @@ from fastapi import HTTPException, BackgroundTasks
 from pydantic import ValidationError
 from jose import jwt
 
+from fastapi_mail import MessageSchema, MessageType
+
 async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse, data: UserAuth):
     """Wrapper method to handle signup process.
 
@@ -44,9 +46,18 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         "template_kwargs": email_body_params
     }
 
-    status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
-    if status != 200:
-        raise EmailNotSentException()
+    message = MessageSchema(
+            subject=details.subject,
+            recipients=details.recipients,  # List of recipients, as many as you can pass
+            template_body=details.template_kwargs,
+            subtype=MessageType.html
+        )
+    
+    await app.state.mail_client.send_message(message=message, template_name=details.template_name)
+
+    # status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
+    # if status != 200:
+    #     raise EmailNotSentException()
 
 
     
