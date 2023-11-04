@@ -57,7 +57,7 @@ try:
         MAIL_SERVER="smtp.gmail.com",
         MAIL_STARTTLS=True,
         MAIL_SSL_TLS=False,
-        TEMPLATE_FOLDER="server/templates",
+        TEMPLATE_FOLDER="backend/templates",
         USE_CREDENTIALS = True,
         VALIDATE_CERTS = True
         
