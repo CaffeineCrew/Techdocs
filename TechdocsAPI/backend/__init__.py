@@ -12,8 +12,6 @@ from langchain.llms import Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
-from fastapi_mail import ConnectionConfig, FastMail
-
 app = FastAPI(title="Techdocs",
               version="V0.0.1",
               description="API for automatic code documentation generation!"
@@ -47,25 +45,6 @@ try:
 
 
     app.state.templates = Jinja2Templates(directory="./backend/templates")
-
-
-    conf = ConnectionConfig(
-        MAIL_USERNAME=config.MAIL_USERNAME,
-        MAIL_PASSWORD=config.MAIL_PASSWORD,
-        MAIL_FROM=config.MAIL_FROM,
-        MAIL_PORT=2525,
-        MAIL_SERVER="smtp.caffienecrewhacks.tech",
-        MAIL_STARTTLS=True,
-        MAIL_SSL_TLS=False,
-        TEMPLATE_FOLDER="backend/templates",
-        USE_CREDENTIALS = True,
-        VALIDATE_CERTS = False
-        
-        # MAIL_TLS=True,
-        # MAIL_SSL=False
-    )
-
-    app.state.mail_client = FastMail(conf)
 
 
 
