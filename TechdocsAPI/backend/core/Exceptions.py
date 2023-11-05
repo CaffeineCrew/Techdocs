@@ -43,7 +43,6 @@ class InfoNotFoundException(Exception):
 
     def __repr__(self):
         return "exception.InfoNotFoundException()"
-  
 
 class EmailNotVerifiedException(Exception):
     def __init__(self):
@@ -55,3 +54,15 @@ class EmailNotVerifiedException(Exception):
 
     def __repr__(self):
         return "exception.EmailNotVerifiedException()"
+
+
+class EmailNotSentException(Exception):
+    def __init__(self):
+        self.set_statuses()
+        super(EmailNotSentException, self).__init__()
+
+    def set_statuses(self):
+        self.status = 'EmailNotSentException'
+
+    def __repr__(self):
+        return "exception.EmailNotSentException()"

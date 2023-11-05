@@ -19,6 +19,12 @@ async def email_not_verified(request: Request, exec: EmailNotVerifiedException):
                         content=repr(exec)
                         )
 
+@app.exception_handler(EmailNotSentException)
+async def email_not_sent(request: Request, exec: EmailNotSentException):
+    return JSONResponse(status_code=status.HTTP_403_FORBIDDEN,
+                        content=repr(exec)
+                        )
+
 @app.exception_handler(InvalidCredentialsException)
 async def handle_login_failed(request: Request, exec: InvalidCredentialsException):
     return JSONResponse(status_code=status.HTTP_403_FORBIDDEN,

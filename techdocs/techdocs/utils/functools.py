@@ -5,6 +5,10 @@ BASE_URL = "https://caffeinecrew-techdocs.hf.space"
 # BASE_URL = "http://127.0.0.1:8000"
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 def get_access_token(data, return_refresh_token=False):
     try:
         url = BASE_URL + "/auth/login"
@@ -19,6 +23,14 @@ def get_access_token(data, return_refresh_token=False):
             return access_token, refresh_token
         return access_token
     except Exception as e:
+<<<<<<< HEAD
+        print("Invlaid Credentials")
+        return None
+
+
+
+
+=======
         if response.json() == "exception.InvalidCredentialsException()":  
             print("Please check your credentials")
         else:
@@ -26,6 +38,7 @@ def get_access_token(data, return_refresh_token=False):
         return None
 
 
+>>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 def request_inference(config, code_block, max_retries=1):
 
     if max_retries == 0:
@@ -53,6 +66,10 @@ def update_file(file_path, docstr_code):
         file.write(docstr_code)
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 def issue_api_key(config):
     try:
         headers={"accept":"application/json", "Authorization": f"Bearer {config['access_token']}"}
@@ -75,7 +92,11 @@ def signup(config):
         elif (response.status_code!=200):
             raise Exception("Something went wrong, please try again later")
     
+<<<<<<< HEAD
+        print("Signed up successfully, please issue a new `API_KEY` to continue")
+=======
         print(response.json()["message"][0].replace('\\n','\n'), "Then issue a new `API_KEY` to continue")
+>>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 
     except Exception as e:
         print(e)

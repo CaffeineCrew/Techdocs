@@ -21,6 +21,8 @@ class Settings(BaseSettings):
     CLARIFAI_PAT:str
     MODEL_VERSION_ID:str
 
+    MAIL_SERVER_URL:str
+    
     MAIL_USERNAME:str
     MAIL_PASSWORD:str
     MAIL_FROM:str
