@@ -22,7 +22,7 @@ def home():
 
     with tab2:
         st.markdown('### <div align="center">:green[API behind the Scenes ⚙️]</div>',unsafe_allow_html=True)
-        st.markdown('#### <div align="center">:blue[CLI] uses the power of our API allowing you to access sophisticated :blue[LLM] tools effortlessly. This :blue[microservice] is deployed separately abstracting undelying complexities and providing lightweight web app and CLI </div>',unsafe_allow_html=True)
+        st.markdown('##### <div align="center">:blue[CLI] uses the power of our API allowing you to access sophisticated :blue[LLM] tools effortlessly. This :blue[microservice] is deployed separately abstracting undelying complexities and providing lightweight web app and CLI </div>',unsafe_allow_html=True)
         col1, col3, col2 = st.columns([4,0.1,2])
         with col1:
             st.image("frontend/images/backendss.png")
@@ -33,7 +33,7 @@ def home():
 
     with tab3:
         st.markdown('### <div align="center">:green[Large Language Models 🦙]</div>',unsafe_allow_html=True)
-        st.markdown('#### <div align="center">Combines the power of Langchain and Clarifai</div>',unsafe_allow_html=True)
+        st.markdown('##### <div align="center">Combines the power of Langchain and Clarifai</div>',unsafe_allow_html=True)
         col1, col3, col2 = st.columns([4,0.1,2])
         with col1:
             st.image("frontend/images/llms.png")

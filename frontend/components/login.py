@@ -33,7 +33,10 @@ def login():
                     st.rerun()
 
                 except Exception as e:
-                    st.error(e)
+                    if response.json() == "exception.InvalidCredentialsException()":  
+                        st.error("Please check your credentials")
+                    else:
+                        st.warning("Please verify your email before logging in")
 
     with tab2:
         with st.form(key="myform1"):
@@ -50,9 +53,9 @@ def login():
                     if (response.status_code!=200):
                         raise Exception("Signup Failed")
                 
-                    st.success("Signed up successfully")
+                    st.success(response.json()['message'][0].replace("\\n","\n"))
                 except:
-                    st.error("Signup Failed")
+                    st.error("Account with this Username or Email already exists")
 
     st.divider()                
     st.subheader(":rainbow[Our Prototype in Action ]🎬")      
