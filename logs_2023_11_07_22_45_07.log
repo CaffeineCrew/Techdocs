@@ -1,0 +1,1185 @@
+2023-11-07 22:45:07,855:INFO:Logs generated at ".\logs_2023_11_07_22_45_07.log". For detailed logs check the file.
+2023-11-07 22:45:07,856:INFO:Docstrings generation started for "./*.py" files
+2023-11-07 22:45:07,857:INFO:Working on ".\*.py"
+2023-11-07 22:45:07,883:INFO:Working on ".\test.py"
+2023-11-07 22:45:07,884:INFO:==================================================
+2023-11-07 22:45:07,885:INFO:Docstrings generation completed for ".\.*py". Time Taken: 0:00:00.028102
+2023-11-07 22:45:07,885:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,885:INFO:Working on ".\.git\*.py"
+2023-11-07 22:45:07,886:INFO:Docstrings generation completed for ".\.git\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,887:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,887:INFO:Working on ".\.git\hooks\*.py"
+2023-11-07 22:45:07,888:INFO:Docstrings generation completed for ".\.git\hooks\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,888:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,888:INFO:Working on ".\.git\info\*.py"
+2023-11-07 22:45:07,889:INFO:Docstrings generation completed for ".\.git\info\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:07,889:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,889:INFO:Working on ".\.git\lfs\*.py"
+2023-11-07 22:45:07,892:INFO:Docstrings generation completed for ".\.git\lfs\.*py". Time Taken: 0:00:00.002520
+2023-11-07 22:45:07,893:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,893:INFO:Working on ".\.git\lfs\cache\*.py"
+2023-11-07 22:45:07,894:INFO:Docstrings generation completed for ".\.git\lfs\cache\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,894:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,894:INFO:Working on ".\.git\lfs\cache\locks\*.py"
+2023-11-07 22:45:07,895:INFO:Docstrings generation completed for ".\.git\lfs\cache\locks\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,895:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,895:INFO:Working on ".\.git\lfs\cache\locks\refs\*.py"
+2023-11-07 22:45:07,896:INFO:Docstrings generation completed for ".\.git\lfs\cache\locks\refs\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,896:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,896:INFO:Working on ".\.git\lfs\cache\locks\refs\heads\*.py"
+2023-11-07 22:45:07,897:INFO:Docstrings generation completed for ".\.git\lfs\cache\locks\refs\heads\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,897:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,897:INFO:Working on ".\.git\lfs\cache\locks\refs\heads\dev\*.py"
+2023-11-07 22:45:07,898:INFO:Docstrings generation completed for ".\.git\lfs\cache\locks\refs\heads\dev\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,898:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,898:INFO:Working on ".\.git\lfs\cache\locks\refs\heads\main\*.py"
+2023-11-07 22:45:07,899:INFO:Docstrings generation completed for ".\.git\lfs\cache\locks\refs\heads\main\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,899:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,899:INFO:Working on ".\.git\lfs\objects\*.py"
+2023-11-07 22:45:07,899:INFO:Docstrings generation completed for ".\.git\lfs\objects\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,899:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,900:INFO:Working on ".\.git\lfs\objects\50\*.py"
+2023-11-07 22:45:07,900:INFO:Docstrings generation completed for ".\.git\lfs\objects\50\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,900:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,901:INFO:Working on ".\.git\lfs\objects\50\b0\*.py"
+2023-11-07 22:45:07,901:INFO:Docstrings generation completed for ".\.git\lfs\objects\50\b0\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,901:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,902:INFO:Working on ".\.git\lfs\objects\97\*.py"
+2023-11-07 22:45:07,902:INFO:Docstrings generation completed for ".\.git\lfs\objects\97\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,902:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,903:INFO:Working on ".\.git\lfs\objects\97\11\*.py"
+2023-11-07 22:45:07,904:INFO:Docstrings generation completed for ".\.git\lfs\objects\97\11\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,904:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,904:INFO:Working on ".\.git\lfs\objects\9d\*.py"
+2023-11-07 22:45:07,905:INFO:Docstrings generation completed for ".\.git\lfs\objects\9d\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,905:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,905:INFO:Working on ".\.git\lfs\objects\9d\5b\*.py"
+2023-11-07 22:45:07,906:INFO:Docstrings generation completed for ".\.git\lfs\objects\9d\5b\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,906:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,907:INFO:Working on ".\.git\lfs\objects\c1\*.py"
+2023-11-07 22:45:07,907:INFO:Docstrings generation completed for ".\.git\lfs\objects\c1\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,907:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,908:INFO:Working on ".\.git\lfs\objects\c1\49\*.py"
+2023-11-07 22:45:07,908:INFO:Docstrings generation completed for ".\.git\lfs\objects\c1\49\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,908:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,908:INFO:Working on ".\.git\lfs\tmp\*.py"
+2023-11-07 22:45:07,909:INFO:Docstrings generation completed for ".\.git\lfs\tmp\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,909:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,909:INFO:Working on ".\.git\logs\*.py"
+2023-11-07 22:45:07,910:INFO:Docstrings generation completed for ".\.git\logs\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,910:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,912:INFO:Working on ".\.git\logs\refs\*.py"
+2023-11-07 22:45:07,912:INFO:Docstrings generation completed for ".\.git\logs\refs\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,913:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,913:INFO:Working on ".\.git\logs\refs\heads\*.py"
+2023-11-07 22:45:07,914:INFO:Docstrings generation completed for ".\.git\logs\refs\heads\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:07,914:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,914:INFO:Working on ".\.git\logs\refs\remotes\*.py"
+2023-11-07 22:45:07,915:INFO:Docstrings generation completed for ".\.git\logs\refs\remotes\.*py". Time Taken: 0:00:00.001002
+2023-11-07 22:45:07,915:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,915:INFO:Working on ".\.git\logs\refs\remotes\origin\*.py"
+2023-11-07 22:45:07,916:INFO:Docstrings generation completed for ".\.git\logs\refs\remotes\origin\.*py". Time Taken: 0:00:00.000997
+2023-11-07 22:45:07,916:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,916:INFO:Working on ".\.git\logs\refs\remotes\space\*.py"
+2023-11-07 22:45:07,917:INFO:Docstrings generation completed for ".\.git\logs\refs\remotes\space\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:07,917:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,917:INFO:Working on ".\.git\objects\*.py"
+2023-11-07 22:45:07,918:INFO:Docstrings generation completed for ".\.git\objects\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:07,918:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,919:INFO:Working on ".\.git\objects\00\*.py"
+2023-11-07 22:45:07,919:INFO:Docstrings generation completed for ".\.git\objects\00\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,919:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,919:INFO:Working on ".\.git\objects\01\*.py"
+2023-11-07 22:45:07,920:INFO:Docstrings generation completed for ".\.git\objects\01\.*py". Time Taken: 0:00:00.001508
+2023-11-07 22:45:07,920:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,920:INFO:Working on ".\.git\objects\02\*.py"
+2023-11-07 22:45:07,921:INFO:Docstrings generation completed for ".\.git\objects\02\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,921:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,922:INFO:Working on ".\.git\objects\03\*.py"
+2023-11-07 22:45:07,922:INFO:Docstrings generation completed for ".\.git\objects\03\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,923:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,923:INFO:Working on ".\.git\objects\04\*.py"
+2023-11-07 22:45:07,924:INFO:Docstrings generation completed for ".\.git\objects\04\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:07,924:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,924:INFO:Working on ".\.git\objects\05\*.py"
+2023-11-07 22:45:07,924:INFO:Docstrings generation completed for ".\.git\objects\05\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,925:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,925:INFO:Working on ".\.git\objects\06\*.py"
+2023-11-07 22:45:07,926:INFO:Docstrings generation completed for ".\.git\objects\06\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,926:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,926:INFO:Working on ".\.git\objects\07\*.py"
+2023-11-07 22:45:07,927:INFO:Docstrings generation completed for ".\.git\objects\07\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:07,927:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,927:INFO:Working on ".\.git\objects\08\*.py"
+2023-11-07 22:45:07,928:INFO:Docstrings generation completed for ".\.git\objects\08\.*py". Time Taken: 0:00:00.001035
+2023-11-07 22:45:07,928:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,928:INFO:Working on ".\.git\objects\09\*.py"
+2023-11-07 22:45:07,929:INFO:Docstrings generation completed for ".\.git\objects\09\.*py". Time Taken: 0:00:00.000962
+2023-11-07 22:45:07,929:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,929:INFO:Working on ".\.git\objects\0a\*.py"
+2023-11-07 22:45:07,930:INFO:Docstrings generation completed for ".\.git\objects\0a\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,930:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,930:INFO:Working on ".\.git\objects\0b\*.py"
+2023-11-07 22:45:07,931:INFO:Docstrings generation completed for ".\.git\objects\0b\.*py". Time Taken: 0:00:00.001124
+2023-11-07 22:45:07,931:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,931:INFO:Working on ".\.git\objects\0c\*.py"
+2023-11-07 22:45:07,932:INFO:Docstrings generation completed for ".\.git\objects\0c\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,932:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,932:INFO:Working on ".\.git\objects\0d\*.py"
+2023-11-07 22:45:07,933:INFO:Docstrings generation completed for ".\.git\objects\0d\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,933:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,933:INFO:Working on ".\.git\objects\0e\*.py"
+2023-11-07 22:45:07,934:INFO:Docstrings generation completed for ".\.git\objects\0e\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:07,934:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,934:INFO:Working on ".\.git\objects\0f\*.py"
+2023-11-07 22:45:07,935:INFO:Docstrings generation completed for ".\.git\objects\0f\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,935:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,935:INFO:Working on ".\.git\objects\10\*.py"
+2023-11-07 22:45:07,936:INFO:Docstrings generation completed for ".\.git\objects\10\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,936:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,937:INFO:Working on ".\.git\objects\11\*.py"
+2023-11-07 22:45:07,938:INFO:Docstrings generation completed for ".\.git\objects\11\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,938:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,938:INFO:Working on ".\.git\objects\12\*.py"
+2023-11-07 22:45:07,940:INFO:Docstrings generation completed for ".\.git\objects\12\.*py". Time Taken: 0:00:00.000996
+2023-11-07 22:45:07,940:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,941:INFO:Working on ".\.git\objects\13\*.py"
+2023-11-07 22:45:07,942:INFO:Docstrings generation completed for ".\.git\objects\13\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:07,942:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,942:INFO:Working on ".\.git\objects\14\*.py"
+2023-11-07 22:45:07,943:INFO:Docstrings generation completed for ".\.git\objects\14\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:07,943:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,944:INFO:Working on ".\.git\objects\15\*.py"
+2023-11-07 22:45:07,944:INFO:Docstrings generation completed for ".\.git\objects\15\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,945:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,945:INFO:Working on ".\.git\objects\16\*.py"
+2023-11-07 22:45:07,946:INFO:Docstrings generation completed for ".\.git\objects\16\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,946:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,947:INFO:Working on ".\.git\objects\17\*.py"
+2023-11-07 22:45:07,948:INFO:Docstrings generation completed for ".\.git\objects\17\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,948:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,948:INFO:Working on ".\.git\objects\18\*.py"
+2023-11-07 22:45:07,949:INFO:Docstrings generation completed for ".\.git\objects\18\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:07,949:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,949:INFO:Working on ".\.git\objects\19\*.py"
+2023-11-07 22:45:07,950:INFO:Docstrings generation completed for ".\.git\objects\19\.*py". Time Taken: 0:00:00.001508
+2023-11-07 22:45:07,950:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,950:INFO:Working on ".\.git\objects\1a\*.py"
+2023-11-07 22:45:07,951:INFO:Docstrings generation completed for ".\.git\objects\1a\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:07,951:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,951:INFO:Working on ".\.git\objects\1b\*.py"
+2023-11-07 22:45:07,952:INFO:Docstrings generation completed for ".\.git\objects\1b\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,952:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,953:INFO:Working on ".\.git\objects\1c\*.py"
+2023-11-07 22:45:07,954:INFO:Docstrings generation completed for ".\.git\objects\1c\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,954:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,954:INFO:Working on ".\.git\objects\1d\*.py"
+2023-11-07 22:45:07,955:INFO:Docstrings generation completed for ".\.git\objects\1d\.*py". Time Taken: 0:00:00.001006
+2023-11-07 22:45:07,955:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,956:INFO:Working on ".\.git\objects\1e\*.py"
+2023-11-07 22:45:07,957:INFO:Docstrings generation completed for ".\.git\objects\1e\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:07,957:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,957:INFO:Working on ".\.git\objects\1f\*.py"
+2023-11-07 22:45:07,958:INFO:Docstrings generation completed for ".\.git\objects\1f\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,958:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,958:INFO:Working on ".\.git\objects\20\*.py"
+2023-11-07 22:45:07,960:INFO:Docstrings generation completed for ".\.git\objects\20\.*py". Time Taken: 0:00:00.000504
+2023-11-07 22:45:07,960:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,960:INFO:Working on ".\.git\objects\21\*.py"
+2023-11-07 22:45:07,960:INFO:Docstrings generation completed for ".\.git\objects\21\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,961:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,961:INFO:Working on ".\.git\objects\22\*.py"
+2023-11-07 22:45:07,962:INFO:Docstrings generation completed for ".\.git\objects\22\.*py". Time Taken: 0:00:00.001006
+2023-11-07 22:45:07,962:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,962:INFO:Working on ".\.git\objects\23\*.py"
+2023-11-07 22:45:07,962:INFO:Docstrings generation completed for ".\.git\objects\23\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,963:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,963:INFO:Working on ".\.git\objects\24\*.py"
+2023-11-07 22:45:07,963:INFO:Docstrings generation completed for ".\.git\objects\24\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,963:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,964:INFO:Working on ".\.git\objects\25\*.py"
+2023-11-07 22:45:07,964:INFO:Docstrings generation completed for ".\.git\objects\25\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,964:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,965:INFO:Working on ".\.git\objects\26\*.py"
+2023-11-07 22:45:07,966:INFO:Docstrings generation completed for ".\.git\objects\26\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,966:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,966:INFO:Working on ".\.git\objects\27\*.py"
+2023-11-07 22:45:07,966:INFO:Docstrings generation completed for ".\.git\objects\27\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,967:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,967:INFO:Working on ".\.git\objects\28\*.py"
+2023-11-07 22:45:07,968:INFO:Docstrings generation completed for ".\.git\objects\28\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,968:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,968:INFO:Working on ".\.git\objects\29\*.py"
+2023-11-07 22:45:07,969:INFO:Docstrings generation completed for ".\.git\objects\29\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,969:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,969:INFO:Working on ".\.git\objects\2a\*.py"
+2023-11-07 22:45:07,971:INFO:Docstrings generation completed for ".\.git\objects\2a\.*py". Time Taken: 0:00:00.000507
+2023-11-07 22:45:07,971:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,972:INFO:Working on ".\.git\objects\2b\*.py"
+2023-11-07 22:45:07,973:INFO:Docstrings generation completed for ".\.git\objects\2b\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:07,973:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,973:INFO:Working on ".\.git\objects\2c\*.py"
+2023-11-07 22:45:07,974:INFO:Docstrings generation completed for ".\.git\objects\2c\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,974:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,975:INFO:Working on ".\.git\objects\2d\*.py"
+2023-11-07 22:45:07,977:INFO:Docstrings generation completed for ".\.git\objects\2d\.*py". Time Taken: 0:00:00.002001
+2023-11-07 22:45:07,977:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,977:INFO:Working on ".\.git\objects\2e\*.py"
+2023-11-07 22:45:07,978:INFO:Docstrings generation completed for ".\.git\objects\2e\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,979:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,979:INFO:Working on ".\.git\objects\2f\*.py"
+2023-11-07 22:45:07,979:INFO:Docstrings generation completed for ".\.git\objects\2f\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,979:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,980:INFO:Working on ".\.git\objects\30\*.py"
+2023-11-07 22:45:07,980:INFO:Docstrings generation completed for ".\.git\objects\30\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,980:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,981:INFO:Working on ".\.git\objects\31\*.py"
+2023-11-07 22:45:07,982:INFO:Docstrings generation completed for ".\.git\objects\31\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:07,982:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,982:INFO:Working on ".\.git\objects\32\*.py"
+2023-11-07 22:45:07,983:INFO:Docstrings generation completed for ".\.git\objects\32\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,983:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,983:INFO:Working on ".\.git\objects\33\*.py"
+2023-11-07 22:45:07,984:INFO:Docstrings generation completed for ".\.git\objects\33\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,984:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,984:INFO:Working on ".\.git\objects\34\*.py"
+2023-11-07 22:45:07,985:INFO:Docstrings generation completed for ".\.git\objects\34\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,986:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,986:INFO:Working on ".\.git\objects\35\*.py"
+2023-11-07 22:45:07,987:INFO:Docstrings generation completed for ".\.git\objects\35\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,988:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,988:INFO:Working on ".\.git\objects\36\*.py"
+2023-11-07 22:45:07,989:INFO:Docstrings generation completed for ".\.git\objects\36\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,989:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,990:INFO:Working on ".\.git\objects\37\*.py"
+2023-11-07 22:45:07,991:INFO:Docstrings generation completed for ".\.git\objects\37\.*py". Time Taken: 0:00:00.000509
+2023-11-07 22:45:07,991:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,992:INFO:Working on ".\.git\objects\38\*.py"
+2023-11-07 22:45:07,993:INFO:Docstrings generation completed for ".\.git\objects\38\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:07,993:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,993:INFO:Working on ".\.git\objects\39\*.py"
+2023-11-07 22:45:07,994:INFO:Docstrings generation completed for ".\.git\objects\39\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:07,994:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,995:INFO:Working on ".\.git\objects\3a\*.py"
+2023-11-07 22:45:07,996:INFO:Docstrings generation completed for ".\.git\objects\3a\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:07,996:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,996:INFO:Working on ".\.git\objects\3b\*.py"
+2023-11-07 22:45:07,997:INFO:Docstrings generation completed for ".\.git\objects\3b\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,997:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,997:INFO:Working on ".\.git\objects\3c\*.py"
+2023-11-07 22:45:07,998:INFO:Docstrings generation completed for ".\.git\objects\3c\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:07,998:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,998:INFO:Working on ".\.git\objects\3d\*.py"
+2023-11-07 22:45:07,999:INFO:Docstrings generation completed for ".\.git\objects\3d\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:07,999:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:07,999:INFO:Working on ".\.git\objects\3e\*.py"
+2023-11-07 22:45:08,000:INFO:Docstrings generation completed for ".\.git\objects\3e\.*py". Time Taken: 0:00:00.001564
+2023-11-07 22:45:08,000:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,000:INFO:Working on ".\.git\objects\3f\*.py"
+2023-11-07 22:45:08,001:INFO:Docstrings generation completed for ".\.git\objects\3f\.*py". Time Taken: 0:00:00.000952
+2023-11-07 22:45:08,001:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,001:INFO:Working on ".\.git\objects\40\*.py"
+2023-11-07 22:45:08,002:INFO:Docstrings generation completed for ".\.git\objects\40\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,002:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,003:INFO:Working on ".\.git\objects\41\*.py"
+2023-11-07 22:45:08,004:INFO:Docstrings generation completed for ".\.git\objects\41\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,004:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,005:INFO:Working on ".\.git\objects\42\*.py"
+2023-11-07 22:45:08,006:INFO:Docstrings generation completed for ".\.git\objects\42\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,006:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,006:INFO:Working on ".\.git\objects\43\*.py"
+2023-11-07 22:45:08,007:INFO:Docstrings generation completed for ".\.git\objects\43\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,008:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,008:INFO:Working on ".\.git\objects\44\*.py"
+2023-11-07 22:45:08,009:INFO:Docstrings generation completed for ".\.git\objects\44\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,009:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,009:INFO:Working on ".\.git\objects\45\*.py"
+2023-11-07 22:45:08,011:INFO:Docstrings generation completed for ".\.git\objects\45\.*py". Time Taken: 0:00:00.001507
+2023-11-07 22:45:08,011:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,011:INFO:Working on ".\.git\objects\46\*.py"
+2023-11-07 22:45:08,012:INFO:Docstrings generation completed for ".\.git\objects\46\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:08,012:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,013:INFO:Working on ".\.git\objects\47\*.py"
+2023-11-07 22:45:08,013:INFO:Docstrings generation completed for ".\.git\objects\47\.*py". Time Taken: 0:00:00.000438
+2023-11-07 22:45:08,013:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,013:INFO:Working on ".\.git\objects\48\*.py"
+2023-11-07 22:45:08,015:INFO:Docstrings generation completed for ".\.git\objects\48\.*py". Time Taken: 0:00:00.001676
+2023-11-07 22:45:08,015:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,015:INFO:Working on ".\.git\objects\49\*.py"
+2023-11-07 22:45:08,016:INFO:Docstrings generation completed for ".\.git\objects\49\.*py". Time Taken: 0:00:00.001018
+2023-11-07 22:45:08,016:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,016:INFO:Working on ".\.git\objects\4a\*.py"
+2023-11-07 22:45:08,017:INFO:Docstrings generation completed for ".\.git\objects\4a\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,017:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,017:INFO:Working on ".\.git\objects\4b\*.py"
+2023-11-07 22:45:08,017:INFO:Docstrings generation completed for ".\.git\objects\4b\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,018:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,018:INFO:Working on ".\.git\objects\4c\*.py"
+2023-11-07 22:45:08,018:INFO:Docstrings generation completed for ".\.git\objects\4c\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,018:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,019:INFO:Working on ".\.git\objects\4d\*.py"
+2023-11-07 22:45:08,019:INFO:Docstrings generation completed for ".\.git\objects\4d\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,019:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,020:INFO:Working on ".\.git\objects\4e\*.py"
+2023-11-07 22:45:08,021:INFO:Docstrings generation completed for ".\.git\objects\4e\.*py". Time Taken: 0:00:00.000506
+2023-11-07 22:45:08,021:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,022:INFO:Working on ".\.git\objects\4f\*.py"
+2023-11-07 22:45:08,023:INFO:Docstrings generation completed for ".\.git\objects\4f\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,023:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,023:INFO:Working on ".\.git\objects\50\*.py"
+2023-11-07 22:45:08,024:INFO:Docstrings generation completed for ".\.git\objects\50\.*py". Time Taken: 0:00:00.001027
+2023-11-07 22:45:08,024:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,024:INFO:Working on ".\.git\objects\51\*.py"
+2023-11-07 22:45:08,025:INFO:Docstrings generation completed for ".\.git\objects\51\.*py". Time Taken: 0:00:00.000969
+2023-11-07 22:45:08,025:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,025:INFO:Working on ".\.git\objects\52\*.py"
+2023-11-07 22:45:08,026:INFO:Docstrings generation completed for ".\.git\objects\52\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:08,026:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,027:INFO:Working on ".\.git\objects\53\*.py"
+2023-11-07 22:45:08,027:INFO:Docstrings generation completed for ".\.git\objects\53\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,027:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,027:INFO:Working on ".\.git\objects\54\*.py"
+2023-11-07 22:45:08,028:INFO:Docstrings generation completed for ".\.git\objects\54\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,028:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,028:INFO:Working on ".\.git\objects\55\*.py"
+2023-11-07 22:45:08,029:INFO:Docstrings generation completed for ".\.git\objects\55\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,029:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,029:INFO:Working on ".\.git\objects\56\*.py"
+2023-11-07 22:45:08,029:INFO:Docstrings generation completed for ".\.git\objects\56\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,030:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,030:INFO:Working on ".\.git\objects\57\*.py"
+2023-11-07 22:45:08,030:INFO:Docstrings generation completed for ".\.git\objects\57\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,030:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,031:INFO:Working on ".\.git\objects\58\*.py"
+2023-11-07 22:45:08,031:INFO:Docstrings generation completed for ".\.git\objects\58\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,031:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,032:INFO:Working on ".\.git\objects\59\*.py"
+2023-11-07 22:45:08,032:INFO:Docstrings generation completed for ".\.git\objects\59\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,032:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,033:INFO:Working on ".\.git\objects\5a\*.py"
+2023-11-07 22:45:08,033:INFO:Docstrings generation completed for ".\.git\objects\5a\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,033:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,033:INFO:Working on ".\.git\objects\5b\*.py"
+2023-11-07 22:45:08,034:INFO:Docstrings generation completed for ".\.git\objects\5b\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,034:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,034:INFO:Working on ".\.git\objects\5c\*.py"
+2023-11-07 22:45:08,035:INFO:Docstrings generation completed for ".\.git\objects\5c\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,035:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,035:INFO:Working on ".\.git\objects\5d\*.py"
+2023-11-07 22:45:08,036:INFO:Docstrings generation completed for ".\.git\objects\5d\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,036:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,036:INFO:Working on ".\.git\objects\5e\*.py"
+2023-11-07 22:45:08,037:INFO:Docstrings generation completed for ".\.git\objects\5e\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,037:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,038:INFO:Working on ".\.git\objects\5f\*.py"
+2023-11-07 22:45:08,039:INFO:Docstrings generation completed for ".\.git\objects\5f\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:08,039:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,039:INFO:Working on ".\.git\objects\60\*.py"
+2023-11-07 22:45:08,040:INFO:Docstrings generation completed for ".\.git\objects\60\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,040:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,040:INFO:Working on ".\.git\objects\61\*.py"
+2023-11-07 22:45:08,041:INFO:Docstrings generation completed for ".\.git\objects\61\.*py". Time Taken: 0:00:00.001289
+2023-11-07 22:45:08,041:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,041:INFO:Working on ".\.git\objects\62\*.py"
+2023-11-07 22:45:08,042:INFO:Docstrings generation completed for ".\.git\objects\62\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,042:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,042:INFO:Working on ".\.git\objects\63\*.py"
+2023-11-07 22:45:08,043:INFO:Docstrings generation completed for ".\.git\objects\63\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,043:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,043:INFO:Working on ".\.git\objects\64\*.py"
+2023-11-07 22:45:08,043:INFO:Docstrings generation completed for ".\.git\objects\64\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,044:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,044:INFO:Working on ".\.git\objects\65\*.py"
+2023-11-07 22:45:08,044:INFO:Docstrings generation completed for ".\.git\objects\65\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,044:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,045:INFO:Working on ".\.git\objects\66\*.py"
+2023-11-07 22:45:08,045:INFO:Docstrings generation completed for ".\.git\objects\66\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,045:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,046:INFO:Working on ".\.git\objects\67\*.py"
+2023-11-07 22:45:08,046:INFO:Docstrings generation completed for ".\.git\objects\67\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,046:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,047:INFO:Working on ".\.git\objects\68\*.py"
+2023-11-07 22:45:08,047:INFO:Docstrings generation completed for ".\.git\objects\68\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,047:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,048:INFO:Working on ".\.git\objects\69\*.py"
+2023-11-07 22:45:08,048:INFO:Docstrings generation completed for ".\.git\objects\69\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,048:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,049:INFO:Working on ".\.git\objects\6a\*.py"
+2023-11-07 22:45:08,049:INFO:Docstrings generation completed for ".\.git\objects\6a\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,049:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,049:INFO:Working on ".\.git\objects\6b\*.py"
+2023-11-07 22:45:08,051:INFO:Docstrings generation completed for ".\.git\objects\6b\.*py". Time Taken: 0:00:00.000538
+2023-11-07 22:45:08,051:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,051:INFO:Working on ".\.git\objects\6c\*.py"
+2023-11-07 22:45:08,052:INFO:Docstrings generation completed for ".\.git\objects\6c\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,052:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,052:INFO:Working on ".\.git\objects\6d\*.py"
+2023-11-07 22:45:08,052:INFO:Docstrings generation completed for ".\.git\objects\6d\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,053:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,053:INFO:Working on ".\.git\objects\6e\*.py"
+2023-11-07 22:45:08,054:INFO:Docstrings generation completed for ".\.git\objects\6e\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,054:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,054:INFO:Working on ".\.git\objects\6f\*.py"
+2023-11-07 22:45:08,055:INFO:Docstrings generation completed for ".\.git\objects\6f\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,055:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,055:INFO:Working on ".\.git\objects\70\*.py"
+2023-11-07 22:45:08,056:INFO:Docstrings generation completed for ".\.git\objects\70\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:08,056:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,056:INFO:Working on ".\.git\objects\71\*.py"
+2023-11-07 22:45:08,057:INFO:Docstrings generation completed for ".\.git\objects\71\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,057:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,057:INFO:Working on ".\.git\objects\72\*.py"
+2023-11-07 22:45:08,058:INFO:Docstrings generation completed for ".\.git\objects\72\.*py". Time Taken: 0:00:00.000996
+2023-11-07 22:45:08,058:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,058:INFO:Working on ".\.git\objects\73\*.py"
+2023-11-07 22:45:08,059:INFO:Docstrings generation completed for ".\.git\objects\73\.*py". Time Taken: 0:00:00.001571
+2023-11-07 22:45:08,059:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,059:INFO:Working on ".\.git\objects\74\*.py"
+2023-11-07 22:45:08,060:INFO:Docstrings generation completed for ".\.git\objects\74\.*py". Time Taken: 0:00:00.000972
+2023-11-07 22:45:08,060:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,060:INFO:Working on ".\.git\objects\75\*.py"
+2023-11-07 22:45:08,061:INFO:Docstrings generation completed for ".\.git\objects\75\.*py". Time Taken: 0:00:00.000506
+2023-11-07 22:45:08,061:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,061:INFO:Working on ".\.git\objects\76\*.py"
+2023-11-07 22:45:08,062:INFO:Docstrings generation completed for ".\.git\objects\76\.*py". Time Taken: 0:00:00.001035
+2023-11-07 22:45:08,062:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,062:INFO:Working on ".\.git\objects\77\*.py"
+2023-11-07 22:45:08,063:INFO:Docstrings generation completed for ".\.git\objects\77\.*py". Time Taken: 0:00:00.000971
+2023-11-07 22:45:08,063:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,063:INFO:Working on ".\.git\objects\78\*.py"
+2023-11-07 22:45:08,064:INFO:Docstrings generation completed for ".\.git\objects\78\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,064:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,064:INFO:Working on ".\.git\objects\79\*.py"
+2023-11-07 22:45:08,065:INFO:Docstrings generation completed for ".\.git\objects\79\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,065:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,065:INFO:Working on ".\.git\objects\7a\*.py"
+2023-11-07 22:45:08,066:INFO:Docstrings generation completed for ".\.git\objects\7a\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,066:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,066:INFO:Working on ".\.git\objects\7b\*.py"
+2023-11-07 22:45:08,067:INFO:Docstrings generation completed for ".\.git\objects\7b\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,067:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,067:INFO:Working on ".\.git\objects\7c\*.py"
+2023-11-07 22:45:08,068:INFO:Docstrings generation completed for ".\.git\objects\7c\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,068:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,068:INFO:Working on ".\.git\objects\7d\*.py"
+2023-11-07 22:45:08,069:INFO:Docstrings generation completed for ".\.git\objects\7d\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,069:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,069:INFO:Working on ".\.git\objects\7e\*.py"
+2023-11-07 22:45:08,069:INFO:Docstrings generation completed for ".\.git\objects\7e\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,069:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,070:INFO:Working on ".\.git\objects\7f\*.py"
+2023-11-07 22:45:08,071:INFO:Docstrings generation completed for ".\.git\objects\7f\.*py". Time Taken: 0:00:00.001010
+2023-11-07 22:45:08,071:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,071:INFO:Working on ".\.git\objects\80\*.py"
+2023-11-07 22:45:08,072:INFO:Docstrings generation completed for ".\.git\objects\80\.*py". Time Taken: 0:00:00.001016
+2023-11-07 22:45:08,072:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,072:INFO:Working on ".\.git\objects\81\*.py"
+2023-11-07 22:45:08,073:INFO:Docstrings generation completed for ".\.git\objects\81\.*py". Time Taken: 0:00:00.000993
+2023-11-07 22:45:08,073:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,073:INFO:Working on ".\.git\objects\82\*.py"
+2023-11-07 22:45:08,074:INFO:Docstrings generation completed for ".\.git\objects\82\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:08,074:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,074:INFO:Working on ".\.git\objects\83\*.py"
+2023-11-07 22:45:08,075:INFO:Docstrings generation completed for ".\.git\objects\83\.*py". Time Taken: 0:00:00.000996
+2023-11-07 22:45:08,075:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,075:INFO:Working on ".\.git\objects\84\*.py"
+2023-11-07 22:45:08,076:INFO:Docstrings generation completed for ".\.git\objects\84\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,076:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,076:INFO:Working on ".\.git\objects\85\*.py"
+2023-11-07 22:45:08,077:INFO:Docstrings generation completed for ".\.git\objects\85\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,077:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,077:INFO:Working on ".\.git\objects\86\*.py"
+2023-11-07 22:45:08,078:INFO:Docstrings generation completed for ".\.git\objects\86\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,078:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,078:INFO:Working on ".\.git\objects\87\*.py"
+2023-11-07 22:45:08,078:INFO:Docstrings generation completed for ".\.git\objects\87\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,078:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,078:INFO:Working on ".\.git\objects\88\*.py"
+2023-11-07 22:45:08,080:INFO:Docstrings generation completed for ".\.git\objects\88\.*py". Time Taken: 0:00:00.001505
+2023-11-07 22:45:08,080:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,080:INFO:Working on ".\.git\objects\89\*.py"
+2023-11-07 22:45:08,081:INFO:Docstrings generation completed for ".\.git\objects\89\.*py". Time Taken: 0:00:00.001005
+2023-11-07 22:45:08,081:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,081:INFO:Working on ".\.git\objects\8a\*.py"
+2023-11-07 22:45:08,082:INFO:Docstrings generation completed for ".\.git\objects\8a\.*py". Time Taken: 0:00:00.001032
+2023-11-07 22:45:08,082:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,082:INFO:Working on ".\.git\objects\8b\*.py"
+2023-11-07 22:45:08,083:INFO:Docstrings generation completed for ".\.git\objects\8b\.*py". Time Taken: 0:00:00.000972
+2023-11-07 22:45:08,083:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,083:INFO:Working on ".\.git\objects\8c\*.py"
+2023-11-07 22:45:08,084:INFO:Docstrings generation completed for ".\.git\objects\8c\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,084:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,084:INFO:Working on ".\.git\objects\8d\*.py"
+2023-11-07 22:45:08,085:INFO:Docstrings generation completed for ".\.git\objects\8d\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,085:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,085:INFO:Working on ".\.git\objects\8e\*.py"
+2023-11-07 22:45:08,086:INFO:Docstrings generation completed for ".\.git\objects\8e\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,086:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,086:INFO:Working on ".\.git\objects\8f\*.py"
+2023-11-07 22:45:08,088:INFO:Docstrings generation completed for ".\.git\objects\8f\.*py". Time Taken: 0:00:00.002000
+2023-11-07 22:45:08,088:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,089:INFO:Working on ".\.git\objects\90\*.py"
+2023-11-07 22:45:08,091:INFO:Docstrings generation completed for ".\.git\objects\90\.*py". Time Taken: 0:00:00.001509
+2023-11-07 22:45:08,091:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,091:INFO:Working on ".\.git\objects\91\*.py"
+2023-11-07 22:45:08,092:INFO:Docstrings generation completed for ".\.git\objects\91\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:08,092:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,093:INFO:Working on ".\.git\objects\92\*.py"
+2023-11-07 22:45:08,093:INFO:Docstrings generation completed for ".\.git\objects\92\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,094:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,094:INFO:Working on ".\.git\objects\93\*.py"
+2023-11-07 22:45:08,095:INFO:Docstrings generation completed for ".\.git\objects\93\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:08,095:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,095:INFO:Working on ".\.git\objects\94\*.py"
+2023-11-07 22:45:08,096:INFO:Docstrings generation completed for ".\.git\objects\94\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,096:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,096:INFO:Working on ".\.git\objects\95\*.py"
+2023-11-07 22:45:08,097:INFO:Docstrings generation completed for ".\.git\objects\95\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:08,097:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,097:INFO:Working on ".\.git\objects\96\*.py"
+2023-11-07 22:45:08,098:INFO:Docstrings generation completed for ".\.git\objects\96\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,098:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,098:INFO:Working on ".\.git\objects\97\*.py"
+2023-11-07 22:45:08,099:INFO:Docstrings generation completed for ".\.git\objects\97\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:08,099:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,099:INFO:Working on ".\.git\objects\98\*.py"
+2023-11-07 22:45:08,100:INFO:Docstrings generation completed for ".\.git\objects\98\.*py". Time Taken: 0:00:00.001507
+2023-11-07 22:45:08,100:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,100:INFO:Working on ".\.git\objects\99\*.py"
+2023-11-07 22:45:08,101:INFO:Docstrings generation completed for ".\.git\objects\99\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,101:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,101:INFO:Working on ".\.git\objects\9a\*.py"
+2023-11-07 22:45:08,102:INFO:Docstrings generation completed for ".\.git\objects\9a\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,102:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,102:INFO:Working on ".\.git\objects\9b\*.py"
+2023-11-07 22:45:08,103:INFO:Docstrings generation completed for ".\.git\objects\9b\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,103:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,103:INFO:Working on ".\.git\objects\9c\*.py"
+2023-11-07 22:45:08,104:INFO:Docstrings generation completed for ".\.git\objects\9c\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,104:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,105:INFO:Working on ".\.git\objects\9d\*.py"
+2023-11-07 22:45:08,106:INFO:Docstrings generation completed for ".\.git\objects\9d\.*py". Time Taken: 0:00:00.000996
+2023-11-07 22:45:08,106:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,106:INFO:Working on ".\.git\objects\9e\*.py"
+2023-11-07 22:45:08,107:INFO:Docstrings generation completed for ".\.git\objects\9e\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,107:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,107:INFO:Working on ".\.git\objects\9f\*.py"
+2023-11-07 22:45:08,108:INFO:Docstrings generation completed for ".\.git\objects\9f\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,108:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,108:INFO:Working on ".\.git\objects\a0\*.py"
+2023-11-07 22:45:08,109:INFO:Docstrings generation completed for ".\.git\objects\a0\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,109:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,109:INFO:Working on ".\.git\objects\a1\*.py"
+2023-11-07 22:45:08,110:INFO:Docstrings generation completed for ".\.git\objects\a1\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:08,110:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,110:INFO:Working on ".\.git\objects\a2\*.py"
+2023-11-07 22:45:08,111:INFO:Docstrings generation completed for ".\.git\objects\a2\.*py". Time Taken: 0:00:00.000505
+2023-11-07 22:45:08,111:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,111:INFO:Working on ".\.git\objects\a3\*.py"
+2023-11-07 22:45:08,112:INFO:Docstrings generation completed for ".\.git\objects\a3\.*py". Time Taken: 0:00:00.001006
+2023-11-07 22:45:08,112:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,112:INFO:Working on ".\.git\objects\a4\*.py"
+2023-11-07 22:45:08,113:INFO:Docstrings generation completed for ".\.git\objects\a4\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,113:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,113:INFO:Working on ".\.git\objects\a5\*.py"
+2023-11-07 22:45:08,114:INFO:Docstrings generation completed for ".\.git\objects\a5\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,114:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,114:INFO:Working on ".\.git\objects\a6\*.py"
+2023-11-07 22:45:08,115:INFO:Docstrings generation completed for ".\.git\objects\a6\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,115:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,115:INFO:Working on ".\.git\objects\a7\*.py"
+2023-11-07 22:45:08,116:INFO:Docstrings generation completed for ".\.git\objects\a7\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,116:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,116:INFO:Working on ".\.git\objects\a8\*.py"
+2023-11-07 22:45:08,116:INFO:Docstrings generation completed for ".\.git\objects\a8\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,116:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,117:INFO:Working on ".\.git\objects\a9\*.py"
+2023-11-07 22:45:08,117:INFO:Docstrings generation completed for ".\.git\objects\a9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,117:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,118:INFO:Working on ".\.git\objects\aa\*.py"
+2023-11-07 22:45:08,118:INFO:Docstrings generation completed for ".\.git\objects\aa\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,118:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,119:INFO:Working on ".\.git\objects\ab\*.py"
+2023-11-07 22:45:08,119:INFO:Docstrings generation completed for ".\.git\objects\ab\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,119:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,119:INFO:Working on ".\.git\objects\ac\*.py"
+2023-11-07 22:45:08,120:INFO:Docstrings generation completed for ".\.git\objects\ac\.*py". Time Taken: 0:00:00.001507
+2023-11-07 22:45:08,120:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,120:INFO:Working on ".\.git\objects\ad\*.py"
+2023-11-07 22:45:08,121:INFO:Docstrings generation completed for ".\.git\objects\ad\.*py". Time Taken: 0:00:00.001009
+2023-11-07 22:45:08,121:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,122:INFO:Working on ".\.git\objects\ae\*.py"
+2023-11-07 22:45:08,122:INFO:Docstrings generation completed for ".\.git\objects\ae\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,122:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,123:INFO:Working on ".\.git\objects\af\*.py"
+2023-11-07 22:45:08,123:INFO:Docstrings generation completed for ".\.git\objects\af\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,123:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,124:INFO:Working on ".\.git\objects\b0\*.py"
+2023-11-07 22:45:08,124:INFO:Docstrings generation completed for ".\.git\objects\b0\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,124:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,125:INFO:Working on ".\.git\objects\b1\*.py"
+2023-11-07 22:45:08,125:INFO:Docstrings generation completed for ".\.git\objects\b1\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,125:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,126:INFO:Working on ".\.git\objects\b2\*.py"
+2023-11-07 22:45:08,126:INFO:Docstrings generation completed for ".\.git\objects\b2\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,126:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,126:INFO:Working on ".\.git\objects\b3\*.py"
+2023-11-07 22:45:08,127:INFO:Docstrings generation completed for ".\.git\objects\b3\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,127:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,127:INFO:Working on ".\.git\objects\b4\*.py"
+2023-11-07 22:45:08,128:INFO:Docstrings generation completed for ".\.git\objects\b4\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,128:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,128:INFO:Working on ".\.git\objects\b5\*.py"
+2023-11-07 22:45:08,129:INFO:Docstrings generation completed for ".\.git\objects\b5\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,129:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,129:INFO:Working on ".\.git\objects\b6\*.py"
+2023-11-07 22:45:08,130:INFO:Docstrings generation completed for ".\.git\objects\b6\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:45:08,130:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,130:INFO:Working on ".\.git\objects\b7\*.py"
+2023-11-07 22:45:08,130:INFO:Docstrings generation completed for ".\.git\objects\b7\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,131:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,131:INFO:Working on ".\.git\objects\b8\*.py"
+2023-11-07 22:45:08,131:INFO:Docstrings generation completed for ".\.git\objects\b8\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,131:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,132:INFO:Working on ".\.git\objects\b9\*.py"
+2023-11-07 22:45:08,132:INFO:Docstrings generation completed for ".\.git\objects\b9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,132:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,133:INFO:Working on ".\.git\objects\ba\*.py"
+2023-11-07 22:45:08,133:INFO:Docstrings generation completed for ".\.git\objects\ba\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,133:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,134:INFO:Working on ".\.git\objects\bb\*.py"
+2023-11-07 22:45:08,134:INFO:Docstrings generation completed for ".\.git\objects\bb\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,134:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,134:INFO:Working on ".\.git\objects\bc\*.py"
+2023-11-07 22:45:08,135:INFO:Docstrings generation completed for ".\.git\objects\bc\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,135:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,135:INFO:Working on ".\.git\objects\bd\*.py"
+2023-11-07 22:45:08,136:INFO:Docstrings generation completed for ".\.git\objects\bd\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,136:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,136:INFO:Working on ".\.git\objects\be\*.py"
+2023-11-07 22:45:08,137:INFO:Docstrings generation completed for ".\.git\objects\be\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,137:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,137:INFO:Working on ".\.git\objects\bf\*.py"
+2023-11-07 22:45:08,138:INFO:Docstrings generation completed for ".\.git\objects\bf\.*py". Time Taken: 0:00:00.001005
+2023-11-07 22:45:08,138:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,139:INFO:Working on ".\.git\objects\c0\*.py"
+2023-11-07 22:45:08,139:INFO:Docstrings generation completed for ".\.git\objects\c0\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,139:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,140:INFO:Working on ".\.git\objects\c1\*.py"
+2023-11-07 22:45:08,140:INFO:Docstrings generation completed for ".\.git\objects\c1\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,140:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,140:INFO:Working on ".\.git\objects\c2\*.py"
+2023-11-07 22:45:08,142:INFO:Docstrings generation completed for ".\.git\objects\c2\.*py". Time Taken: 0:00:00.001425
+2023-11-07 22:45:08,142:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,142:INFO:Working on ".\.git\objects\c3\*.py"
+2023-11-07 22:45:08,143:INFO:Docstrings generation completed for ".\.git\objects\c3\.*py". Time Taken: 0:00:00.000997
+2023-11-07 22:45:08,143:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,143:INFO:Working on ".\.git\objects\c4\*.py"
+2023-11-07 22:45:08,144:INFO:Docstrings generation completed for ".\.git\objects\c4\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,144:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,144:INFO:Working on ".\.git\objects\c5\*.py"
+2023-11-07 22:45:08,145:INFO:Docstrings generation completed for ".\.git\objects\c5\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,145:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,145:INFO:Working on ".\.git\objects\c6\*.py"
+2023-11-07 22:45:08,146:INFO:Docstrings generation completed for ".\.git\objects\c6\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,146:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,146:INFO:Working on ".\.git\objects\c7\*.py"
+2023-11-07 22:45:08,146:INFO:Docstrings generation completed for ".\.git\objects\c7\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,147:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,147:INFO:Working on ".\.git\objects\c8\*.py"
+2023-11-07 22:45:08,147:INFO:Docstrings generation completed for ".\.git\objects\c8\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,147:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,148:INFO:Working on ".\.git\objects\c9\*.py"
+2023-11-07 22:45:08,148:INFO:Docstrings generation completed for ".\.git\objects\c9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,148:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,148:INFO:Working on ".\.git\objects\ca\*.py"
+2023-11-07 22:45:08,149:INFO:Docstrings generation completed for ".\.git\objects\ca\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,149:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,149:INFO:Working on ".\.git\objects\cb\*.py"
+2023-11-07 22:45:08,150:INFO:Docstrings generation completed for ".\.git\objects\cb\.*py". Time Taken: 0:00:00.001506
+2023-11-07 22:45:08,150:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,150:INFO:Working on ".\.git\objects\cc\*.py"
+2023-11-07 22:45:08,151:INFO:Docstrings generation completed for ".\.git\objects\cc\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,151:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,151:INFO:Working on ".\.git\objects\cd\*.py"
+2023-11-07 22:45:08,151:INFO:Docstrings generation completed for ".\.git\objects\cd\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,152:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,152:INFO:Working on ".\.git\objects\ce\*.py"
+2023-11-07 22:45:08,152:INFO:Docstrings generation completed for ".\.git\objects\ce\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,152:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,153:INFO:Working on ".\.git\objects\cf\*.py"
+2023-11-07 22:45:08,153:INFO:Docstrings generation completed for ".\.git\objects\cf\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,154:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,154:INFO:Working on ".\.git\objects\d0\*.py"
+2023-11-07 22:45:08,155:INFO:Docstrings generation completed for ".\.git\objects\d0\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,155:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,155:INFO:Working on ".\.git\objects\d1\*.py"
+2023-11-07 22:45:08,156:INFO:Docstrings generation completed for ".\.git\objects\d1\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,156:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,156:INFO:Working on ".\.git\objects\d2\*.py"
+2023-11-07 22:45:08,157:INFO:Docstrings generation completed for ".\.git\objects\d2\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,157:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,157:INFO:Working on ".\.git\objects\d3\*.py"
+2023-11-07 22:45:08,158:INFO:Docstrings generation completed for ".\.git\objects\d3\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,158:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,158:INFO:Working on ".\.git\objects\d4\*.py"
+2023-11-07 22:45:08,159:INFO:Docstrings generation completed for ".\.git\objects\d4\.*py". Time Taken: 0:00:00.000998
+2023-11-07 22:45:08,159:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,159:INFO:Working on ".\.git\objects\d5\*.py"
+2023-11-07 22:45:08,160:INFO:Docstrings generation completed for ".\.git\objects\d5\.*py". Time Taken: 0:00:00.000849
+2023-11-07 22:45:08,160:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,160:INFO:Working on ".\.git\objects\d6\*.py"
+2023-11-07 22:45:08,161:INFO:Docstrings generation completed for ".\.git\objects\d6\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,161:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,161:INFO:Working on ".\.git\objects\d7\*.py"
+2023-11-07 22:45:08,162:INFO:Docstrings generation completed for ".\.git\objects\d7\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,162:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,162:INFO:Working on ".\.git\objects\d8\*.py"
+2023-11-07 22:45:08,163:INFO:Docstrings generation completed for ".\.git\objects\d8\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,163:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,163:INFO:Working on ".\.git\objects\d9\*.py"
+2023-11-07 22:45:08,163:INFO:Docstrings generation completed for ".\.git\objects\d9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,164:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,164:INFO:Working on ".\.git\objects\da\*.py"
+2023-11-07 22:45:08,164:INFO:Docstrings generation completed for ".\.git\objects\da\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,165:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,165:INFO:Working on ".\.git\objects\db\*.py"
+2023-11-07 22:45:08,165:INFO:Docstrings generation completed for ".\.git\objects\db\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,165:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,166:INFO:Working on ".\.git\objects\dc\*.py"
+2023-11-07 22:45:08,166:INFO:Docstrings generation completed for ".\.git\objects\dc\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,166:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,166:INFO:Working on ".\.git\objects\dd\*.py"
+2023-11-07 22:45:08,167:INFO:Docstrings generation completed for ".\.git\objects\dd\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,167:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,167:INFO:Working on ".\.git\objects\de\*.py"
+2023-11-07 22:45:08,168:INFO:Docstrings generation completed for ".\.git\objects\de\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,168:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,168:INFO:Working on ".\.git\objects\df\*.py"
+2023-11-07 22:45:08,169:INFO:Docstrings generation completed for ".\.git\objects\df\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,169:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,169:INFO:Working on ".\.git\objects\e0\*.py"
+2023-11-07 22:45:08,170:INFO:Docstrings generation completed for ".\.git\objects\e0\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,170:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,170:INFO:Working on ".\.git\objects\e1\*.py"
+2023-11-07 22:45:08,171:INFO:Docstrings generation completed for ".\.git\objects\e1\.*py". Time Taken: 0:00:00.001154
+2023-11-07 22:45:08,171:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,171:INFO:Working on ".\.git\objects\e2\*.py"
+2023-11-07 22:45:08,172:INFO:Docstrings generation completed for ".\.git\objects\e2\.*py". Time Taken: 0:00:00.001002
+2023-11-07 22:45:08,172:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,173:INFO:Working on ".\.git\objects\e3\*.py"
+2023-11-07 22:45:08,173:INFO:Docstrings generation completed for ".\.git\objects\e3\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,173:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,173:INFO:Working on ".\.git\objects\e4\*.py"
+2023-11-07 22:45:08,174:INFO:Docstrings generation completed for ".\.git\objects\e4\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,174:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,174:INFO:Working on ".\.git\objects\e5\*.py"
+2023-11-07 22:45:08,175:INFO:Docstrings generation completed for ".\.git\objects\e5\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,175:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,175:INFO:Working on ".\.git\objects\e6\*.py"
+2023-11-07 22:45:08,176:INFO:Docstrings generation completed for ".\.git\objects\e6\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,176:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,176:INFO:Working on ".\.git\objects\e7\*.py"
+2023-11-07 22:45:08,177:INFO:Docstrings generation completed for ".\.git\objects\e7\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,177:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,177:INFO:Working on ".\.git\objects\e8\*.py"
+2023-11-07 22:45:08,178:INFO:Docstrings generation completed for ".\.git\objects\e8\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,178:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,178:INFO:Working on ".\.git\objects\e9\*.py"
+2023-11-07 22:45:08,179:INFO:Docstrings generation completed for ".\.git\objects\e9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,179:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,179:INFO:Working on ".\.git\objects\ea\*.py"
+2023-11-07 22:45:08,179:INFO:Docstrings generation completed for ".\.git\objects\ea\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,180:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,180:INFO:Working on ".\.git\objects\eb\*.py"
+2023-11-07 22:45:08,181:INFO:Docstrings generation completed for ".\.git\objects\eb\.*py". Time Taken: 0:00:00.000507
+2023-11-07 22:45:08,181:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,181:INFO:Working on ".\.git\objects\ec\*.py"
+2023-11-07 22:45:08,182:INFO:Docstrings generation completed for ".\.git\objects\ec\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,182:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,183:INFO:Working on ".\.git\objects\ed\*.py"
+2023-11-07 22:45:08,183:INFO:Docstrings generation completed for ".\.git\objects\ed\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,183:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,183:INFO:Working on ".\.git\objects\ee\*.py"
+2023-11-07 22:45:08,184:INFO:Docstrings generation completed for ".\.git\objects\ee\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,184:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,184:INFO:Working on ".\.git\objects\ef\*.py"
+2023-11-07 22:45:08,185:INFO:Docstrings generation completed for ".\.git\objects\ef\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:45:08,185:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,185:INFO:Working on ".\.git\objects\f0\*.py"
+2023-11-07 22:45:08,186:INFO:Docstrings generation completed for ".\.git\objects\f0\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,186:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,186:INFO:Working on ".\.git\objects\f1\*.py"
+2023-11-07 22:45:08,187:INFO:Docstrings generation completed for ".\.git\objects\f1\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,187:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,187:INFO:Working on ".\.git\objects\f2\*.py"
+2023-11-07 22:45:08,188:INFO:Docstrings generation completed for ".\.git\objects\f2\.*py". Time Taken: 0:00:00.001008
+2023-11-07 22:45:08,188:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,188:INFO:Working on ".\.git\objects\f3\*.py"
+2023-11-07 22:45:08,189:INFO:Docstrings generation completed for ".\.git\objects\f3\.*py". Time Taken: 0:00:00.000993
+2023-11-07 22:45:08,189:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,189:INFO:Working on ".\.git\objects\f4\*.py"
+2023-11-07 22:45:08,190:INFO:Docstrings generation completed for ".\.git\objects\f4\.*py". Time Taken: 0:00:00.001507
+2023-11-07 22:45:08,190:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,190:INFO:Working on ".\.git\objects\f5\*.py"
+2023-11-07 22:45:08,191:INFO:Docstrings generation completed for ".\.git\objects\f5\.*py". Time Taken: 0:00:00.001007
+2023-11-07 22:45:08,191:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,191:INFO:Working on ".\.git\objects\f6\*.py"
+2023-11-07 22:45:08,192:INFO:Docstrings generation completed for ".\.git\objects\f6\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:45:08,192:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,192:INFO:Working on ".\.git\objects\f7\*.py"
+2023-11-07 22:45:08,192:INFO:Docstrings generation completed for ".\.git\objects\f7\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,193:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,193:INFO:Working on ".\.git\objects\f8\*.py"
+2023-11-07 22:45:08,193:INFO:Docstrings generation completed for ".\.git\objects\f8\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,193:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,194:INFO:Working on ".\.git\objects\f9\*.py"
+2023-11-07 22:45:08,194:INFO:Docstrings generation completed for ".\.git\objects\f9\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,194:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,195:INFO:Working on ".\.git\objects\fa\*.py"
+2023-11-07 22:45:08,195:INFO:Docstrings generation completed for ".\.git\objects\fa\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,195:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,196:INFO:Working on ".\.git\objects\fb\*.py"
+2023-11-07 22:45:08,196:INFO:Docstrings generation completed for ".\.git\objects\fb\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,196:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,197:INFO:Working on ".\.git\objects\fc\*.py"
+2023-11-07 22:45:08,197:INFO:Docstrings generation completed for ".\.git\objects\fc\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,197:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,197:INFO:Working on ".\.git\objects\fd\*.py"
+2023-11-07 22:45:08,198:INFO:Docstrings generation completed for ".\.git\objects\fd\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,198:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,198:INFO:Working on ".\.git\objects\fe\*.py"
+2023-11-07 22:45:08,199:INFO:Docstrings generation completed for ".\.git\objects\fe\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:45:08,199:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,199:INFO:Working on ".\.git\objects\ff\*.py"
+2023-11-07 22:45:08,200:INFO:Docstrings generation completed for ".\.git\objects\ff\.*py". Time Taken: 0:00:00.001002
+2023-11-07 22:45:08,200:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,200:INFO:Working on ".\.git\objects\info\*.py"
+2023-11-07 22:45:08,200:INFO:Docstrings generation completed for ".\.git\objects\info\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,200:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,202:INFO:Working on ".\.git\objects\pack\*.py"
+2023-11-07 22:45:08,202:INFO:Docstrings generation completed for ".\.git\objects\pack\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,202:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,203:INFO:Working on ".\.git\refs\*.py"
+2023-11-07 22:45:08,203:INFO:Docstrings generation completed for ".\.git\refs\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,203:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,204:INFO:Working on ".\.git\refs\heads\*.py"
+2023-11-07 22:45:08,204:INFO:Docstrings generation completed for ".\.git\refs\heads\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,204:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,205:INFO:Working on ".\.git\refs\remotes\*.py"
+2023-11-07 22:45:08,205:INFO:Docstrings generation completed for ".\.git\refs\remotes\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,205:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,206:INFO:Working on ".\.git\refs\remotes\origin\*.py"
+2023-11-07 22:45:08,206:INFO:Docstrings generation completed for ".\.git\refs\remotes\origin\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,207:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,207:INFO:Working on ".\.git\refs\remotes\space\*.py"
+2023-11-07 22:45:08,207:INFO:Docstrings generation completed for ".\.git\refs\remotes\space\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,207:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,208:INFO:Working on ".\.git\refs\tags\*.py"
+2023-11-07 22:45:08,208:INFO:Docstrings generation completed for ".\.git\refs\tags\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,208:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,209:INFO:Working on ".\.github\*.py"
+2023-11-07 22:45:08,209:INFO:Docstrings generation completed for ".\.github\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,209:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,209:INFO:Working on ".\.github\workflows\*.py"
+2023-11-07 22:45:08,209:INFO:Docstrings generation completed for ".\.github\workflows\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,210:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,210:INFO:Working on ".\.streamlit\*.py"
+2023-11-07 22:45:08,210:INFO:Docstrings generation completed for ".\.streamlit\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,210:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,211:INFO:Working on ".\assets\*.py"
+2023-11-07 22:45:08,211:INFO:Docstrings generation completed for ".\assets\.*py". Time Taken: 0:00:00
+2023-11-07 22:45:08,211:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:08,212:INFO:Working on ".\frontend\*.py"
+2023-11-07 22:45:08,212:INFO:Working on ".\frontend\__init__.py"
+2023-11-07 22:45:08,213:INFO:==================================================
+2023-11-07 22:45:33,167:INFO:Docstring generated for def home
+2023-11-07 22:45:55,834:INFO:Docstring generated for def changestate
+2023-11-07 22:45:55,840:INFO:==================================================
+2023-11-07 22:45:55,843:INFO:Docstrings generation completed for ".\frontend\.*py". Time Taken: 0:00:47.631049
+2023-11-07 22:45:55,843:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:45:55,844:INFO:Working on ".\frontend\components\*.py"
+2023-11-07 22:45:55,846:INFO:Working on ".\frontend\components\authors.py"
+2023-11-07 22:46:07,340:INFO:Docstring generated for def authors
+2023-11-07 22:46:07,342:INFO:==================================================
+2023-11-07 22:46:07,342:INFO:Working on ".\frontend\components\login.py"
+2023-11-07 22:47:05,711:INFO:Docstring generated for def login
+2023-11-07 22:47:05,716:INFO:==================================================
+2023-11-07 22:47:05,717:INFO:Working on ".\frontend\components\logo.py"
+2023-11-07 22:47:13,491:INFO:Docstring generated for def add_logo
+2023-11-07 22:47:32,116:INFO:Docstring generated for def read_svg
+2023-11-07 22:47:47,390:INFO:Docstring generated for def render_svg
+2023-11-07 22:47:47,392:INFO:==================================================
+2023-11-07 22:47:47,392:INFO:Working on ".\frontend\components\logout.py"
+2023-11-07 22:47:55,680:INFO:Docstring generated for def logout
+2023-11-07 22:47:55,682:INFO:==================================================
+2023-11-07 22:47:55,682:INFO:Working on ".\frontend\components\user_greetings.py"
+2023-11-07 22:48:08,383:INFO:Docstring generated for def user_greetings
+2023-11-07 22:48:08,384:INFO:==================================================
+2023-11-07 22:48:08,384:INFO:Working on ".\frontend\components\__init__.py"
+2023-11-07 22:48:08,385:INFO:==================================================
+2023-11-07 22:48:08,386:INFO:Docstrings generation completed for ".\frontend\components\.*py". Time Taken: 0:02:12.541643
+2023-11-07 22:48:08,386:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:08,386:INFO:Working on ".\frontend\components\__pycache__\*.py"
+2023-11-07 22:48:08,387:INFO:Docstrings generation completed for ".\frontend\components\__pycache__\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:48:08,387:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:08,387:INFO:Working on ".\frontend\content\*.py"
+2023-11-07 22:48:08,388:INFO:Docstrings generation completed for ".\frontend\content\.*py". Time Taken: 0:00:00.001031
+2023-11-07 22:48:08,388:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:08,389:INFO:Working on ".\frontend\images\*.py"
+2023-11-07 22:48:08,390:INFO:Docstrings generation completed for ".\frontend\images\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:48:08,390:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:08,390:INFO:Working on ".\frontend\layouts\*.py"
+2023-11-07 22:48:08,391:INFO:Working on ".\frontend\layouts\mainlayout.py"
+2023-11-07 22:48:23,217:INFO:Docstring generated for def mainlayout
+2023-11-07 22:48:32,933:INFO:Docstring generated for def load_page
+2023-11-07 22:48:32,934:INFO:==================================================
+2023-11-07 22:48:32,934:INFO:Working on ".\frontend\layouts\__init__.py"
+2023-11-07 22:48:32,935:INFO:==================================================
+2023-11-07 22:48:32,935:INFO:Docstrings generation completed for ".\frontend\layouts\.*py". Time Taken: 0:00:24.545598
+2023-11-07 22:48:32,936:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:32,936:INFO:Working on ".\frontend\layouts\__pycache__\*.py"
+2023-11-07 22:48:32,937:INFO:Docstrings generation completed for ".\frontend\layouts\__pycache__\.*py". Time Taken: 0:00:00.000999
+2023-11-07 22:48:32,937:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:48:32,937:INFO:Working on ".\frontend\pages\*.py"
+2023-11-07 22:48:58,743:INFO:Docstring generated for def instructions
+2023-11-07 22:48:58,745:INFO:==================================================
+2023-11-07 22:49:23,022:INFO:Docstring generated for def instructions
+2023-11-07 22:49:40,683:INFO:Docstring generated for def query_post
+2023-11-07 22:49:40,686:INFO:==================================================
+2023-11-07 22:49:40,686:INFO:Docstrings generation completed for ".\frontend\pages\.*py". Time Taken: 0:01:07.749029
+2023-11-07 22:49:40,686:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:49:40,686:INFO:Working on ".\scripts\*.py"
+2023-11-07 22:49:40,687:INFO:Working on ".\scripts\test.py"
+2023-11-07 22:49:40,690:INFO:==================================================
+2023-11-07 22:49:40,691:INFO:Docstrings generation completed for ".\scripts\.*py". Time Taken: 0:00:00.003518
+2023-11-07 22:49:40,691:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:49:40,691:INFO:Working on ".\techdocs\*.py"
+2023-11-07 22:49:40,692:INFO:Working on ".\techdocs\setup.py"
+2023-11-07 22:49:40,693:INFO:==================================================
+2023-11-07 22:49:40,693:INFO:Docstrings generation completed for ".\techdocs\.*py". Time Taken: 0:00:00.002000
+2023-11-07 22:49:40,693:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:49:40,694:INFO:Working on ".\techdocs\dist\*.py"
+2023-11-07 22:49:40,694:INFO:Docstrings generation completed for ".\techdocs\dist\.*py". Time Taken: 0:00:00
+2023-11-07 22:49:40,695:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:49:40,695:INFO:Working on ".\techdocs\techdocs\*.py"
+2023-11-07 22:49:40,695:INFO:Working on ".\techdocs\techdocs\cli.py"
+2023-11-07 22:49:49,129:INFO:Docstring generated for def main
+2023-11-07 22:49:49,132:INFO:==================================================
+2023-11-07 22:49:49,134:INFO:Working on ".\techdocs\techdocs\dtypes.py"
+2023-11-07 22:49:49,136:INFO:==================================================
+2023-11-07 22:49:49,136:INFO:Working on ".\techdocs\techdocs\ops.py"
+2023-11-07 22:50:02,207:INFO:Docstring generated for def depends_login
+2023-11-07 22:50:14,974:INFO:Docstring generated for def update_config
+2023-11-07 22:50:38,944:INFO:Docstring generated for def __init__
+2023-11-07 22:50:45,377:INFO:Docstring generated for def _run
+2023-11-07 22:50:57,231:INFO:Docstring generated for def build
+2023-11-07 22:51:20,251:INFO:Docstring generated for def bind
+2023-11-07 22:51:41,305:INFO:Docstring generated for def configure_and_build_subcommand
+2023-11-07 22:51:57,376:INFO:Docstring generated for def run_subcommand
+2023-11-07 22:52:11,981:INFO:Docstring generated for def generate
+2023-11-07 22:52:23,394:INFO:Docstring generated for def apikey
+2023-11-07 22:52:31,221:INFO:Docstring generated for def signup
+2023-11-07 22:52:37,972:INFO:Docstring generated for def version
+2023-11-07 22:52:37,976:INFO:==================================================
+2023-11-07 22:52:37,976:INFO:Working on ".\techdocs\techdocs\__init__.py"
+2023-11-07 22:52:37,977:INFO:==================================================
+2023-11-07 22:52:37,977:INFO:Docstrings generation completed for ".\techdocs\techdocs\.*py". Time Taken: 0:02:57.281674
+2023-11-07 22:52:37,978:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:52:37,978:INFO:Working on ".\techdocs\techdocs\signatures\*.py"
+2023-11-07 22:52:37,979:INFO:Docstrings generation completed for ".\techdocs\techdocs\signatures\.*py". Time Taken: 0:00:00.001001
+2023-11-07 22:52:37,979:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:52:37,979:INFO:Working on ".\techdocs\techdocs\utils\*.py"
+2023-11-07 22:52:37,980:INFO:Working on ".\techdocs\techdocs\utils\functools.py"
+2023-11-07 22:52:49,788:INFO:Docstring generated for def get_access_token
+2023-11-07 22:53:07,215:INFO:Docstring generated for def request_inference
+2023-11-07 22:53:19,686:INFO:Docstring generated for def update_file
+2023-11-07 22:53:33,082:INFO:Docstring generated for def issue_api_key
+2023-11-07 22:53:54,203:INFO:Docstring generated for def signup
+2023-11-07 22:53:54,206:INFO:==================================================
+2023-11-07 22:53:54,206:INFO:Working on ".\techdocs\techdocs\utils\LoggingManager.py"
+2023-11-07 22:54:21,702:INFO:Docstring generated for def __init__
+2023-11-07 22:54:36,323:INFO:Docstring generated for def get_logger
+2023-11-07 22:54:44,014:INFO:Docstring generated for def set_log_handlers
+2023-11-07 22:54:53,129:INFO:Docstring generated for def set_log_handlers
+2023-11-07 22:55:09,329:INFO:Docstring generated for def log_curr_state
+2023-11-07 22:55:22,687:INFO:Docstring generated for def line_breaks
+2023-11-07 22:55:22,689:INFO:==================================================
+2023-11-07 22:55:22,690:INFO:Working on ".\techdocs\techdocs\utils\parse.py"
+2023-11-07 22:55:37,097:INFO:Docstring generated for def extract_outermost_function
+2023-11-07 22:55:43,609:INFO:Docstring generated for def extract_functions_from_directory
+2023-11-07 22:55:43,610:INFO:==================================================
+2023-11-07 22:55:43,610:INFO:Working on ".\techdocs\techdocs\utils\__init__.py"
+2023-11-07 22:55:43,611:INFO:==================================================
+2023-11-07 22:55:43,611:INFO:Docstrings generation completed for ".\techdocs\techdocs\utils\.*py". Time Taken: 0:03:05.632810
+2023-11-07 22:55:43,611:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:55:43,612:INFO:Working on ".\techdocs\techdocs\utils\__pycache__\*.py"
+2023-11-07 22:55:43,612:INFO:Docstrings generation completed for ".\techdocs\techdocs\utils\__pycache__\.*py". Time Taken: 0:00:00
+2023-11-07 22:55:43,612:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:55:43,613:INFO:Working on ".\techdocs\techdocs\__pycache__\*.py"
+2023-11-07 22:55:43,613:INFO:Docstrings generation completed for ".\techdocs\techdocs\__pycache__\.*py". Time Taken: 0:00:00
+2023-11-07 22:55:43,614:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:55:43,614:INFO:Working on ".\techdocs\techdocs.egg-info\*.py"
+2023-11-07 22:55:43,615:INFO:Docstrings generation completed for ".\techdocs\techdocs.egg-info\.*py". Time Taken: 0:00:00.001000
+2023-11-07 22:55:43,615:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:55:43,615:INFO:Working on ".\TechdocsAPI\*.py"
+2023-11-07 22:55:43,615:INFO:Working on ".\TechdocsAPI\app.py"
+2023-11-07 22:55:43,616:INFO:==================================================
+2023-11-07 22:55:43,616:INFO:Docstrings generation completed for ".\TechdocsAPI\.*py". Time Taken: 0:00:00.001003
+2023-11-07 22:55:43,616:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:55:43,617:INFO:Working on ".\TechdocsAPI\backend\*.py"
+2023-11-07 22:55:43,617:INFO:Working on ".\TechdocsAPI\backend\router.py"
+2023-11-07 22:55:56,005:INFO:Docstring generated for def api_home
+2023-11-07 22:56:13,806:INFO:==================================================
+2023-11-07 22:56:13,806:INFO:Working on ".\TechdocsAPI\backend\__init__.py"
+2023-11-07 22:56:13,809:INFO:==================================================
+2023-11-07 22:56:13,810:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\.*py". Time Taken: 0:00:30.193063
+2023-11-07 22:56:13,810:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:56:13,810:INFO:Working on ".\TechdocsAPI\backend\core\*.py"
+2023-11-07 22:56:13,812:INFO:Working on ".\TechdocsAPI\backend\core\ConfigEnv.py"
+2023-11-07 22:56:23,903:INFO:Docstring generated for def get_settings
+2023-11-07 22:56:23,907:INFO:==================================================
+2023-11-07 22:56:23,908:INFO:Working on ".\TechdocsAPI\backend\core\ExceptionHandlers.py"
+2023-11-07 22:56:23,914:INFO:==================================================
+2023-11-07 22:56:23,915:INFO:Working on ".\TechdocsAPI\backend\core\Exceptions.py"
+2023-11-07 22:56:34,468:INFO:Docstring generated for def __init__
+2023-11-07 22:56:44,046:INFO:Docstring generated for def set_statuses
+2023-11-07 22:56:50,745:INFO:Docstring generated for def __repr__
+2023-11-07 22:57:02,458:INFO:Docstring generated for def __init__
+2023-11-07 22:57:17,025:INFO:Docstring generated for def set_statuses
+2023-11-07 22:57:26,023:INFO:Docstring generated for def __repr__
+2023-11-07 22:57:40,879:INFO:Docstring generated for def __init__
+2023-11-07 22:57:59,320:INFO:Docstring generated for def set_statuses
+2023-11-07 22:58:04,164:INFO:Docstring generated for def __repr__
+2023-11-07 22:58:14,204:INFO:Docstring generated for def __init__
+2023-11-07 22:58:22,354:INFO:Docstring generated for def set_statuses
+2023-11-07 22:58:28,343:INFO:Docstring generated for def __repr__
+2023-11-07 22:58:28,351:INFO:==================================================
+2023-11-07 22:58:28,354:INFO:Working on ".\TechdocsAPI\backend\core\__init__.py"
+2023-11-07 22:58:28,356:INFO:==================================================
+2023-11-07 22:58:28,359:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\core\.*py". Time Taken: 0:02:14.548448
+2023-11-07 22:58:28,360:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:58:28,360:INFO:Working on ".\TechdocsAPI\backend\core\__pycache__\*.py"
+2023-11-07 22:58:28,363:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\core\__pycache__\.*py". Time Taken: 0:00:00.003311
+2023-11-07 22:58:28,363:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:58:28,363:INFO:Working on ".\TechdocsAPI\backend\models\*.py"
+2023-11-07 22:58:28,366:INFO:Working on ".\TechdocsAPI\backend\models\auth.py"
+2023-11-07 22:58:28,368:INFO:==================================================
+2023-11-07 22:58:28,368:INFO:Working on ".\TechdocsAPI\backend\models\generic.py"
+2023-11-07 22:58:37,791:INFO:Docstring generated for def get_instance
+2023-11-07 22:58:37,792:INFO:==================================================
+2023-11-07 22:58:37,793:INFO:Working on ".\TechdocsAPI\backend\models\inference.py"
+2023-11-07 22:58:37,795:INFO:==================================================
+2023-11-07 22:58:37,795:INFO:Working on ".\TechdocsAPI\backend\models\__init__.py"
+2023-11-07 22:58:37,797:INFO:==================================================
+2023-11-07 22:58:37,798:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\models\.*py". Time Taken: 0:00:09.433550
+2023-11-07 22:58:37,798:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:58:37,799:INFO:Working on ".\TechdocsAPI\backend\models\__pycache__\*.py"
+2023-11-07 22:58:37,802:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\models\__pycache__\.*py". Time Taken: 0:00:00.002017
+2023-11-07 22:58:37,802:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:58:37,802:INFO:Working on ".\TechdocsAPI\backend\services\*.py"
+2023-11-07 22:58:37,803:INFO:Working on ".\TechdocsAPI\backend\services\__init__.py"
+2023-11-07 22:58:37,804:INFO:==================================================
+2023-11-07 22:58:37,806:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\.*py". Time Taken: 0:00:00.004012
+2023-11-07 22:58:37,806:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 22:58:37,806:INFO:Working on ".\TechdocsAPI\backend\services\auth\*.py"
+2023-11-07 22:58:37,807:INFO:Working on ".\TechdocsAPI\backend\services\auth\ops.py"
+2023-11-07 22:58:47,630:INFO:Docstring generated for def ops_login
+2023-11-07 22:59:11,821:INFO:Docstring generated for def ops_regenerate_api_key
+2023-11-07 22:59:35,469:INFO:Docstring generated for def ops_inference
+2023-11-07 22:59:48,035:INFO:Docstring generated for def generate_docstring
+2023-11-07 23:00:04,320:INFO:Docstring generated for def ops_verify_email
+2023-11-07 23:00:04,337:INFO:==================================================
+2023-11-07 23:00:04,339:INFO:Working on ".\TechdocsAPI\backend\services\auth\__init__.py"
+2023-11-07 23:00:04,342:INFO:==================================================
+2023-11-07 23:00:04,344:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\auth\.*py". Time Taken: 0:01:26.537787
+2023-11-07 23:00:04,345:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:00:04,345:INFO:Working on ".\TechdocsAPI\backend\services\auth\utils\*.py"
+2023-11-07 23:00:04,347:INFO:Working on ".\TechdocsAPI\backend\services\auth\utils\auth_funcs.py"
+2023-11-07 23:00:13,798:INFO:Docstring generated for def get_password_hash
+2023-11-07 23:00:28,376:INFO:Docstring generated for def verify_password
+2023-11-07 23:00:36,852:INFO:Docstring generated for def verify_username
+2023-11-07 23:00:52,735:INFO:Docstring generated for def create_access_token
+2023-11-07 23:01:14,960:INFO:Docstring generated for def generate_access_tokens_from_refresh_tokens
+2023-11-07 23:01:22,373:INFO:Docstring generated for def generate_api_key
+2023-11-07 23:01:30,851:INFO:Docstring generated for def get_user_credentials
+2023-11-07 23:01:41,234:INFO:Docstring generated for def verify_apikey
+2023-11-07 23:01:41,239:INFO:==================================================
+2023-11-07 23:01:41,240:INFO:Working on ".\TechdocsAPI\backend\services\auth\utils\JWTBearer.py"
+2023-11-07 23:01:51,853:INFO:Docstring generated for def __init__
+2023-11-07 23:02:02,738:INFO:Docstring generated for def token_validation
+2023-11-07 23:02:02,741:INFO:==================================================
+2023-11-07 23:02:02,746:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\auth\utils\.*py". Time Taken: 0:01:58.399422
+2023-11-07 23:02:02,746:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:02:02,747:INFO:Working on ".\TechdocsAPI\backend\services\auth\utils\__pycache__\*.py"
+2023-11-07 23:02:02,749:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\auth\utils\__pycache__\.*py". Time Taken: 0:00:00.002005
+2023-11-07 23:02:02,749:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:02:02,750:INFO:Working on ".\TechdocsAPI\backend\services\auth\__pycache__\*.py"
+2023-11-07 23:02:02,751:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\auth\__pycache__\.*py". Time Taken: 0:00:00.001511
+2023-11-07 23:02:02,751:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:02:02,752:INFO:Working on ".\TechdocsAPI\backend\services\db\*.py"
+2023-11-07 23:02:02,754:INFO:Working on ".\TechdocsAPI\backend\services\db\__init__.py"
+2023-11-07 23:02:02,756:INFO:==================================================
+2023-11-07 23:02:02,757:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\db\.*py". Time Taken: 0:00:00.005015
+2023-11-07 23:02:02,757:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:02:02,758:INFO:Working on ".\TechdocsAPI\backend\services\db\utils\*.py"
+2023-11-07 23:02:02,759:INFO:Working on ".\TechdocsAPI\backend\services\db\utils\DBQueries.py"
+2023-11-07 23:02:27,865:INFO:Docstring generated for def insert_to_database
+2023-11-07 23:02:44,488:INFO:Docstring generated for def fetch_data_from_database
+2023-11-07 23:03:05,065:INFO:Docstring generated for def update_data_in_database
+2023-11-07 23:03:05,069:INFO:==================================================
+2023-11-07 23:03:05,070:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\db\utils\.*py". Time Taken: 0:01:02.312130
+2023-11-07 23:03:05,071:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:05,071:INFO:Working on ".\TechdocsAPI\backend\services\db\utils\__pycache__\*.py"
+2023-11-07 23:03:05,073:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\db\utils\__pycache__\.*py". Time Taken: 0:00:00.002000
+2023-11-07 23:03:05,073:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:05,073:INFO:Working on ".\TechdocsAPI\backend\services\db\__pycache__\*.py"
+2023-11-07 23:03:05,075:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\db\__pycache__\.*py". Time Taken: 0:00:00.001735
+2023-11-07 23:03:05,075:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:05,075:INFO:Working on ".\TechdocsAPI\backend\services\__pycache__\*.py"
+2023-11-07 23:03:05,076:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\services\__pycache__\.*py". Time Taken: 0:00:00.001018
+2023-11-07 23:03:05,077:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:05,077:INFO:Working on ".\TechdocsAPI\backend\templates\*.py"
+2023-11-07 23:03:05,078:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\templates\.*py". Time Taken: 0:00:00.000998
+2023-11-07 23:03:05,078:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:05,078:INFO:Working on ".\TechdocsAPI\backend\utils\*.py"
+2023-11-07 23:03:05,079:INFO:Working on ".\TechdocsAPI\backend\utils\DBConnection.py"
+2023-11-07 23:03:24,847:INFO:Docstring generated for def __init__
+2023-11-07 23:03:31,440:INFO:Docstring generated for def get_client
+2023-11-07 23:03:47,399:INFO:Docstring generated for def is_connected
+2023-11-07 23:03:47,400:INFO:==================================================
+2023-11-07 23:03:47,402:INFO:Working on ".\TechdocsAPI\backend\utils\scopes.py"
+2023-11-07 23:03:47,404:INFO:==================================================
+2023-11-07 23:03:47,404:INFO:Working on ".\TechdocsAPI\backend\utils\__init__.py"
+2023-11-07 23:03:47,405:INFO:==================================================
+2023-11-07 23:03:47,406:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\utils\.*py". Time Taken: 0:00:42.328057
+2023-11-07 23:03:47,406:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:47,407:INFO:Working on ".\TechdocsAPI\backend\utils\__pycache__\*.py"
+2023-11-07 23:03:47,408:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\utils\__pycache__\.*py". Time Taken: 0:00:00.000964
+2023-11-07 23:03:47,408:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:47,409:INFO:Working on ".\TechdocsAPI\backend\__pycache__\*.py"
+2023-11-07 23:03:47,410:INFO:Docstrings generation completed for ".\TechdocsAPI\backend\__pycache__\.*py". Time Taken: 0:00:00.000963
+2023-11-07 23:03:47,410:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:47,411:INFO:Working on ".\TechdocsAPI\__pycache__\*.py"
+2023-11-07 23:03:47,412:INFO:Docstrings generation completed for ".\TechdocsAPI\__pycache__\.*py". Time Taken: 0:00:00.000964
+2023-11-07 23:03:47,412:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:47,413:INFO:Working on ".\testing\*.py"
+2023-11-07 23:03:47,414:INFO:Working on ".\testing\test.py"
+2023-11-07 23:03:51,834:INFO:==================================================
+2023-11-07 23:03:51,835:INFO:Docstrings generation completed for ".\testing\.*py". Time Taken: 0:00:04.421971
+2023-11-07 23:03:51,835:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-11-07 23:03:51,835:INFO:Working on ".\testing\pack\*.py"
+2023-11-07 23:03:51,836:INFO:Working on ".\testing\pack\DBQueries.py"
+2023-11-07 23:04:07,253:INFO:Docstring generated for def insert_to_database
+2023-11-07 23:04:25,624:INFO:Docstring generated for def fetch_data_from_database
+2023-11-07 23:04:48,049:INFO:Docstring generated for def update_data_in_database
+2023-11-07 23:04:48,052:INFO:==================================================
+2023-11-07 23:04:48,052:INFO:Working on ".\testing\pack\functools.py"
+2023-11-07 23:05:02,937:INFO:Docstring generated for def get_access_token
+2023-11-07 23:05:16,804:INFO:Docstring generated for def request_inference
+2023-11-07 23:05:26,363:INFO:Docstring generated for def update_file
+2023-11-07 23:05:39,732:INFO:Docstring generated for def issue_api_key
+2023-11-07 23:06:00,696:INFO:Docstring generated for def signup
+2023-11-07 23:06:00,705:INFO:==================================================
+2023-11-07 23:06:00,710:INFO:Docstrings generation completed for ".\testing\pack\.*py". Time Taken: 0:02:08.874656
+2023-11-07 23:06:00,711:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
