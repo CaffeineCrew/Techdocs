@@ -8,20 +8,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "techdocs"
-<<<<<<< HEAD
-version = "0.2.0"
-=======
 version = "0.2.1"
->>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 description = "Code documentation generation CLI App"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-<<<<<<< HEAD
-            {"name" = "test", "email" = "alfatrion123@gmail.com"},
-=======
             {"name" = "Caffiene Crew", "email" = "caffienecrewhacks@gmail.com"},
->>>>>>> 7b80f1bcac446d89a72c4146689db74f434ec4c6
 ]
 dependencies = [
     "requests",
