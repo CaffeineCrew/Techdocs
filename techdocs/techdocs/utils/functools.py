@@ -16,6 +16,8 @@ def get_access_token(data, return_refresh_token=False):
     Raises:
         None
     """
+
+def get_access_token(data, return_refresh_token=False):
     try:
         url = BASE_URL + '/auth/login'
         headers = {'accept': 'application/json'}
@@ -27,11 +29,13 @@ def get_access_token(data, return_refresh_token=False):
             return (access_token, refresh_token)
         return access_token
     except Exception as e:
-        if response.json() == 'exception.InvalidCredentialsException()':
-            print('Please check your credentials')
+
+        if response.json() == "exception.InvalidCredentialsException()":  
+            print("Please check your credentials")
         else:
             print('Please verify your email before logging in')
         return None
+
 
 def request_inference(config, code_block, max_retries=1):
     """
@@ -86,6 +90,7 @@ def update_file(file_path, docstr_code):
     with open(file_path, 'w', errors='ignore') as file:
         file.write(docstr_code)
 
+
 def issue_api_key(config):
     """
     This function generates a new API key for the given user.
@@ -115,12 +120,15 @@ def signup(config):
 def signup(config: dict) -> None:
     """
     try:
+
         headers = {'accept': 'application/json'}
         response = requests.post(url=BASE_URL + '/auth/signup', headers=headers, data=json.dumps(config))
         if response.status_code == 226:
             raise Exception('username or email already exists')
         elif response.status_code != 200:
             raise Exception('Something went wrong, please try again later')
-        print(response.json()['message'][0].replace('\\n', '\n'), 'Then issue a new `API_KEY` to continue')
+
+        print(response.json()["message"][0].replace('\\n','\n'), "Then issue a new `API_KEY` to continue")
+
     except Exception as e:
         print(e)

@@ -1,4 +1,5 @@
 from .utils.auth_funcs import *
+from .utils.functools import *
 from .utils.JWTBearer import *
 from backend.models import *
 from backend.services.db.utils.DBQueries import DBQueries
@@ -9,7 +10,6 @@ from backend import app
 from fastapi import HTTPException, BackgroundTasks
 from pydantic import ValidationError
 from jose import jwt
-from fastapi_mail import MessageSchema, MessageType
 
 async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse, data: UserAuth):
     """Wrapper method to handle signup process.
@@ -29,24 +29,32 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
     if len(list(user)) != 0:
         # user with the entered credentials already exists
         raise ExistingUserException(response_result)
-    
-    verifiction_token = Auth.create_access_token(f'{data.username} {data.email}', secret_name='VERIFICATION')
-    verification_link = f'https://caffeinecrew-techdocs.hf.space/auth/verify/{verifiction_token}'
+    verifiction_token = Auth.create_access_token(f"{data.username} {data.email}", secret_name='VERIFICATION')
+    verification_link = f"https://caffeinecrew-techdocs.hf.space/auth/verify/{verifiction_token}"
 
     email_body_params = {
         'username': data.username, 
         'verify_link': verification_link
     }
 
-    message = MessageSchema(
-        subject='Welcome to Techdocs:[Account Verification]', 
-        recipients=[data.email], 
-        template_body=email_body_params, 
-        subtype=MessageType.html
-    )
-    bgtasks.add_task(app.state.mail_client.send_message, message=message, template_name='email_verification.html')
-    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), '', 0), ['username', 'password', 'email', 'is_verified'])
+    details = {
+        "recipients": [data.email],
+        "subject": "Welcome to Techdocs:[Account Verification]",
+        "template_name": "email_verification.html",
+        "template_kwargs": email_body_params
+    }
+    
+    status = post_request(url=config.MAIL_SERVER_URL, data=details, headers=None)
+    if status != 200:
+        raise EmailNotSentException()
 
+
+    
+    DBQueries.insert_to_database('auth', (data.username, Auth.get_password_hash(data.password), "", 0), 
+                                 ['username', 'password', 'email', 'is_verified'])
+    
+    
+    
     response_result.status = 'success'
     response_result.message = [f'Activate your account by clicking on the link sent to {data.email}.\nMake sure to check your spam folder.']
 
@@ -180,7 +188,10 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token: 
 
     """
     try:
-        payload = jwt.decode(token, config.JWT_VERIFICATION_SECRET_KEY, algorithms=[config.ALGORITHM])
+        payload = jwt.decode(
+            token, config.JWT_VERIFICATION_SECRET_KEY, algorithms=[config.ALGORITHM]
+        )
+        
         token_data = TokenPayload(**payload)
 
         if datetime.fromtimestamp(token_data.exp) < datetime.now():
@@ -195,11 +206,10 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token: 
         
         # print(registered_email[0][0])
         if registered_email[0][0]:
-            return app.state.templates.TemplateResponse('verification_failure.html', context={'request': request})
-        
-        DBQueries.update_data_in_database('auth', 'is_verified', f"username='{username}'", (True,))
-        DBQueries.update_data_in_database('auth', 'email', f"username='{username}'", email)
-        
+            return app.state.templates.TemplateResponse("verification_failure.html", context={"request": request})
+       
+        DBQueries.update_data_in_database('auth','is_verified',f"username='{username}'", (True,))
+        DBQueries.update_data_in_database('auth','email',f"username='{username}'", email)
         response_result.status = 'success'
         response_result.message = [f'Email verified successfully']
         return app.state.templates.TemplateResponse('verification_success.html', context={'request': request})

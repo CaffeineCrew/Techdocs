@@ -10,9 +10,8 @@ from backend.core.ConfigEnv import config
 
 from langchain.llms import Clarifai
 from langchain.chains import LLMChain
-from langchain.prompts import PromptTemplate 
+from langchain.prompts import PromptTemplate
 
-from fastapi_mail import ConnectionConfig, FastMail
 
 app = FastAPI(title="Techdocs",
               version="V0.0.1",
@@ -46,23 +45,6 @@ try:
     app.state.llmchain = llmchain
 
 
-    conf = ConnectionConfig(
-        MAIL_USERNAME=config.MAIL_USERNAME,
-        MAIL_PASSWORD=config.MAIL_PASSWORD,
-        MAIL_FROM=config.MAIL_FROM,
-        MAIL_PORT=587,
-        MAIL_SERVER="smtp.gmail.com",
-        MAIL_STARTTLS=True,
-        MAIL_SSL_TLS=False,
-        TEMPLATE_FOLDER="backend/templates",
-        USE_CREDENTIALS = True,
-        VALIDATE_CERTS = True
-        
-        # MAIL_TLS=True,
-        # MAIL_SSL=False
-    )
-
-    app.state.mail_client = FastMail(conf)
     app.state.templates = Jinja2Templates(directory="./backend/templates")
 
 

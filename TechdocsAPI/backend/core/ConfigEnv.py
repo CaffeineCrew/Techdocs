@@ -17,10 +17,13 @@ class Settings(BaseSettings):
     MODEL_ID: str
     CLARIFAI_PAT: str
     MODEL_VERSION_ID: str
-    MAIL_USERNAME: str
-    MAIL_PASSWORD: str
-    MAIL_FROM: str
 
+    MAIL_SERVER_URL:str
+    
+    MAIL_USERNAME:str
+    MAIL_PASSWORD:str
+    MAIL_FROM:str
+    
     class Config:
         env_file = '.env'
 
