@@ -19,7 +19,7 @@ $ pip install techdocs
 ```
 
 ## Demo
-[![thumbnail](https://i9.ytimg.com/vi_webp/T7FMd7jGb8w/mqdefault.webp?v=6548c43c&sqp=CKyHo6oG&rs=AOn4CLCZF6vh1huXQGuQGFoNP5KmRcyiVA)](https://youtu.be/T7FMd7jGb8w)
+[![thumbnail](https://i9.ytimg.com/vi_webp/T7FMd7jGb8w/mqdefault.webp?v=6548c43c&sqp=CICSp6oG&rs=AOn4CLDDRJuaPfqJuYNM649GdckHfBklbA)](https://youtu.be/T7FMd7jGb8w)
 
 ## Tech Stack Used
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
