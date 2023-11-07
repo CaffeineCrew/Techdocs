@@ -1,8 +1,19 @@
 from .ops import Ops
 
-
 @Ops.configure_and_build_subcommand
-def main(log_info: bool = False):
+def main(log_info: bool=False):
+    """
+    This function is the main function of the techdocs application.
+
+    Args:
+        log_info: (bool, optional) If True, it prints out a welcome message with some information about the application. Defaults to False.
+
+    Returns:
+        None
+
+    Raises:
+        None
+    """
     if log_info:
         print(
         """
@@ -28,6 +39,5 @@ def main(log_info: bool = False):
 
         """
         )
-    
 if __name__ == '__main__':
     main()

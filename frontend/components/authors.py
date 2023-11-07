@@ -2,9 +2,18 @@ import json
 import streamlit as st
 
 def authors():
-    # {"Github → " "["username"]" "("url")" for username,url in author_details["socials"].items() }
-    # with open("frontend/contend/authors.json","r") as f:
-    #     author_details = json.load(f)
+    """
+    This function displays the Github profiles of the authors.
+
+    Args:
+        None
+
+    Returns:
+        None
+
+    Raises:
+        None
+    """
     st.sidebar.divider()
     st.sidebar.info(
     """
