@@ -128,9 +128,9 @@ def ops_inference(source_code:str,api_key:str,username:str):
     def generate_docstring(source_code_message: str):
 
 
-        llm_response = app.state.llmchain.run({"instruction": source_code_message})
+        llm_response = app.state.llmchain.invoke({"instruction": source_code_message})
 
-        docstring = Inference(docstr=llm_response)        
+        docstring = Inference(docstr=llm_response["text"])        
     
         return docstring
 
