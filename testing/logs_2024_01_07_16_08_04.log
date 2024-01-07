@@ -1,0 +1,23 @@
+2024-01-07 16:08:04,077:INFO:Logs generated at "testing\logs_2024_01_07_16_08_04.log". For detailed logs check the file.
+2024-01-07 16:08:04,078:INFO:Docstrings generation started for "testing/*.py" files
+2024-01-07 16:08:04,078:INFO:Working on "testing\*.py"
+2024-01-07 16:08:04,093:INFO:Working on "testing\test.py"
+2024-01-07 16:08:07,627:INFO:Docstring generated for def add
+2024-01-07 16:08:07,629:INFO:==================================================
+2024-01-07 16:08:07,631:INFO:Docstrings generation completed for "testing\.*py". Time Taken: 0:00:03.552157
+2024-01-07 16:08:07,632:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2024-01-07 16:08:07,632:INFO:Working on "testing\pack\*.py"
+2024-01-07 16:08:07,635:INFO:Working on "testing\pack\DBQueries.py"
+2024-01-07 16:08:13,942:INFO:Docstring generated for def insert_to_database
+2024-01-07 16:08:18,222:INFO:Docstring generated for def fetch_data_from_database
+2024-01-07 16:08:25,204:INFO:Docstring generated for def update_data_in_database
+2024-01-07 16:08:25,206:INFO:==================================================
+2024-01-07 16:08:25,207:INFO:Working on "testing\pack\functools.py"
+2024-01-07 16:08:30,500:INFO:Docstring generated for def get_access_token
+2024-01-07 16:08:34,476:INFO:Docstring generated for def request_inference
+2024-01-07 16:08:40,210:INFO:Docstring generated for def update_file
+2024-01-07 16:08:45,481:INFO:Docstring generated for def issue_api_key
+2024-01-07 16:08:50,504:INFO:Docstring generated for def signup
+2024-01-07 16:08:50,507:INFO:==================================================
+2024-01-07 16:08:50,508:INFO:Docstrings generation completed for "testing\pack\.*py". Time Taken: 0:00:42.875458
+2024-01-07 16:08:50,508:INFO:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
