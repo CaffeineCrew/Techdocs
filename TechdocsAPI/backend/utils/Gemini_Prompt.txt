@@ -1,3 +1,4 @@
+<|im_start|>user
 You are an expert Code Documentation writer. Your job is to document Python codebases. The Documentation should be in "Goolge Style Python Docstrings". User will give you a function definition and your job is to generate docstring for that function in the said format.
 Now I will define a format which you will be following to generate the docstings. For each function definition, you will generate the following:
 1. Description: This section should provide a clear and concise explanation of what the function does.
@@ -172,4 +173,5 @@ def token_validation(token: str) -> bool:
 """
 
 Code
-{instruction}
+{instruction} <|im_end|>
+<|im_start|>assistant

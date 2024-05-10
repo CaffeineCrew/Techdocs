@@ -1,4 +1,5 @@
 import mysql.connector
+from mysql.connector import errorcode
 
 from fastapi import FastAPI, status
 from fastapi.exceptions import HTTPException
@@ -7,10 +8,10 @@ from fastapi.templating import Jinja2Templates
 from backend.utils import DBConnection
 from backend.core.ConfigEnv import config
 
-# from langchain.llms import Clarifai
+from langchain_community.llms import Clarifai
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain_google_genai import GoogleGenerativeAI
+
 
 app = FastAPI(
     title="Techdocs",
@@ -30,12 +31,15 @@ try:
 
     prompt = PromptTemplate(template=prompt, input_variables=["instruction"])
 
-    llm = GoogleGenerativeAI(
-        model="gemini-pro",
-        google_api_key=config.GOOGLE_API_KEY,
+    llm = Clarifai(
+        pat=config.CLARIFAI_PAT,
+        user_id=config.USER_ID,
+        app_id=config.APP_ID,
+        model_id=config.MODEL_ID,
+        model_version_id=config.MODEL_VERSION_ID,
     )
 
-    llmchain = LLMChain(prompt=prompt, llm=llm)
+    llmchain = prompt | llm
     app.state.llmchain = llmchain
 
     app.state.templates = Jinja2Templates(directory="./backend/templates")

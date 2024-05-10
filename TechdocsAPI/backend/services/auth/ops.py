@@ -12,6 +12,9 @@ from fastapi import HTTPException, BackgroundTasks
 from pydantic import ValidationError
 from jose import jwt
 
+# BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://caffeinecrew-techdocs.hf.space"
+
 async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse, data: UserAuth):
     """Wrapper method to handle signup process.
 
@@ -30,7 +33,7 @@ async def ops_signup(bgtasks: BackgroundTasks, response_result: GeneralResponse,
         # user with the entered credentials already exists
         raise ExistingUserException(response_result)
     verifiction_token = Auth.create_access_token(f"{data.username} {data.email}", secret_name='VERIFICATION')
-    verification_link = f"https://caffeinecrew-techdocs.hf.space/auth/verify/{verifiction_token}"
+    verification_link = f"{BASE_URL}/auth/verify/{verifiction_token}"
 
     email_body_params = {
         "username": data.username,
@@ -109,8 +112,7 @@ def ops_regenerate_api_key(username:str) -> APIKey:
         apikey = APIKey(api_key=apikey)
     
     return apikey
-    
-        
+
 
 def ops_inference(source_code:str,api_key:str,username:str):
     response_result = GeneralResponse.get_instance(data={},
@@ -129,8 +131,9 @@ def ops_inference(source_code:str,api_key:str,username:str):
 
 
         llm_response = app.state.llmchain.invoke({"instruction": source_code_message})
+        print(llm_response)
 
-        docstring = Inference(docstr=llm_response["text"])        
+        docstring = Inference(docstr=llm_response)        
     
         return docstring
 
@@ -164,4 +167,3 @@ def ops_verify_email(request: Request, response_result: GeneralResponse, token:s
 
     except (jwt.JWTError, ValidationError):
         return app.state.templates.TemplateResponse("verification_failure.html", context={"request": request})
-    

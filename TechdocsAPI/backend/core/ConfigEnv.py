@@ -14,7 +14,12 @@ class Settings(BaseSettings):
     JWT_SECRET_KEY:str
     JWT_REFRESH_SECRET_KEY:str
     JWT_VERIFICATION_SECRET_KEY:str
-    GOOGLE_API_KEY:str
+    # GOOGLE_API_KEY:str
+    APP_ID:str
+    USER_ID:str
+    MODEL_ID:str
+    CLARIFAI_PAT:str
+    MODEL_VERSION_ID:str
 
     MAIL_SERVER_URL:str
     MAIL_USERNAME:str
