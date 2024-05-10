@@ -17,7 +17,7 @@ def extract_outermost_function(node, config):
         if response is not None:
             try:
                 docstr = response.split('"""')
-                docstring = ast.Expr(value=ast.Str(s=docstr[1]))
+                docstring = ast.Expr(value=ast.Constant(s=docstr[1]))
                 # print(f"Docstring generated for def {node.name}")
                 logging_manager = config.get("logging_manager")
                 logging_manager.set_log_handlers = [logging_manager.file_handler]
